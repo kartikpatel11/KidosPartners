@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/menu/kidos_partner_login.xml",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/menu/kidos_partner_login.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/menu/kidos_partners_class_details.xml",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/menu/kidos_partners_class_details.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/menu/kidos_partners_location_details.xml",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/menu/kidos_partners_location_details.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/menu/kidos_partners_configure_activity_main.xml",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/menu/kidos_partners_configure_activity_main.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/menu/kidos_partners_contact_details.xml",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/menu/kidos_partners_contact_details.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/menu/kidos_partners_choose.xml",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/menu/kidos_partners_choose.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/menu/kidos_partners_registration.xml",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/menu/kidos_partners_registration.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/menu/kidos_partners_add_images.xml",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/menu/kidos_partners_add_images.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/menu/kidos_partners_welcome.xml",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/menu/kidos_partners_welcome.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/menu/kidos_partners_activity_details.xml",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/menu/kidos_partners_activity_details.xml"
+    }
+]

@@ -1,0 +1,155 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.example.kidospartners.KidosPartnersActivityDetails"
+    android:orientation="vertical"
+    android:focusable="true" 
+    android:focusableInTouchMode="true"
+    >
+   
+    <TextView 
+        android:id="@+id/label_description"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="DESCRIPTION"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_description"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_border_edittext"
+        />
+    
+    <TextView 
+        android:id="@+id/label_fees"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="FEES (PER MONTH)"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_fees"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Rs."
+        />
+    
+     <TextView 
+        android:id="@+id/label_age"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="AGE LIMIT (YEARS)"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+ <LinearLayout 
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     
+     >
+    <EditText
+        android:id="@+id/txt_minage"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:textSize="12dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Min"
+        />
+    
+     <TextView 
+        android:id="@+id/label_to"
+		android:layout_marginRight="20dp"
+		android:layout_marginLeft="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="TO"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+     
+        <EditText
+        android:id="@+id/txt_maxage"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:textSize="12dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Max"
+        />
+    
+    </LinearLayout>
+   
+     
+ <LinearLayout 
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+     
+     >
+      <TextView 
+        android:id="@+id/label_batch"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="BATCH"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+      
+        <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+      <Button  
+        android:id="@+id/btn_insertbatch"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content" 
+        android:background="@drawable/standardbutton"  
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:text="Add Batch"  
+         />
+      
+      </LinearLayout>
+      
+ <LinearLayout 
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+   
+ 
+ <ListView
+        android:id="@+id/lst_batches"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ 
+ </LinearLayout>
+ 	 
+   </LinearLayout>

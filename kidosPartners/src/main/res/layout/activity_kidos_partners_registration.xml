@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.example.kidospartners.KidosPartnersRegistration"
+    android:orientation="vertical">
+    
+
+     <EditText
+                android:id="@+id/txt_name"
+                android:paddingTop="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="@string/hint_txt_name" />
+     
+     <EditText
+                android:id="@+id/txt_phno"
+                android:paddingTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="@string/hint_txt_phno" />
+     
+     <EditText
+                android:id="@+id/txt_emailid"
+                android:paddingTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="@string/hint_emailid" />
+     
+      <EditText
+                android:id="@+id/txt_password"
+                android:paddingTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="@string/hint_password" />
+
+       <EditText
+                android:id="@+id/txt_retypepass"
+                android:paddingTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="@string/hint_retypepass" />
+      
+          <Button android:id="@+id/btn_register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_vertical"
+            android:text="@string/btn_register"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/white"
+            android:onClick="Register"/>
+       
+     
+</LinearLayout>

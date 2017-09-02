@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kidos Partner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_txt_phno">Mobile No</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_txt_category">Choose Activity, Class Type ...</string>
+    <string name="hint_txt_name">Full Name</string>
+    <string name="hint_retypepass">Retype Password</string>
+    <string name="hint_emailid">Email ID</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_addbatch">Add Batch</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_addimages">Add Images</string>
+    <string name="title_activity_kidos_partners_configure_activity_main">Configure Activity</string>
+    <string name="title_activity_kidos_partners_class_details">Class Details</string>
+    <string name="title_activity_kidos_partners_contact_details">Contact Details</string>
+    <string name="title_activity_kidos_partners_activity_details">KidosPartnersActivityDetails</string>
+    <string name="title_activity_kidos_partners_registration">KidosPartnersRegistration</string>
+    <string name="title_activity_kidos_partners_welcome">KidosPartnersWelcome</string>
+    <string name="title_activity_kidos_partners_add_images">KidosPartnersAddImages</string>
+    <string name="title_activity_kidos_partners_location_details">KidosPartnersLocationDetails</string>
+    <string name="str_btn_find">Find</string>
+    <string name="hnt_et_location">Enter location</string>
+
+</resources>

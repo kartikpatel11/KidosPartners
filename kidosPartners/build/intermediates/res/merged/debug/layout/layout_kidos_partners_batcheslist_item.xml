@@ -1,0 +1,31 @@
+	  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	      xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+      > 
+
+	      
+	          <TextView 
+        android:id="@+id/txt_batch_days"
+		android:layout_marginLeft="5dp"
+		android:layout_marginTop="5dp"
+		android:layout_height="20dp"
+        android:layout_width="wrap_content"
+        android:textSize="14dp"
+        android:gravity="left"
+        
+        />
+	    <TextView 
+        android:id="@+id/txt_batch_timings"
+		android:layout_marginLeft="5dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+		android:layout_height="20dp"
+        android:layout_width="wrap_content"
+        android:textSize="14dp"
+        android:gravity="left"
+        
+        />
+
+      </LinearLayout>

@@ -1,0 +1,145 @@
+
+                                                   
+
+                                                                                                        
+       
+
+<LinearLayout
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.example.kidospartners.KidosPartnersClassDetails"
+    android:orientation="vertical"
+    android:focusable="true" 
+    android:focusableInTouchMode="true"
+     android:tag="layout/activity_kidos_partners_class_details_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    
+
+   
+    <TextView 
+        android:id="@+id/label_name"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="CLASS NAME"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_name"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:tag="binding_1"             
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:singleLine="true"
+        />
+    
+    
+     <TextView 
+        android:id="@+id/label_address"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="ADDRESS"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_address"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:tag="binding_2"                     
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_border_edittext"
+        
+        />
+    
+        
+    <TextView 
+        android:id="@+id/label_area"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="AREA"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_area"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:tag="binding_3"             
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        />
+    
+    <TextView 
+        android:id="@+id/label_city"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="CITY"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_city"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:tag="binding_4"             
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        />
+    
+    <TextView 
+        android:id="@+id/label_state"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="STATE"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_state"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:tag="binding_5"              
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        />
+    
+    <TextView 
+        android:id="@+id/label_pincode"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="PINCODE"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_pincode"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:tag="binding_6"                
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        />
+    
+</LinearLayout>
+         

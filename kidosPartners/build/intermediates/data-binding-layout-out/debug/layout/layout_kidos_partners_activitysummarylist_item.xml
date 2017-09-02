@@ -1,0 +1,60 @@
+	  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	      xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+      > 
+
+	  <TextView 
+        android:id="@+id/txt_activity_summary_id"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        />
+	      
+	  <TextView 
+        android:id="@+id/txt_activity_name"
+		android:layout_marginLeft="5dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        />
+
+	  <TextView 
+        android:id="@+id/txt_activity_area"
+		android:layout_marginLeft="5dp"
+		android:layout_marginTop="2dp"
+		android:layout_below="@+id/txt_activity_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        />
+	  
+	  <!-- RatingBar
+        android:id="@+id/rate_activity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="20dp"
+        android:minWidth="20dp"
+        android:numStars="5"
+        android:stepSize="1" 
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="false"
+       /-->
+ 
+      
+	  <ToggleButton
+        android:id="@+id/toggle_published"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/toggle_selector"
+        android:checked="false"
+        android:focusable="false"
+        android:text=""
+        android:textOff=""
+        android:textOn="" />
+	  
+      </RelativeLayout>

@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.example.kidospartners.KidosWelcome"
+    android:orientation="vertical">
+
+
+
+ <TextView 
+        android:id="@+id/label_noactivity1"
+		android:layout_marginTop="50dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="You do not have any activity registered with Kidos."
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        
+        />
+ 
+  <TextView 
+        android:id="@+id/label_noactivity2"
+		android:layout_marginTop="10dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Register your activity in 5 easy steps."
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        
+        />
+ 
+ <TextView 
+        android:id="@+id/label_activitypresent1"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Below are the registered activities."
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+      
+      <ListView
+        android:id="@+id/lst_activitysummary"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ 
+ 
+ 
+ <TextView 
+        android:id="@+id/label_registeractivity"
+		android:layout_marginTop="100dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Click here to register new activity"
+        android:textColor="@color/colorBlue"
+        android:textSize="19sp"
+        android:layout_gravity="center"
+        
+        />
+ 
+        </LinearLayout>

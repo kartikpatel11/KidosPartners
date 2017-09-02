@@ -1,0 +1,142 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="contactdetails" type="com.example.kidospartners.beans.KidosPartnersContactDetailsBean"/>
+    </data>
+
+
+    <LinearLayout
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.example.kidospartners.KidosPartnersContactDetails"
+    android:orientation="vertical"
+    android:focusable="true" 
+    android:focusableInTouchMode="true"
+    >
+   
+    <TextView 
+        android:id="@+id/label_phno"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="PHONE NUMBER"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_phno"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@={contactdetails.phno}"
+        android:singleLine="true"
+        />
+
+    <TextView 
+        android:id="@+id/label_altphno"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="ALTERNATE PHONE NUMBER"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_altphno"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@={contactdetails.altphno}"
+        android:singleLine="true"
+        />    
+    
+    <TextView 
+        android:id="@+id/label_mobno"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="MOBILE NUMBER"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_mobno"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@={contactdetails.mobno}"
+        android:singleLine="true"
+        />   
+        
+    
+    <TextView 
+        android:id="@+id/label_website"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="WEBSITE"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_website"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@={contactdetails.website}"
+        android:singleLine="true"
+        />   
+    
+    
+        <TextView 
+        android:id="@+id/label_facebook"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="FACEBOOK"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_facebook"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@={contactdetails.facebook}"
+        android:singleLine="true"
+        />   
+        
+    
+     <TextView 
+        android:id="@+id/label_twitter"
+		android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="TWITTER"
+        android:textColor="@color/colorBlue"
+        android:textSize="13sp"
+        />
+    
+    <EditText
+        android:id="@+id/txt_twitter"
+        android:paddingTop="10dp"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@={contactdetails.twitter}"
+        android:singleLine="true"
+        />   
+ </LinearLayout>
+    </layout>
