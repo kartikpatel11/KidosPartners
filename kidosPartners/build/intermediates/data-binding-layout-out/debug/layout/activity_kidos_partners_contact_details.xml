@@ -1,7 +1,11 @@
 
+                                                   
+    
+                                                                                                                
+           
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
+    <LinearLayout
     android:background="#ffffff"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,7 +14,7 @@
     android:orientation="vertical"
     android:focusable="true" 
     android:focusableInTouchMode="true"
-    >
+     android:tag="layout/activity_kidos_partners_contact_details_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
    
     <TextView 
         android:id="@+id/label_phno"
@@ -28,6 +32,7 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:tag="binding_1"               
         android:singleLine="true"
         />
 
@@ -47,6 +52,7 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:tag="binding_2"                  
         android:singleLine="true"
         />    
     
@@ -66,6 +72,7 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:tag="binding_3"                
         android:singleLine="true"
         />   
         
@@ -86,6 +93,7 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:tag="binding_4"                  
         android:singleLine="true"
         />   
     
@@ -106,6 +114,7 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:tag="binding_5"                   
         android:singleLine="true"
         />   
         
@@ -126,6 +135,8 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:tag="binding_6"                  
         android:singleLine="true"
         />   
  </LinearLayout>
+             

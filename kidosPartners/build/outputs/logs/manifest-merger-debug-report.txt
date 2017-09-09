@@ -18,63 +18,63 @@ ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/And
 uses-sdk
 ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:7:5-9:41
 MERGED from [KidosPartners:testActivity:unspecified] /Users/Kartik/StudioProjects/KidosPartners/testActivity/build/intermediates/bundles/default/AndroidManifest.xml:20:5-22:40
-MERGED from [com.google.android.gms:play-services:11.2.0] /Users/Kartik/.android/build-cache/ea3fdd447d11d069ed51d2ffae965dc4a5096b2c/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-ads:11.2.0] /Users/Kartik/.android/build-cache/9f5248690376383faccc96566bcf3526564d9d78/output/AndroidManifest.xml:17:5-94
-MERGED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/Kartik/.android/build-cache/abe0548431e21ca0ea5a7f3954c9ecb2931b9a47/output/AndroidManifest.xml:22:5-43
-MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/Kartik/.android/build-cache/6c807b638f0fa5411916c90688b3410433332508/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/Kartik/.android/build-cache/29098424887eaed38a8e6646318540a35bc71872/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-auth:11.2.0] /Users/Kartik/.android/build-cache/cd9260f8c9ae8af71ebef1a9ac6be2e6402cb991/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-auth-api-phone:11.2.0] /Users/Kartik/.android/build-cache/930fcc2358eb0287a1d056aa38daa24a25f42bbd/output/AndroidManifest.xml:3:3-41
-MERGED from [com.google.android.gms:play-services-auth-base:11.2.0] /Users/Kartik/.android/build-cache/fcc7566b528660a99a1d5a288dd492fcbf876a39/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/Kartik/.android/build-cache/f617ce9757b5b19fa8996cd47ed808a4cabe755a/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-cast:11.2.0] /Users/Kartik/.android/build-cache/7ffb7dd7c5cf157bea47f5063a28ab912bbb0a69/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services:11.2.2] /Users/Kartik/.android/build-cache/67fc98e50e89f443605f106e64cede2ce3a5f954/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.2.2] /Users/Kartik/.android/build-cache/bba40277489186e0ba9b6011e5fc4d5e041492fc/output/AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/Kartik/.android/build-cache/88619d0e6154255b3f1d1ae934fdca7b4643db6a/output/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.2.2] /Users/Kartik/.android/build-cache/6f54fa6e06072cf00532f0bab24a288b0915c3e0/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/Kartik/.android/build-cache/774d311911c3350655b379a6e4a13631a41ab40b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.2.2] /Users/Kartik/.android/build-cache/26e7ef261e78b1ff4f912b2104a4dbd4d325342e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.2.2] /Users/Kartik/.android/build-cache/3915e9b546b774bfffa07af37689f929613f1527/output/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.2.2] /Users/Kartik/.android/build-cache/19adfb9c3015f91ee306595e250fcfb03036da5f/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.2.2] /Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.2.2] /Users/Kartik/.android/build-cache/8115f9687ce60abc8d675266b6954ca7c3795937/output/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/Kartik/.android/build-cache/4359e589280ae7f30c01d7ac8f77f4f3f3b1547c/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/Kartik/.android/build-cache/8820b567c35c87fb557a21c0848a64e89043a10a/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:palette-v7:25.2.0] /Users/Kartik/.android/build-cache/3807031c44cee77b73da9d0444a09b19310ad529/output/AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-config:11.2.0] /Users/Kartik/.android/build-cache/5d6a7b8d86c562a28b7c071aa2009b4298f22322/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-awareness:11.2.0] /Users/Kartik/.android/build-cache/f6138c4a1dfe9bd4feecb96a20f8a1635cf57248/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-crash:11.2.0] /Users/Kartik/.android/build-cache/c5a426805cf12ca35983f8dde432c24586154310/output/AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-fido:11.2.0] /Users/Kartik/.android/build-cache/9ea71725e75961e220ed9bf5c034b134e7addb14/output/AndroidManifest.xml:4:3-41
-MERGED from [com.google.firebase:firebase-auth:11.2.0] /Users/Kartik/.android/build-cache/8983ed23829b4bb296d7729871cbe45573ac1dbb/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-database:11.2.0] /Users/Kartik/.android/build-cache/1d46a84862cac66943c8a838182f78ddc0f7015b/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-database-connection:11.2.0] /Users/Kartik/.android/build-cache/2734763b960ec0687dcd88305ba9af8b50d4bded/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-dynamic-links:11.2.0] /Users/Kartik/.android/build-cache/771624eef540b6581d9ad68981b187d83ab9ccf7/output/AndroidManifest.xml:3:3-41
-MERGED from [com.google.firebase:firebase-messaging:11.2.0] /Users/Kartik/.android/build-cache/a75a55fee6e02dc33c07111ca89e91126c7fe3fc/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-storage:11.2.0] /Users/Kartik/.android/build-cache/26bfa611bed06c03930bafd2e7f8825b00343e41/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-storage-common:11.2.0] /Users/Kartik/.android/build-cache/0579f041da720c34985decd67f975b6f8e059ab9/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-fitness:11.2.0] /Users/Kartik/.android/build-cache/699542ea1feebfceffc08963c27a15f97a630d1b/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-games:11.2.0] /Users/Kartik/.android/build-cache/cc8c0f288d35f2080aea1bfe17cafcfe4d1fe02c/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-drive:11.2.0] /Users/Kartik/.android/build-cache/ee2b1eacaa21b4d280b511707231dbb2689320f2/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-gass:11.2.0] /Users/Kartik/.android/build-cache/5622c7957633e9b76564a3de0bce0bd724d0995d/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/Kartik/.android/build-cache/fcefb9a236363053d2658d0dfb4e91cb21cc77ed/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-appindexing:11.2.0] /Users/Kartik/.android/build-cache/7dfa6fcec6dfc19e1ff3ad9876c483c5f8e72fc6/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-iid:11.2.0] /Users/Kartik/.android/build-cache/e08794b0cbe9bbb4c84e989fac06ef2e45577ab6/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-instantapps:11.2.0] /Users/Kartik/.android/build-cache/0b53a57d4c87851932bd2cae7a27bc06ebb102db/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-location:11.2.0] /Users/Kartik/.android/build-cache/6aa0f2332d5e319d9c2ac6244788f923106d1d33/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-nearby:11.2.0] /Users/Kartik/.android/build-cache/9dc54c5f0a66f145c82836b071a64a4e4f2ea0be/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-panorama:11.2.0] /Users/Kartik/.android/build-cache/a0b87bf6f9d0ac5d7f7cd7276711238fa3ca82e7/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-places:11.2.0] /Users/Kartik/.android/build-cache/7d7085d7dbd067a0dc33be32c342c2fe3332abd0/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-plus:11.2.0] /Users/Kartik/.android/build-cache/91f43184ac8502a45081418e005a7dbec9040666/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-safetynet:11.2.0] /Users/Kartik/.android/build-cache/dd77a626e84a73ee381492deec4f1fa03b96cc13/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tagmanager:11.2.0] /Users/Kartik/.android/build-cache/13277b4f9ef1fe6f7d39a4880d4c9f551d816a5f/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/Kartik/.android/build-cache/16e451b490954dfb0894e89e6834480856a90436/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:11.2.0] /Users/Kartik/.android/build-cache/768dc2f8f98b373b89fc4750837ed51edb22ad55/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.2.0] /Users/Kartik/.android/build-cache/352edaf02c7e0854eb7a5b2abc81f94055229223/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/Kartik/.android/build-cache/bd31997febcbee8d9e4472de826b64f0e37191c8/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-vision:11.2.0] /Users/Kartik/.android/build-cache/3dd99e642aef977b06c965a35e1f2b400b62b044/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-vision-common:11.2.0] /Users/Kartik/.android/build-cache/9e3fda10f88fce3f59f9d0272b23dac8c398423d/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-wallet:11.2.0] /Users/Kartik/.android/build-cache/c975933d50720056df318ff8640a06bbb05584a6/output/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-identity:11.2.0] /Users/Kartik/.android/build-cache/c30036232e7e8f988a39fadee025c4812f9904bf/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/Kartik/.android/build-cache/487f09fa83d92c4c70ea6f38be2bf4414d348804/output/AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-wearable:11.2.0] /Users/Kartik/.android/build-cache/bd5ecc83e8fb61ae72a683a5ae2c9d23b938ac59/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.2.0] /Users/Kartik/.android/build-cache/34aab324279aa5adda5bc0f25d8bb98d4be89800/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.2.0] /Users/Kartik/.android/build-cache/fe44bd8b99172684fe801beb25a5bdcb690c81da/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.2.0] /Users/Kartik/.android/build-cache/fe3d50ec139afb05e628c38bd2cb737be0b21a1b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.2.2] /Users/Kartik/.android/build-cache/002a1455f5b85316eba7efb24fa9d5c9be54b86a/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.2.2] /Users/Kartik/.android/build-cache/f6949f04d42ab8b101b264d10ea7fbcff5218cc7/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:11.2.2] /Users/Kartik/.android/build-cache/459a9a9600138a8acc84c6246becc57bcf83b9cf/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fido:11.2.2] /Users/Kartik/.android/build-cache/b64b63b2a891b5f334cf017d0884eb03b48bd3ec/output/AndroidManifest.xml:4:3-41
+MERGED from [com.google.firebase:firebase-auth:11.2.2] /Users/Kartik/.android/build-cache/a59d51245df6bf0d5860f85dd9fa0eb6c84a1efc/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:11.2.2] /Users/Kartik/.android/build-cache/958e040a7a67a1b5ba6f85e53fbd1031584b4141/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.2.2] /Users/Kartik/.android/build-cache/d423c2b7bf9973cecb2ce39bb6a538ffb65af159/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.2.2] /Users/Kartik/.android/build-cache/243a9c33fcd2f080fc05d2bc657b6823a409812c/output/AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-messaging:11.2.2] /Users/Kartik/.android/build-cache/a2271a93b3fb492a6b8c9eda24536eef37e98fc3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:11.2.2] /Users/Kartik/.android/build-cache/755f4bdca85539df9315bf9e540bfa2b1e34dcfd/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.2.2] /Users/Kartik/.android/build-cache/427e7b8f9cb091352afb22a77f79e2549c22517a/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.2.2] /Users/Kartik/.android/build-cache/eb7094e3f25305c8bfd00d898e818cf444842a7c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.2.2] /Users/Kartik/.android/build-cache/eda79eeb008454f387f0af597409b8b189805e40/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.2.2] /Users/Kartik/.android/build-cache/f5e26c68e1b5b73854db7d517ae0a8fda52dc15a/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.2.2] /Users/Kartik/.android/build-cache/f7a5b977a18cce765d4801ae377253a6a273f5ff/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.2.2] /Users/Kartik/.android/build-cache/8643ab426a1381ccdb55b7100f05ca2df532201e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.2.2] /Users/Kartik/.android/build-cache/f9f6da2fd4d5377a599a7f81ba3d66e488b80d6b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.2.2] /Users/Kartik/.android/build-cache/e1ea7ad45cfa05e5d60bde4a2741aa7eba5d50fe/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.2.2] /Users/Kartik/.android/build-cache/c10d4eca078ca0857679f5b046274f092d1e028f/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.2.2] /Users/Kartik/.android/build-cache/90fa1b9858f44c188df4b58e7086eb24f51f3fff/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.2.2] /Users/Kartik/.android/build-cache/081706464ab7482010a96d6d002459421b9f0cf8/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.2.2] /Users/Kartik/.android/build-cache/de2c5ed8f721e0fb1476ba865e8204bff412e215/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.2.2] /Users/Kartik/.android/build-cache/03fea2c6093c71213b7c29b002b8ee1b0b66161a/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.2.2] /Users/Kartik/.android/build-cache/f7a685074252e91cb0e1e799b09398ced700c8c5/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.2.2] /Users/Kartik/.android/build-cache/bef0ed1607b187e8692371ae27a762db205b0691/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.2.2] /Users/Kartik/.android/build-cache/168dcda9069ac3e99443d6d68d7add8286ae7ae4/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/Kartik/.android/build-cache/9f76c0aead23e66336a6f0aa4090f6096002d903/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.2.2] /Users/Kartik/.android/build-cache/82b2d965348b864712cfc05a2db24a074cf412f6/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.2.2] /Users/Kartik/.android/build-cache/cebe53a16736a63c31b852b585bb365f9c7a5284/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.2] /Users/Kartik/.android/build-cache/3d42aef9617a9e96d41529e616cebc98acdccd78/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.2.2] /Users/Kartik/.android/build-cache/9a889798d84ffae494484fc3d9bf60f51bd00f55/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.2.2] /Users/Kartik/.android/build-cache/c182a9fe9c1b061d0405c41e417452556e8781e2/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.2.2] /Users/Kartik/.android/build-cache/cb3186044de6e52091a553b60f98b79bf1f4b0b1/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.2.2] /Users/Kartik/.android/build-cache/31a50d0a0955bc5f700786430684522f4bbc2ee7/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.2.2] /Users/Kartik/.android/build-cache/e47b8318e2c9eb82ac000b4010178a29966d9a80/output/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.2.2] /Users/Kartik/.android/build-cache/ac26c2d0b97a5558c44d81dcdc27dd492173576d/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.2.2] /Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.2.2] /Users/Kartik/.android/build-cache/93a2bc09601c3f7aabb8552976be2b7ef3e9b3f5/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.2.2] /Users/Kartik/.android/build-cache/db921c1c14db699ce7c727898d370f843461bd3a/output/AndroidManifest.xml:17:5-43
 MERGED from [com.android.databinding:adapters:1.3.1] /Users/Kartik/.android/build-cache/b2e96182580fed860f66d903c0e9cafe24a69929/output/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.databinding:library:1.3.1] /Users/Kartik/.android/build-cache/222e56c48583347aebc2d5fefac7d898ba02a9ec/output/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:support-v4:26.0.0] /Users/Kartik/.android/build-cache/ad4559f1ae7c33498f6670fa93df28f517a562e4/output/AndroidManifest.xml:21:5-23:54
@@ -84,7 +84,7 @@ MERGED from [com.android.support:support-core-ui:26.0.0] /Users/Kartik/.android/
 MERGED from [com.android.support:support-core-utils:26.0.0] /Users/Kartik/.android/build-cache/e1a9a448ce72045fd763990881bbfbf9f6c980fc/output/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:26.0.0] /Users/Kartik/.android/build-cache/5cc6ce3305ee77fbe5d2e6f47ad37c9ae2c9890f/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.google.android.gms:play-services-ads:11.2.0] /Users/Kartik/.android/build-cache/9f5248690376383faccc96566bcf3526564d9d78/output/AndroidManifest.xml:17:42-92
+		ADDED from [com.google.android.gms:play-services-ads:11.2.2] /Users/Kartik/.android/build-cache/bba40277489186e0ba9b6011e5fc4d5e041492fc/output/AndroidManifest.xml:17:42-92
 	android:targetSdkVersion
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:9:9-38
 		INJECTED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml
@@ -113,31 +113,31 @@ ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/And
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:17:22-78
 uses-permission#android.permission.INTERNET
 ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:18:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/Kartik/.android/build-cache/abe0548431e21ca0ea5a7f3954c9ecb2931b9a47/output/AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/Kartik/.android/build-cache/6c807b638f0fa5411916c90688b3410433332508/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/Kartik/.android/build-cache/29098424887eaed38a8e6646318540a35bc71872/output/AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-crash:11.2.0] /Users/Kartik/.android/build-cache/c5a426805cf12ca35983f8dde432c24586154310/output/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/Kartik/.android/build-cache/fcefb9a236363053d2658d0dfb4e91cb21cc77ed/output/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:11.2.0] /Users/Kartik/.android/build-cache/e08794b0cbe9bbb4c84e989fac06ef2e45577ab6/output/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/Kartik/.android/build-cache/16e451b490954dfb0894e89e6834480856a90436/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/Kartik/.android/build-cache/bd31997febcbee8d9e4472de826b64f0e37191c8/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/Kartik/.android/build-cache/487f09fa83d92c4c70ea6f38be2bf4414d348804/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/Kartik/.android/build-cache/88619d0e6154255b3f1d1ae934fdca7b4643db6a/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.2.2] /Users/Kartik/.android/build-cache/6f54fa6e06072cf00532f0bab24a288b0915c3e0/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/Kartik/.android/build-cache/774d311911c3350655b379a6e4a13631a41ab40b/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.2.2] /Users/Kartik/.android/build-cache/459a9a9600138a8acc84c6246becc57bcf83b9cf/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.2.2] /Users/Kartik/.android/build-cache/8643ab426a1381ccdb55b7100f05ca2df532201e/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.2.2] /Users/Kartik/.android/build-cache/e1ea7ad45cfa05e5d60bde4a2741aa7eba5d50fe/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/Kartik/.android/build-cache/9f76c0aead23e66336a6f0aa4090f6096002d903/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.2] /Users/Kartik/.android/build-cache/3d42aef9617a9e96d41529e616cebc98acdccd78/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.2.2] /Users/Kartik/.android/build-cache/e47b8318e2c9eb82ac000b4010178a29966d9a80/output/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:18:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:19:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/Kartik/.android/build-cache/abe0548431e21ca0ea5a7f3954c9ecb2931b9a47/output/AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/Kartik/.android/build-cache/6c807b638f0fa5411916c90688b3410433332508/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-nearby:11.2.0] /Users/Kartik/.android/build-cache/9dc54c5f0a66f145c82836b071a64a4e4f2ea0be/output/AndroidManifest.xml:4:5-78
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/Kartik/.android/build-cache/16e451b490954dfb0894e89e6834480856a90436/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:19:5-78
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/Kartik/.android/build-cache/bd31997febcbee8d9e4472de826b64f0e37191c8/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/Kartik/.android/build-cache/487f09fa83d92c4c70ea6f38be2bf4414d348804/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/Kartik/.android/build-cache/88619d0e6154255b3f1d1ae934fdca7b4643db6a/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.2.2] /Users/Kartik/.android/build-cache/6f54fa6e06072cf00532f0bab24a288b0915c3e0/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.2.2] /Users/Kartik/.android/build-cache/081706464ab7482010a96d6d002459421b9f0cf8/output/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/Kartik/.android/build-cache/9f76c0aead23e66336a6f0aa4090f6096002d903/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.2] /Users/Kartik/.android/build-cache/3d42aef9617a9e96d41529e616cebc98acdccd78/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.2.2] /Users/Kartik/.android/build-cache/e47b8318e2c9eb82ac000b4010178a29966d9a80/output/AndroidManifest.xml:19:5-78
 	android:name
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:19:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
@@ -150,53 +150,53 @@ ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/And
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:21:22-77
 application
 ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:23:5-86:19
-MERGED from [com.google.android.gms:play-services:11.2.0] /Users/Kartik/.android/build-cache/ea3fdd447d11d069ed51d2ffae965dc4a5096b2c/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/Kartik/.android/build-cache/abe0548431e21ca0ea5a7f3954c9ecb2931b9a47/output/AndroidManifest.xml:23:5-26:19
-MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/Kartik/.android/build-cache/6c807b638f0fa5411916c90688b3410433332508/output/AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/Kartik/.android/build-cache/29098424887eaed38a8e6646318540a35bc71872/output/AndroidManifest.xml:19:5-26:19
-MERGED from [com.google.android.gms:play-services-auth:11.2.0] /Users/Kartik/.android/build-cache/cd9260f8c9ae8af71ebef1a9ac6be2e6402cb991/output/AndroidManifest.xml:19:5-25:19
-MERGED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/Kartik/.android/build-cache/f617ce9757b5b19fa8996cd47ed808a4cabe755a/output/AndroidManifest.xml:4:5-8:19
-MERGED from [com.google.android.gms:play-services-cast:11.2.0] /Users/Kartik/.android/build-cache/7ffb7dd7c5cf157bea47f5063a28ab912bbb0a69/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services:11.2.2] /Users/Kartik/.android/build-cache/67fc98e50e89f443605f106e64cede2ce3a5f954/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/Kartik/.android/build-cache/88619d0e6154255b3f1d1ae934fdca7b4643db6a/output/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-analytics:11.2.2] /Users/Kartik/.android/build-cache/6f54fa6e06072cf00532f0bab24a288b0915c3e0/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/Kartik/.android/build-cache/774d311911c3350655b379a6e4a13631a41ab40b/output/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.2.2] /Users/Kartik/.android/build-cache/26e7ef261e78b1ff4f912b2104a4dbd4d325342e/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.2.2] /Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.2.2] /Users/Kartik/.android/build-cache/8115f9687ce60abc8d675266b6954ca7c3795937/output/AndroidManifest.xml:18:5-19
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/Kartik/.android/build-cache/4359e589280ae7f30c01d7ac8f77f4f3f3b1547c/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/Kartik/.android/build-cache/8820b567c35c87fb557a21c0848a64e89043a10a/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:palette-v7:25.2.0] /Users/Kartik/.android/build-cache/3807031c44cee77b73da9d0444a09b19310ad529/output/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-config:11.2.0] /Users/Kartik/.android/build-cache/5d6a7b8d86c562a28b7c071aa2009b4298f22322/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-awareness:11.2.0] /Users/Kartik/.android/build-cache/f6138c4a1dfe9bd4feecb96a20f8a1635cf57248/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.firebase:firebase-crash:11.2.0] /Users/Kartik/.android/build-cache/c5a426805cf12ca35983f8dde432c24586154310/output/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-fido:11.2.0] /Users/Kartik/.android/build-cache/9ea71725e75961e220ed9bf5c034b134e7addb14/output/AndroidManifest.xml:5:3-6:17
-MERGED from [com.google.firebase:firebase-auth:11.2.0] /Users/Kartik/.android/build-cache/8983ed23829b4bb296d7729871cbe45573ac1dbb/output/AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-dynamic-links:11.2.0] /Users/Kartik/.android/build-cache/771624eef540b6581d9ad68981b187d83ab9ccf7/output/AndroidManifest.xml:5:3-17
-MERGED from [com.google.firebase:firebase-messaging:11.2.0] /Users/Kartik/.android/build-cache/a75a55fee6e02dc33c07111ca89e91126c7fe3fc/output/AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.android.gms:play-services-fitness:11.2.0] /Users/Kartik/.android/build-cache/699542ea1feebfceffc08963c27a15f97a630d1b/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-games:11.2.0] /Users/Kartik/.android/build-cache/cc8c0f288d35f2080aea1bfe17cafcfe4d1fe02c/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-drive:11.2.0] /Users/Kartik/.android/build-cache/ee2b1eacaa21b4d280b511707231dbb2689320f2/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-gass:11.2.0] /Users/Kartik/.android/build-cache/5622c7957633e9b76564a3de0bce0bd724d0995d/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/Kartik/.android/build-cache/fcefb9a236363053d2658d0dfb4e91cb21cc77ed/output/AndroidManifest.xml:23:5-19
-MERGED from [com.google.firebase:firebase-appindexing:11.2.0] /Users/Kartik/.android/build-cache/7dfa6fcec6dfc19e1ff3ad9876c483c5f8e72fc6/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-iid:11.2.0] /Users/Kartik/.android/build-cache/e08794b0cbe9bbb4c84e989fac06ef2e45577ab6/output/AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-location:11.2.0] /Users/Kartik/.android/build-cache/6aa0f2332d5e319d9c2ac6244788f923106d1d33/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-nearby:11.2.0] /Users/Kartik/.android/build-cache/9dc54c5f0a66f145c82836b071a64a4e4f2ea0be/output/AndroidManifest.xml:5:5-19
-MERGED from [com.google.android.gms:play-services-panorama:11.2.0] /Users/Kartik/.android/build-cache/a0b87bf6f9d0ac5d7f7cd7276711238fa3ca82e7/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-places:11.2.0] /Users/Kartik/.android/build-cache/7d7085d7dbd067a0dc33be32c342c2fe3332abd0/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-plus:11.2.0] /Users/Kartik/.android/build-cache/91f43184ac8502a45081418e005a7dbec9040666/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-safetynet:11.2.0] /Users/Kartik/.android/build-cache/dd77a626e84a73ee381492deec4f1fa03b96cc13/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:23:5-33:19
-MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/Kartik/.android/build-cache/16e451b490954dfb0894e89e6834480856a90436/output/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-common:11.2.0] /Users/Kartik/.android/build-cache/768dc2f8f98b373b89fc4750837ed51edb22ad55/output/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.2.0] /Users/Kartik/.android/build-cache/352edaf02c7e0854eb7a5b2abc81f94055229223/output/AndroidManifest.xml:19:5-19
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/Kartik/.android/build-cache/bd31997febcbee8d9e4472de826b64f0e37191c8/output/AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-vision:11.2.0] /Users/Kartik/.android/build-cache/3dd99e642aef977b06c965a35e1f2b400b62b044/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-vision-common:11.2.0] /Users/Kartik/.android/build-cache/9e3fda10f88fce3f59f9d0272b23dac8c398423d/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-identity:11.2.0] /Users/Kartik/.android/build-cache/c30036232e7e8f988a39fadee025c4812f9904bf/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/Kartik/.android/build-cache/487f09fa83d92c4c70ea6f38be2bf4414d348804/output/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-wearable:11.2.0] /Users/Kartik/.android/build-cache/bd5ecc83e8fb61ae72a683a5ae2c9d23b938ac59/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-base:11.2.0] /Users/Kartik/.android/build-cache/34aab324279aa5adda5bc0f25d8bb98d4be89800/output/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:11.2.0] /Users/Kartik/.android/build-cache/fe44bd8b99172684fe801beb25a5bdcb690c81da/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.2.0] /Users/Kartik/.android/build-cache/fe3d50ec139afb05e628c38bd2cb737be0b21a1b/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.firebase:firebase-config:11.2.2] /Users/Kartik/.android/build-cache/002a1455f5b85316eba7efb24fa9d5c9be54b86a/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.2.2] /Users/Kartik/.android/build-cache/f6949f04d42ab8b101b264d10ea7fbcff5218cc7/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:11.2.2] /Users/Kartik/.android/build-cache/459a9a9600138a8acc84c6246becc57bcf83b9cf/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-fido:11.2.2] /Users/Kartik/.android/build-cache/b64b63b2a891b5f334cf017d0884eb03b48bd3ec/output/AndroidManifest.xml:5:3-6:17
+MERGED from [com.google.firebase:firebase-auth:11.2.2] /Users/Kartik/.android/build-cache/a59d51245df6bf0d5860f85dd9fa0eb6c84a1efc/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.2.2] /Users/Kartik/.android/build-cache/243a9c33fcd2f080fc05d2bc657b6823a409812c/output/AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-messaging:11.2.2] /Users/Kartik/.android/build-cache/a2271a93b3fb492a6b8c9eda24536eef37e98fc3/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:11.2.2] /Users/Kartik/.android/build-cache/eb7094e3f25305c8bfd00d898e818cf444842a7c/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.2.2] /Users/Kartik/.android/build-cache/eda79eeb008454f387f0af597409b8b189805e40/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.2.2] /Users/Kartik/.android/build-cache/f5e26c68e1b5b73854db7d517ae0a8fda52dc15a/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.2.2] /Users/Kartik/.android/build-cache/f7a5b977a18cce765d4801ae377253a6a273f5ff/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.2.2] /Users/Kartik/.android/build-cache/8643ab426a1381ccdb55b7100f05ca2df532201e/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.2.2] /Users/Kartik/.android/build-cache/f9f6da2fd4d5377a599a7f81ba3d66e488b80d6b/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.2.2] /Users/Kartik/.android/build-cache/e1ea7ad45cfa05e5d60bde4a2741aa7eba5d50fe/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:11.2.2] /Users/Kartik/.android/build-cache/90fa1b9858f44c188df4b58e7086eb24f51f3fff/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.2.2] /Users/Kartik/.android/build-cache/081706464ab7482010a96d6d002459421b9f0cf8/output/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.2.2] /Users/Kartik/.android/build-cache/de2c5ed8f721e0fb1476ba865e8204bff412e215/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.2.2] /Users/Kartik/.android/build-cache/03fea2c6093c71213b7c29b002b8ee1b0b66161a/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.2.2] /Users/Kartik/.android/build-cache/f7a685074252e91cb0e1e799b09398ced700c8c5/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.2.2] /Users/Kartik/.android/build-cache/bef0ed1607b187e8692371ae27a762db205b0691/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/Kartik/.android/build-cache/9f76c0aead23e66336a6f0aa4090f6096002d903/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.2.2] /Users/Kartik/.android/build-cache/82b2d965348b864712cfc05a2db24a074cf412f6/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.2.2] /Users/Kartik/.android/build-cache/cebe53a16736a63c31b852b585bb365f9c7a5284/output/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.2] /Users/Kartik/.android/build-cache/3d42aef9617a9e96d41529e616cebc98acdccd78/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.2.2] /Users/Kartik/.android/build-cache/9a889798d84ffae494484fc3d9bf60f51bd00f55/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.2.2] /Users/Kartik/.android/build-cache/c182a9fe9c1b061d0405c41e417452556e8781e2/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.2.2] /Users/Kartik/.android/build-cache/31a50d0a0955bc5f700786430684522f4bbc2ee7/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.2.2] /Users/Kartik/.android/build-cache/e47b8318e2c9eb82ac000b4010178a29966d9a80/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.2.2] /Users/Kartik/.android/build-cache/ac26c2d0b97a5558c44d81dcdc27dd492173576d/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.2.2] /Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.2.2] /Users/Kartik/.android/build-cache/93a2bc09601c3f7aabb8552976be2b7ef3e9b3f5/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.2.2] /Users/Kartik/.android/build-cache/db921c1c14db699ce7c727898d370f843461bd3a/output/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:26.0.0] /Users/Kartik/.android/build-cache/ad4559f1ae7c33498f6670fa93df28f517a562e4/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.0.0] /Users/Kartik/.android/build-cache/84788b90302215c6c7c09342308bc3279523b3ee/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.0.0] /Users/Kartik/.android/build-cache/ab89624b863f1aa6461905655122c87d361dc82b/output/AndroidManifest.xml:25:5-29:19
@@ -286,71 +286,71 @@ ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/And
 	android:name
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:83:13-57
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/Kartik/.android/build-cache/abe0548431e21ca0ea5a7f3954c9ecb2931b9a47/output/AndroidManifest.xml:25:9-257
+ADDED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/Kartik/.android/build-cache/88619d0e6154255b3f1d1ae934fdca7b4643db6a/output/AndroidManifest.xml:25:9-257
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/Kartik/.android/build-cache/abe0548431e21ca0ea5a7f3954c9ecb2931b9a47/output/AndroidManifest.xml:25:231-255
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/Kartik/.android/build-cache/88619d0e6154255b3f1d1ae934fdca7b4643db6a/output/AndroidManifest.xml:25:231-255
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/Kartik/.android/build-cache/abe0548431e21ca0ea5a7f3954c9ecb2931b9a47/output/AndroidManifest.xml:25:72-181
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/Kartik/.android/build-cache/88619d0e6154255b3f1d1ae934fdca7b4643db6a/output/AndroidManifest.xml:25:72-181
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/Kartik/.android/build-cache/abe0548431e21ca0ea5a7f3954c9ecb2931b9a47/output/AndroidManifest.xml:25:182-230
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/Kartik/.android/build-cache/88619d0e6154255b3f1d1ae934fdca7b4643db6a/output/AndroidManifest.xml:25:182-230
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/Kartik/.android/build-cache/abe0548431e21ca0ea5a7f3954c9ecb2931b9a47/output/AndroidManifest.xml:25:19-71
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/Kartik/.android/build-cache/88619d0e6154255b3f1d1ae934fdca7b4643db6a/output/AndroidManifest.xml:25:19-71
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/Kartik/.android/build-cache/6c807b638f0fa5411916c90688b3410433332508/output/AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/Kartik/.android/build-cache/16e451b490954dfb0894e89e6834480856a90436/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/Kartik/.android/build-cache/bd31997febcbee8d9e4472de826b64f0e37191c8/output/AndroidManifest.xml:24:5-67
+ADDED from [com.google.android.gms:play-services-analytics:11.2.2] /Users/Kartik/.android/build-cache/6f54fa6e06072cf00532f0bab24a288b0915c3e0/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/Kartik/.android/build-cache/9f76c0aead23e66336a6f0aa4090f6096002d903/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.2] /Users/Kartik/.android/build-cache/3d42aef9617a9e96d41529e616cebc98acdccd78/output/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/Kartik/.android/build-cache/6c807b638f0fa5411916c90688b3410433332508/output/AndroidManifest.xml:24:22-65
+		ADDED from [com.google.android.gms:play-services-analytics:11.2.2] /Users/Kartik/.android/build-cache/6f54fa6e06072cf00532f0bab24a288b0915c3e0/output/AndroidManifest.xml:24:22-65
 activity#com.google.android.gms.appinvite.PreviewActivity
-ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/Kartik/.android/build-cache/29098424887eaed38a8e6646318540a35bc71872/output/AndroidManifest.xml:20:9-25:20
+ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/Kartik/.android/build-cache/774d311911c3350655b379a6e4a13631a41ab40b/output/AndroidManifest.xml:20:9-25:20
 	android:exported
-		ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/Kartik/.android/build-cache/29098424887eaed38a8e6646318540a35bc71872/output/AndroidManifest.xml:20:51-74
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/Kartik/.android/build-cache/774d311911c3350655b379a6e4a13631a41ab40b/output/AndroidManifest.xml:20:51-74
 	android:theme
-		ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/Kartik/.android/build-cache/29098424887eaed38a8e6646318540a35bc71872/output/AndroidManifest.xml:20:75-121
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/Kartik/.android/build-cache/774d311911c3350655b379a6e4a13631a41ab40b/output/AndroidManifest.xml:20:75-121
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/Kartik/.android/build-cache/29098424887eaed38a8e6646318540a35bc71872/output/AndroidManifest.xml:20:19-50
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/Kartik/.android/build-cache/774d311911c3350655b379a6e4a13631a41ab40b/output/AndroidManifest.xml:20:19-50
 intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/Kartik/.android/build-cache/29098424887eaed38a8e6646318540a35bc71872/output/AndroidManifest.xml:21:13-24:29
+ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/Kartik/.android/build-cache/774d311911c3350655b379a6e4a13631a41ab40b/output/AndroidManifest.xml:21:13-24:29
 action#com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/Kartik/.android/build-cache/29098424887eaed38a8e6646318540a35bc71872/output/AndroidManifest.xml:22:17-89
+ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/Kartik/.android/build-cache/774d311911c3350655b379a6e4a13631a41ab40b/output/AndroidManifest.xml:22:17-89
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/Kartik/.android/build-cache/29098424887eaed38a8e6646318540a35bc71872/output/AndroidManifest.xml:22:25-87
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/Kartik/.android/build-cache/774d311911c3350655b379a6e4a13631a41ab40b/output/AndroidManifest.xml:22:25-87
 category#android.intent.category.DEFAULT
-ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/Kartik/.android/build-cache/29098424887eaed38a8e6646318540a35bc71872/output/AndroidManifest.xml:23:17-75
+ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/Kartik/.android/build-cache/774d311911c3350655b379a6e4a13631a41ab40b/output/AndroidManifest.xml:23:17-75
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/Kartik/.android/build-cache/29098424887eaed38a8e6646318540a35bc71872/output/AndroidManifest.xml:23:27-73
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/Kartik/.android/build-cache/774d311911c3350655b379a6e4a13631a41ab40b/output/AndroidManifest.xml:23:27-73
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/Kartik/.android/build-cache/cd9260f8c9ae8af71ebef1a9ac6be2e6402cb991/output/AndroidManifest.xml:20:9-189
+ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/Kartik/.android/build-cache/26e7ef261e78b1ff4f912b2104a4dbd4d325342e/output/AndroidManifest.xml:20:9-189
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/Kartik/.android/build-cache/cd9260f8c9ae8af71ebef1a9ac6be2e6402cb991/output/AndroidManifest.xml:20:129-162
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/Kartik/.android/build-cache/26e7ef261e78b1ff4f912b2104a4dbd4d325342e/output/AndroidManifest.xml:20:129-162
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/Kartik/.android/build-cache/cd9260f8c9ae8af71ebef1a9ac6be2e6402cb991/output/AndroidManifest.xml:20:163-187
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/Kartik/.android/build-cache/26e7ef261e78b1ff4f912b2104a4dbd4d325342e/output/AndroidManifest.xml:20:163-187
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/Kartik/.android/build-cache/cd9260f8c9ae8af71ebef1a9ac6be2e6402cb991/output/AndroidManifest.xml:20:69-128
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/Kartik/.android/build-cache/26e7ef261e78b1ff4f912b2104a4dbd4d325342e/output/AndroidManifest.xml:20:69-128
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/Kartik/.android/build-cache/cd9260f8c9ae8af71ebef1a9ac6be2e6402cb991/output/AndroidManifest.xml:20:19-68
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/Kartik/.android/build-cache/26e7ef261e78b1ff4f912b2104a4dbd4d325342e/output/AndroidManifest.xml:20:19-68
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/Kartik/.android/build-cache/cd9260f8c9ae8af71ebef1a9ac6be2e6402cb991/output/AndroidManifest.xml:24:9-184
+ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/Kartik/.android/build-cache/26e7ef261e78b1ff4f912b2104a4dbd4d325342e/output/AndroidManifest.xml:24:9-184
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/Kartik/.android/build-cache/cd9260f8c9ae8af71ebef1a9ac6be2e6402cb991/output/AndroidManifest.xml:24:64-87
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/Kartik/.android/build-cache/26e7ef261e78b1ff4f912b2104a4dbd4d325342e/output/AndroidManifest.xml:24:64-87
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/Kartik/.android/build-cache/cd9260f8c9ae8af71ebef1a9ac6be2e6402cb991/output/AndroidManifest.xml:24:88-182
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/Kartik/.android/build-cache/26e7ef261e78b1ff4f912b2104a4dbd4d325342e/output/AndroidManifest.xml:24:88-182
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/Kartik/.android/build-cache/cd9260f8c9ae8af71ebef1a9ac6be2e6402cb991/output/AndroidManifest.xml:24:18-63
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/Kartik/.android/build-cache/26e7ef261e78b1ff4f912b2104a4dbd4d325342e/output/AndroidManifest.xml:24:18-63
 receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
-ADDED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/Kartik/.android/build-cache/f617ce9757b5b19fa8996cd47ed808a4cabe755a/output/AndroidManifest.xml:5:9-99
+ADDED from [com.google.android.gms:play-services-cast-framework:11.2.2] /Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/AndroidManifest.xml:5:9-99
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/Kartik/.android/build-cache/f617ce9757b5b19fa8996cd47ed808a4cabe755a/output/AndroidManifest.xml:5:19-97
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.2.2] /Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/AndroidManifest.xml:5:19-97
 service#com.google.android.gms.cast.framework.media.MediaNotificationService
-ADDED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/Kartik/.android/build-cache/f617ce9757b5b19fa8996cd47ed808a4cabe755a/output/AndroidManifest.xml:6:9-103
+ADDED from [com.google.android.gms:play-services-cast-framework:11.2.2] /Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/AndroidManifest.xml:6:9-103
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/Kartik/.android/build-cache/f617ce9757b5b19fa8996cd47ed808a4cabe755a/output/AndroidManifest.xml:6:18-101
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.2.2] /Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/AndroidManifest.xml:6:18-101
 service#com.google.android.gms.cast.framework.ReconnectionService
-ADDED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/Kartik/.android/build-cache/f617ce9757b5b19fa8996cd47ed808a4cabe755a/output/AndroidManifest.xml:7:9-92
+ADDED from [com.google.android.gms:play-services-cast-framework:11.2.2] /Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/AndroidManifest.xml:7:9-92
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/Kartik/.android/build-cache/f617ce9757b5b19fa8996cd47ed808a4cabe755a/output/AndroidManifest.xml:7:18-90
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.2.2] /Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/AndroidManifest.xml:7:18-90
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:26.0.0] /Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/Kartik/.android/build-cache/4359e589280ae7f30c01d7ac8f77f4f3f3b1547c/output/AndroidManifest.xml:23:9-25:38
@@ -366,174 +366,174 @@ MERGED from [com.android.support:support-compat:26.0.0] /Users/Kartik/.android/b
 	android:name
 		ADDED from [com.android.support:appcompat-v7:26.0.0] /Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/AndroidManifest.xml:27:13-51
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/Kartik/.android/build-cache/a75a55fee6e02dc33c07111ca89e91126c7fe3fc/output/AndroidManifest.xml:23:9-27:19
+ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/Kartik/.android/build-cache/a2271a93b3fb492a6b8c9eda24536eef37e98fc3/output/AndroidManifest.xml:23:9-27:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/Kartik/.android/build-cache/a75a55fee6e02dc33c07111ca89e91126c7fe3fc/output/AndroidManifest.xml:23:88-111
+		ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/Kartik/.android/build-cache/a2271a93b3fb492a6b8c9eda24536eef37e98fc3/output/AndroidManifest.xml:23:88-111
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/Kartik/.android/build-cache/a75a55fee6e02dc33c07111ca89e91126c7fe3fc/output/AndroidManifest.xml:23:18-87
+		ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/Kartik/.android/build-cache/a2271a93b3fb492a6b8c9eda24536eef37e98fc3/output/AndroidManifest.xml:23:18-87
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/Kartik/.android/build-cache/a75a55fee6e02dc33c07111ca89e91126c7fe3fc/output/AndroidManifest.xml:24:13-26:29
+ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/Kartik/.android/build-cache/a2271a93b3fb492a6b8c9eda24536eef37e98fc3/output/AndroidManifest.xml:24:13-26:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/Kartik/.android/build-cache/a75a55fee6e02dc33c07111ca89e91126c7fe3fc/output/AndroidManifest.xml:24:28-51
+		ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/Kartik/.android/build-cache/a2271a93b3fb492a6b8c9eda24536eef37e98fc3/output/AndroidManifest.xml:24:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/Kartik/.android/build-cache/a75a55fee6e02dc33c07111ca89e91126c7fe3fc/output/AndroidManifest.xml:25:17-77
+ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/Kartik/.android/build-cache/a2271a93b3fb492a6b8c9eda24536eef37e98fc3/output/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/Kartik/.android/build-cache/a75a55fee6e02dc33c07111ca89e91126c7fe3fc/output/AndroidManifest.xml:25:25-75
+		ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/Kartik/.android/build-cache/a2271a93b3fb492a6b8c9eda24536eef37e98fc3/output/AndroidManifest.xml:25:25-75
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/Kartik/.android/build-cache/fcefb9a236363053d2658d0dfb4e91cb21cc77ed/output/AndroidManifest.xml:20:5-81
-MERGED from [com.google.android.gms:play-services-iid:11.2.0] /Users/Kartik/.android/build-cache/e08794b0cbe9bbb4c84e989fac06ef2e45577ab6/output/AndroidManifest.xml:20:5-81
-MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:22:5-81
+ADDED from [com.google.android.gms:play-services-gcm:11.2.2] /Users/Kartik/.android/build-cache/8643ab426a1381ccdb55b7100f05ca2df532201e/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.2.2] /Users/Kartik/.android/build-cache/e1ea7ad45cfa05e5d60bde4a2741aa7eba5d50fe/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/Kartik/.android/build-cache/fcefb9a236363053d2658d0dfb4e91cb21cc77ed/output/AndroidManifest.xml:20:22-79
+		ADDED from [com.google.android.gms:play-services-gcm:11.2.2] /Users/Kartik/.android/build-cache/8643ab426a1381ccdb55b7100f05ca2df532201e/output/AndroidManifest.xml:20:22-79
 service#com.google.android.gms.tagmanager.TagManagerService
-ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:24:9-134
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:24:9-134
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:24:110-132
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:24:110-132
 	android:exported
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:24:85-109
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:24:85-109
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:24:18-84
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:24:18-84
 activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
-ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:25:9-32:20
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:25:9-32:20
 	android:exported
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:25:94-117
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:25:94-117
 	android:noHistory
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:25:118-142
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:25:118-142
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:25:19-93
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:25:19-93
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:26:13-31:29
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:26:13-31:29
 data
-ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:27:17-71
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:27:17-71
 	android:scheme
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:27:23-69
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:27:23-69
 action#android.intent.action.VIEW
-ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:28:17-68
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:28:17-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:28:25-66
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:28:25-66
 category#android.intent.category.BROWSABLE
-ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:30:17-77
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/Kartik/.android/build-cache/9d1f90b4f8224ce37037418f2f0ab752cf0d3dcc/output/AndroidManifest.xml:30:27-75
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.2] /Users/Kartik/.android/build-cache/125e5bc661312e5c57bbe1449c30efb5b9911b27/output/AndroidManifest.xml:30:27-75
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/Kartik/.android/build-cache/16e451b490954dfb0894e89e6834480856a90436/output/AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/Kartik/.android/build-cache/9f76c0aead23e66336a6f0aa4090f6096002d903/output/AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:27:162-184
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:27:185-208
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:27:185-208
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/Kartik/.android/build-cache/16e451b490954dfb0894e89e6834480856a90436/output/AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/Kartik/.android/build-cache/9f76c0aead23e66336a6f0aa4090f6096002d903/output/AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:32:16-87
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:33:7-197
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:33:7-197
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:33:148-170
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:33:148-170
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:33:171-195
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:33:171-195
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:33:91-147
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:33:91-147
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/Kartik/.android/build-cache/39fe0dc1aa08e2815054823b7f45a739f287f0a1/output/AndroidManifest.xml:33:16-90
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/Kartik/.android/build-cache/a18bc142ec8d05917c4b823aa0ab502f5cf9eb8c/output/AndroidManifest.xml:33:16-90
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:30:9-35:20
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:30:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:31:13-34:29
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:33:17-60
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:33:27-58
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:39:9-119
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:39:93-117
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:39:19-92
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:43:9-47:19
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:43:83-106
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:43:18-82
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:43:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:44:13-46:29
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:44:13-46:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:44:28-51
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:44:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:45:17-79
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:45:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/Kartik/.android/build-cache/69f93d45d8787fbccd672715905b21294cec1989/output/AndroidManifest.xml:45:25-77
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/Kartik/.android/build-cache/8a406a7c868a57c4869dbfd0b782f81c23175dd3/output/AndroidManifest.xml:45:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:11.2.0] /Users/Kartik/.android/build-cache/768dc2f8f98b373b89fc4750837ed51edb22ad55/output/AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/Kartik/.android/build-cache/82b2d965348b864712cfc05a2db24a074cf412f6/output/AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:11.2.0] /Users/Kartik/.android/build-cache/768dc2f8f98b373b89fc4750837ed51edb22ad55/output/AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/Kartik/.android/build-cache/82b2d965348b864712cfc05a2db24a074cf412f6/output/AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:11.2.0] /Users/Kartik/.android/build-cache/768dc2f8f98b373b89fc4750837ed51edb22ad55/output/AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/Kartik/.android/build-cache/82b2d965348b864712cfc05a2db24a074cf412f6/output/AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:11.2.0] /Users/Kartik/.android/build-cache/768dc2f8f98b373b89fc4750837ed51edb22ad55/output/AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/Kartik/.android/build-cache/82b2d965348b864712cfc05a2db24a074cf412f6/output/AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:11.2.0] /Users/Kartik/.android/build-cache/768dc2f8f98b373b89fc4750837ed51edb22ad55/output/AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/Kartik/.android/build-cache/82b2d965348b864712cfc05a2db24a074cf412f6/output/AndroidManifest.xml:6:79-143
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:11.2.0] /Users/Kartik/.android/build-cache/487f09fa83d92c4c70ea6f38be2bf4414d348804/output/AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:11.2.2] /Users/Kartik/.android/build-cache/e47b8318e2c9eb82ac000b4010178a29966d9a80/output/AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:11.2.0] /Users/Kartik/.android/build-cache/487f09fa83d92c4c70ea6f38be2bf4414d348804/output/AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:11.2.2] /Users/Kartik/.android/build-cache/e47b8318e2c9eb82ac000b4010178a29966d9a80/output/AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:11.2.0] /Users/Kartik/.android/build-cache/487f09fa83d92c4c70ea6f38be2bf4414d348804/output/AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:11.2.2] /Users/Kartik/.android/build-cache/e47b8318e2c9eb82ac000b4010178a29966d9a80/output/AndroidManifest.xml:21:52-75
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.2.0] /Users/Kartik/.android/build-cache/34aab324279aa5adda5bc0f25d8bb98d4be89800/output/AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.2.0] /Users/Kartik/.android/build-cache/34aab324279aa5adda5bc0f25d8bb98d4be89800/output/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.2.0] /Users/Kartik/.android/build-cache/34aab324279aa5adda5bc0f25d8bb98d4be89800/output/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.2.0] /Users/Kartik/.android/build-cache/34aab324279aa5adda5bc0f25d8bb98d4be89800/output/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.2.0] /Users/Kartik/.android/build-cache/fe3d50ec139afb05e628c38bd2cb737be0b21a1b/output/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.2.2] /Users/Kartik/.android/build-cache/db921c1c14db699ce7c727898d370f843461bd3a/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.2.0] /Users/Kartik/.android/build-cache/fe3d50ec139afb05e628c38bd2cb737be0b21a1b/output/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.2.2] /Users/Kartik/.android/build-cache/db921c1c14db699ce7c727898d370f843461bd3a/output/AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.2.0] /Users/Kartik/.android/build-cache/fe3d50ec139afb05e628c38bd2cb737be0b21a1b/output/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:11.2.2] /Users/Kartik/.android/build-cache/db921c1c14db699ce7c727898d370f843461bd3a/output/AndroidManifest.xml:20:20-65

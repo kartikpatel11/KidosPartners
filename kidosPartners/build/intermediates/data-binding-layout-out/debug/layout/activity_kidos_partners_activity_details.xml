@@ -1,6 +1,10 @@
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+                                                   
+    
+                                                                                                                  
+           
+
+<LinearLayout
     android:background="#ffffff"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +13,7 @@
     android:orientation="vertical"
     android:focusable="true" 
     android:focusableInTouchMode="true"
-    >
+     android:tag="layout/activity_kidos_partners_activity_details_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
    
     <TextView 
         android:id="@+id/label_description"
@@ -25,6 +29,7 @@
         android:id="@+id/txt_description"
         android:paddingTop="10dp"
         android:textSize="12dp"
+        android:tag="binding_1"                       
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="@drawable/rounded_border_edittext"
@@ -46,6 +51,7 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:tag="binding_2"                
         android:singleLine="true"
         android:hint="Rs."
         />
@@ -73,6 +79,7 @@
         android:textSize="12dp"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:tag="binding_3"                        
         android:singleLine="true"
         android:hint="Min"
         />
@@ -95,6 +102,7 @@
         android:textSize="12dp"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:tag="binding_4"                     
         android:singleLine="true"
         android:hint="Max"
         />
@@ -153,3 +161,4 @@
  </LinearLayout>
  	 
    </LinearLayout>
+         

@@ -1,9 +1,7 @@
 package com.example.kidospartners.adpter;
 
-import java.util.Arrays;
-import java.util.List;
-
 import android.content.Context;
+import android.databinding.DataBindingUtil;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,12 +10,17 @@ import android.widget.TextView;
 
 import com.example.kidospartners.R;
 import com.example.kidospartners.beans.KidosPartnersBatchesBean;
+import com.example.kidospartners.databinding.LayoutKidosPartnersBatcheslistItemBinding;
+
+import java.util.List;
 
 public class KidosPartnersBatchesAdapter extends ArrayAdapter<KidosPartnersBatchesBean>{
 
 	private Context context;
+
 	
 	private static class ViewHolder {
+
 	    private TextView days;
 	    private TextView timings;
 	}
@@ -27,11 +30,21 @@ public class KidosPartnersBatchesAdapter extends ArrayAdapter<KidosPartnersBatch
         this.context=context;
     }
 
+
     public View getView(int position, View convertView, ViewGroup parent) {
     	ViewHolder viewHolder;
-        if (convertView == null) {
+
+        LayoutInflater inflater = LayoutInflater.from(this.getContext());
+        LayoutKidosPartnersBatcheslistItemBinding binding = DataBindingUtil.inflate(inflater, R.layout.layout_kidos_partners_batcheslist_item, parent, false);
+
+
+        binding.setBatchdetails(getItem(position));
+        return binding.getRoot();
+
+      /*  if (convertView == null) {
             convertView = LayoutInflater.from(this.getContext())
             .inflate(R.layout.layout_kidos_partners_batcheslist_item, parent, false);
+
 
             viewHolder = new ViewHolder();
             viewHolder.days = (TextView) convertView.findViewById(R.id.txt_batch_days);
@@ -53,7 +66,7 @@ public class KidosPartnersBatchesAdapter extends ArrayAdapter<KidosPartnersBatch
         
         
 
-        return convertView;
+        return convertView;*/
     }
 
 }

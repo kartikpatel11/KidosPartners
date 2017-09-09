@@ -14,8 +14,6 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.kidospartners.abstracts.KidosPartnersPrePostProcessor;
-import com.example.kidospartners.beans.KidosPartnersCategoryBean;
-import com.example.kidospartners.beans.KidosPartnersClassDetailsBean;
 import com.example.kidospartners.beans.KidosPartnersContactDetailsBean;
 import com.example.kidospartners.databinding.ActivityKidosPartnersContactDetailsBinding;
 import com.example.kidospartners.interfaces.IKidosPartnersRestClientWrapper;
@@ -31,7 +29,6 @@ import java.util.Map;
 
 public class KidosPartnersContactDetails extends KidosPartnersPrePostProcessor implements IKidosPartnersRestClientWrapper {
 
-private KidosPartnersCategoryBean categoryBean;
 	
 	private Factory mFactory ;
 
@@ -123,7 +120,7 @@ private KidosPartnersCategoryBean categoryBean;
 		if(requestUrl.contains(getContactDetailsURI)) {
 
 
-			contactDetails = gson.fromJson(restOutput, new TypeToken<KidosPartnersClassDetailsBean>() {}.getType());
+			contactDetails = gson.fromJson(restOutput, new TypeToken<KidosPartnersContactDetailsBean>() {}.getType());
 			contactDetailsBinding.setContactdetails(contactDetails);
 		}
 		else if(requestUrl.contains(saveContactDetailsURI))

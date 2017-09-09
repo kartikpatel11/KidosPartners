@@ -1,6 +1,10 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="activitydetails" type="com.example.kidospartners.beans.KidosPartnersActivityDetailsBean"/>
+    </data>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
     android:background="#ffffff"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -25,6 +29,7 @@
         android:id="@+id/txt_description"
         android:paddingTop="10dp"
         android:textSize="12dp"
+        android:text="@={activitydetails.description}"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="@drawable/rounded_border_edittext"
@@ -46,6 +51,7 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@={activitydetails.fees}"
         android:singleLine="true"
         android:hint="Rs."
         />
@@ -73,6 +79,7 @@
         android:textSize="12dp"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:text="@={``+ activitydetails.age.from}"
         android:singleLine="true"
         android:hint="Min"
         />
@@ -95,6 +102,7 @@
         android:textSize="12dp"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:text="@={``+activitydetails.age.to}"
         android:singleLine="true"
         android:hint="Max"
         />
@@ -153,3 +161,4 @@
  </LinearLayout>
  	 
    </LinearLayout>
+</layout>

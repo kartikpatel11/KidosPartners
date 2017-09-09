@@ -1,7 +1,11 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="contactdetails" type="com.example.kidospartners.beans.KidosPartnersContactDetailsBean"/>
+    </data>
 
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
     android:background="#ffffff"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -28,6 +32,7 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@={contactdetails.phno}"
         android:singleLine="true"
         />
 
@@ -47,6 +52,7 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@={contactdetails.altphno}"
         android:singleLine="true"
         />    
     
@@ -66,6 +72,7 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@={contactdetails.mobno}"
         android:singleLine="true"
         />   
         
@@ -86,6 +93,7 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@={contactdetails.website}"
         android:singleLine="true"
         />   
     
@@ -106,6 +114,7 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@={contactdetails.facebook}"
         android:singleLine="true"
         />   
         
@@ -126,6 +135,8 @@
         android:textSize="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@={contactdetails.twitter}"
         android:singleLine="true"
         />   
  </LinearLayout>
+    </layout>

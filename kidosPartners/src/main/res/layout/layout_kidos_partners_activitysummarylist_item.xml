@@ -23,6 +23,7 @@
         android:id="@+id/txt_activity_area"
 		android:layout_marginLeft="5dp"
 		android:layout_marginTop="2dp"
+		android:layout_marginBottom="5dp"
 		android:layout_below="@+id/txt_activity_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

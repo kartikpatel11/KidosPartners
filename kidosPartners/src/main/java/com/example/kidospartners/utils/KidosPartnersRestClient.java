@@ -12,6 +12,7 @@ import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.methods.HttpPut;
+import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.impl.cookie.BasicClientCookie;
@@ -69,6 +70,8 @@ public class KidosPartnersRestClient {
 			return get(url);
 		} else if (method.matches("POST")) {
 			return post(url, data);
+		} else if (method.matches("POSTJSON")) {
+			return postJson(url,data);
 		} else if (method.matches("PUT")) {
 			return put(url, data);
 		} else if (method.matches("DELETE")) {
@@ -126,6 +129,39 @@ public class KidosPartnersRestClient {
 		}
 	}
 
+	public String postJson(String url, Map<String, Object> data) throws Exception
+	{
+		HttpPost request = new HttpPost(url);
+		JSONObject holder = new JSONObject(data);
+
+		//passes the results to a string builder/entity
+		StringEntity se = new StringEntity(holder.toString());
+
+		System.out.println("************* SE="+holder.toString());
+		try {
+			request.setEntity(se);
+			request.setHeader("Accept", "application/json");
+			request.setHeader("Content-type", "application/json");
+
+			HttpResponse response = client.execute(request);
+
+			int statusCode = response.getStatusLine().getStatusCode();
+			if(statusCode > 300){
+				throw new Exception("Error executing POST request! Received error code: " + response.getStatusLine().getStatusCode());
+			}
+
+			//return new JSONObject(readInput(response.getEntity().getContent()));
+			return readInput(response.getEntity().getContent());
+		} catch (Exception e) {
+			throw new Exception(e.getMessage());
+		}
+	}
+
+
+
+
+
+
 	/**
 	 * Calls a PUT request on a given url. Takes a data object in the form of a HashMap to PUT.
 	 * 
@@ -138,6 +174,7 @@ public class KidosPartnersRestClient {
 		List<NameValuePair> nameValuePairs = setParams(data);
 		try {
 			request.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+            request.setHeader("Content-type", "application/json");
 			HttpResponse response = client.execute(request);
 
 			int statusCode = response.getStatusLine().getStatusCode();
@@ -245,12 +282,13 @@ public class KidosPartnersRestClient {
 			while (it.hasNext()) {
 				String name = it.next();
 				Object value = data.get(name);
+				System.out.println("name,value="+name+"==>"+value.toString());
 				nameValuePairs.add(new BasicNameValuePair(name, value.toString()));
 			}
 		}
 		return nameValuePairs;
 	}
-	
+
 	/**
 	 * Generic handler to retrieve the result of a request. Simply reads the input stream
 	 * and returns the string;

@@ -9,6 +9,12 @@ class DataBinderMapper  {
         switch(layoutId) {
                 case com.example.kidospartners.R.layout.activity_kidos_partners_class_details:
                     return com.example.kidospartners.databinding.ActivityKidosPartnersClassDetailsBinding.bind(view, bindingComponent);
+                case com.example.kidospartners.R.layout.activity_kidos_partners_activity_details:
+                    return com.example.kidospartners.databinding.ActivityKidosPartnersActivityDetailsBinding.bind(view, bindingComponent);
+                case com.example.kidospartners.R.layout.activity_kidos_partners_contact_details:
+                    return com.example.kidospartners.databinding.ActivityKidosPartnersContactDetailsBinding.bind(view, bindingComponent);
+                case com.example.kidospartners.R.layout.layout_kidos_partners_batcheslist_item:
+                    return com.example.kidospartners.databinding.LayoutKidosPartnersBatcheslistItemBinding.bind(view, bindingComponent);
         }
         return null;
     }
@@ -29,6 +35,24 @@ class DataBinderMapper  {
                 }
                 break;
             }
+            case 296755095: {
+                if(tag.equals("layout/activity_kidos_partners_activity_details_0")) {
+                    return com.example.kidospartners.R.layout.activity_kidos_partners_activity_details;
+                }
+                break;
+            }
+            case -376164800: {
+                if(tag.equals("layout/activity_kidos_partners_contact_details_0")) {
+                    return com.example.kidospartners.R.layout.activity_kidos_partners_contact_details;
+                }
+                break;
+            }
+            case -102719412: {
+                if(tag.equals("layout/layout_kidos_partners_batcheslist_item_0")) {
+                    return com.example.kidospartners.R.layout.layout_kidos_partners_batcheslist_item;
+                }
+                break;
+            }
         }
         return 0;
     }
@@ -41,6 +65,9 @@ class DataBinderMapper  {
     private static class InnerBrLookup {
         static String[] sKeys = new String[]{
             "_all"
-            ,"classdetails"};
+            ,"activitydetails"
+            ,"batchdetails"
+            ,"classdetails"
+            ,"contactdetails"};
     }
 }

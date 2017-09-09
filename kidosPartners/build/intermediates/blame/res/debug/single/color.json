@@ -5,7 +5,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
-        "source": "/Users/Kartik/.android/build-cache/c975933d50720056df318ff8640a06bbb05584a6/output/res/color/wallet_primary_text_holo_light.xml"
+        "source": "/Users/Kartik/.android/build-cache/cb3186044de6e52091a553b60f98b79bf1f4b0b1/output/res/color/wallet_primary_text_holo_light.xml"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
@@ -25,7 +25,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/Users/Kartik/.android/build-cache/34aab324279aa5adda5bc0f25d8bb98d4be89800/output/res/color/common_google_signin_btn_text_light.xml"
+        "source": "/Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
@@ -36,12 +36,12 @@
         "source": "/Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/Kartik/.android/build-cache/34aab324279aa5adda5bc0f25d8bb98d4be89800/output/res/color/common_google_signin_btn_text_dark.xml"
-    },
-    {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
         "source": "/Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
@@ -65,7 +65,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
-        "source": "/Users/Kartik/.android/build-cache/c975933d50720056df318ff8640a06bbb05584a6/output/res/color/wallet_secondary_text_holo_dark.xml"
+        "source": "/Users/Kartik/.android/build-cache/cb3186044de6e52091a553b60f98b79bf1f4b0b1/output/res/color/wallet_secondary_text_holo_dark.xml"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
@@ -85,7 +85,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
-        "source": "/Users/Kartik/.android/build-cache/34aab324279aa5adda5bc0f25d8bb98d4be89800/output/res/color/common_google_signin_btn_tint.xml"
+        "source": "/Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/res/color/common_google_signin_btn_tint.xml"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",

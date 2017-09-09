@@ -5,6 +5,7 @@ public class KidosPartnersConstants {
 	//network
 	public static final String GET = "GET";
 	public static final String POST = "POST";
+	public static final String POSTJSON = "POSTJSON";
 	public static final String NETWORK_URL="http://www.kidos.co.in/";
 	public static final String GET_CATEGORIES_URI="listcategories/";
 	public static final String GET_ACTIVITY_IMG_URI="getactivityimages/";
@@ -17,6 +18,8 @@ public class KidosPartnersConstants {
 	public static final String GET_CONTACTDETAILS_BY_ACTIVITYID_URI = "getcontactdetailsbyactivityid/";
 	public static final String SAVE_CONTACTDETAILS_BY_ACTIVITYID_URI = "savecontactdetailsbyactivityid/";
 
+	public static final String GET_ACTIVITYDETAILS_BY_ACTIVITYID_URI = "getactivitydetailsbyactivityid/";
+	public static final String SAVE_ACTIVITYDETAILS_BY_ACTIVITYID_URI = "saveactivitydetailsbyactivityid/";
 
 	public static final String GET_AWS_SIGNATURE = "sign";
 	
