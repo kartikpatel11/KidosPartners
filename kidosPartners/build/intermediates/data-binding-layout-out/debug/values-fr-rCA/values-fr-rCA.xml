@@ -52,7 +52,7 @@
     <string msgid="1162380934229249476" name="cast_tracks_chooser_dialog_cancel">"Annuler"</string>
     <string msgid="1779359505126875127" name="cast_tracks_chooser_dialog_closed_captions">"Sous-titres"</string>
     <string msgid="3012268736704635952" name="cast_tracks_chooser_dialog_default_track_name">"Suivre <ns1:g id="POSITION">%1$d</ns1:g>"</string>
-    <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"Aucune"</string>
+    <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"Aucun"</string>
     <string msgid="3804878371876790270" name="cast_tracks_chooser_dialog_ok">"OK"</string>
     <string msgid="2454147715032376208" name="cast_tracks_chooser_dialog_subtitles">"Sous-titres"</string>
     <string msgid="2913461521603516868" name="cast_unmute">"Réactiver le son"</string>

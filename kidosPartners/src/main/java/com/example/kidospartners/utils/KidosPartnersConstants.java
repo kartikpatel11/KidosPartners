@@ -21,6 +21,9 @@ public class KidosPartnersConstants {
 	public static final String GET_ACTIVITYDETAILS_BY_ACTIVITYID_URI = "getactivitydetailsbyactivityid/";
 	public static final String SAVE_ACTIVITYDETAILS_BY_ACTIVITYID_URI = "saveactivitydetailsbyactivityid/";
 
+	public static final String GET_ACTIVITYLOCATION_BY_ACTIVITYID_URI = "getactivitylocationbyactivityid/";
+	public static final String SAVE_ACTIVITYLOCATION_BY_ACTIVITYID_URI = "saveactivitylocationbyactivityid/";
+
 	public static final String GET_AWS_SIGNATURE = "sign";
 	
 	//Titles

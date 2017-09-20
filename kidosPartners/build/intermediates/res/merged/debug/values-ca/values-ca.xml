@@ -44,8 +44,8 @@
     <string msgid="6432793028560778843" name="cast_rewind_10">"Rebobina 10 segons"</string>
     <string msgid="4677199707225681325" name="cast_rewind_30">"Rebobina 30 segons"</string>
     <string msgid="9078075166993780241" name="cast_seek_bar">"Control lliscant de reproducció"</string>
-    <string msgid="3991548379225047363" name="cast_skip_next">"Vés a l\'element següent"</string>
-    <string msgid="8369073097776576935" name="cast_skip_prev">"Vés a l\'element anterior"</string>
+    <string msgid="3991548379225047363" name="cast_skip_next">"Ves a l\'element següent"</string>
+    <string msgid="8369073097776576935" name="cast_skip_prev">"Ves a l\'element anterior"</string>
     <string msgid="9191388946729723891" name="cast_stop">"Atura"</string>
     <string msgid="1219622777438777099" name="cast_stop_live_stream">"Atura la reproducció en directe"</string>
     <string msgid="4250321332248956563" name="cast_tracks_chooser_dialog_audio">"Àudio"</string>

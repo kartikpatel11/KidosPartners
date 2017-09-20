@@ -152,8 +152,8 @@ public class KidosPartnersActivityDetails extends KidosPartnersPrePostProcessor 
     	days.add(sat.isChecked());
     	days.add(sun.isChecked());
     	
-    	String fromTimeStr = fromTime.getCurrentHour() + ":" + fromTime.getCurrentMinute();
-    	String toTimeStr = toTime.getCurrentHour() + ":" + toTime.getCurrentMinute();
+    	String fromTimeStr = String.format("%02d:%02d", fromTime.getCurrentHour(), fromTime.getCurrentMinute()); //fromTime.getCurrentHour() + ":" + fromTime.getCurrentMinute();
+    	String toTimeStr = String.format("%02d:%02d", toTime.getCurrentHour(), toTime.getCurrentMinute()); //toTime.getCurrentHour() + ":" + toTime.getCurrentMinute();
 
     	KidosPartnersBatchesBean bean=new KidosPartnersBatchesBean(days, fromTimeStr, toTimeStr);
     	

@@ -5,19 +5,19 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_notification_1.png",
-        "source": "/Users/Kartik/.android/build-cache/8115f9687ce60abc8d675266b6954ca7c3795937/output/res/drawable-xxhdpi-v4/cast_ic_notification_1.png"
+        "source": "/Users/Kartik/.android/build-cache/b14572ffc6282b0aa71e8653b4977bcd3c9da38e/output/res/drawable-xxhdpi-v4/cast_ic_notification_1.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_18_dark.png",
         "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connecting_18_dark.png"
     },
     {
-        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_11_dark.png",
-        "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connected_11_dark.png"
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_pause_grey600_36.png",
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_pause_grey600_36.png"
     },
     {
-        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_pause_grey600_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_pause_grey600_36.png"
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_11_dark.png",
+        "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connected_11_dark.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
@@ -33,7 +33,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_replay_30_grey600_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_replay_30_grey600_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_replay_30_grey600_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
@@ -45,19 +45,19 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_play_arrow_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_play_arrow_white_24.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_play_arrow_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_forward_30_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_forward_30_white_24.png"
-    },
-    {
-        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_forward_30_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_00_light.png",
         "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connecting_00_light.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_vol_type_speaker_dark.png",
@@ -89,7 +89,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_forward_30_white_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_forward_30_white_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_forward_30_white_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
@@ -109,7 +109,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_pause_grey600_48.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_pause_grey600_48.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_pause_grey600_48.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_19_dark.png",
@@ -117,7 +117,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/googleg_standard_color_18.png",
-        "source": "/Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+        "source": "/Users/Kartik/.android/build-cache/16fd32d0e4160a35d49b024fc38f63f4efb0fd43/output/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png",
@@ -153,7 +153,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_skip_next_grey600_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_skip_next_grey600_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_skip_next_grey600_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_06_dark.png",
@@ -161,15 +161,15 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_replay_10_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_replay_10_white_24.png"
-    },
-    {
-        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/cast_abc_scrubber_primary_mtrl_alpha.9.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_replay_10_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_01_dark.png",
         "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connected_01_dark.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/cast_abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_17_dark.png",
@@ -184,16 +184,16 @@
         "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connected_04_light.png"
     },
     {
-        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_skip_next_white_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_skip_next_white_36.png"
-    },
-    {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png",
         "source": "/Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_skip_next_white_36.png",
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_skip_next_white_36.png"
+    },
+    {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/powered_by_google_light.png",
-        "source": "/Users/Kartik/.android/build-cache/03fea2c6093c71213b7c29b002b8ee1b0b66161a/output/res/drawable-xxhdpi-v4/powered_by_google_light.png"
+        "source": "/Users/Kartik/.android/build-cache/f0f06daa981b8fb8ca40538abeede630d9caae14/output/res/drawable-xxhdpi-v4/powered_by_google_light.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
@@ -201,7 +201,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_art_track_grey600_48.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_art_track_grey600_48.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_art_track_grey600_48.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_21_dark.png",
@@ -209,7 +209,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_closed_caption_grey600_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_closed_caption_grey600_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_closed_caption_grey600_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_audiotrack_light.png",
@@ -229,7 +229,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_volume_up_white_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_volume_up_white_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_volume_up_white_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_21_light.png",
@@ -248,12 +248,12 @@
         "source": "/Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_15_light.png",
-        "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connected_15_light.png"
-    },
-    {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_14_light.png",
         "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connecting_14_light.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_15_light.png",
+        "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connected_15_light.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_00_dark.png",
@@ -273,7 +273,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_medium_off_client.png",
-        "source": "/Users/Kartik/.android/build-cache/f7a685074252e91cb0e1e799b09398ced700c8c5/output/res/drawable-xxhdpi-v4/ic_plusone_medium_off_client.png"
+        "source": "/Users/Kartik/.android/build-cache/07eac1952b9624281dc8914d1bf5d0f28b206dfb/output/res/drawable-xxhdpi-v4/ic_plusone_medium_off_client.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
@@ -281,19 +281,19 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_keyboard_arrow_down_white_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_keyboard_arrow_down_white_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_keyboard_arrow_down_white_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_pause_light.png",
         "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_media_pause_light.png"
     },
     {
-        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_08_light.png",
-        "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connected_08_light.png"
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_cast_white_36.png",
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_cast_white_36.png"
     },
     {
-        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_cast_white_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_cast_white_36.png"
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_08_light.png",
+        "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connected_08_light.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png",
@@ -317,15 +317,15 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_small_off_client.png",
-        "source": "/Users/Kartik/.android/build-cache/f7a685074252e91cb0e1e799b09398ced700c8c5/output/res/drawable-xxhdpi-v4/ic_plusone_small_off_client.png"
+        "source": "/Users/Kartik/.android/build-cache/07eac1952b9624281dc8914d1bf5d0f28b206dfb/output/res/drawable-xxhdpi-v4/ic_plusone_small_off_client.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
-        "source": "/Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+        "source": "/Users/Kartik/.android/build-cache/16fd32d0e4160a35d49b024fc38f63f4efb0fd43/output/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_stop_grey600_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_stop_grey600_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_stop_grey600_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
@@ -333,7 +333,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_play_arrow_grey600_48.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_play_arrow_grey600_48.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_play_arrow_grey600_48.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
@@ -341,7 +341,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
-        "source": "/Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/Users/Kartik/.android/build-cache/16fd32d0e4160a35d49b024fc38f63f4efb0fd43/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
@@ -377,7 +377,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/places_ic_search.png",
-        "source": "/Users/Kartik/.android/build-cache/03fea2c6093c71213b7c29b002b8ee1b0b66161a/output/res/drawable-xxhdpi-v4/places_ic_search.png"
+        "source": "/Users/Kartik/.android/build-cache/f0f06daa981b8fb8ca40538abeede630d9caae14/output/res/drawable-xxhdpi-v4/places_ic_search.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_05_light.png",
@@ -385,7 +385,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_volume_off_white_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_volume_off_white_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_volume_off_white_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_19_light.png",
@@ -397,7 +397,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_notification_on.png",
-        "source": "/Users/Kartik/.android/build-cache/8115f9687ce60abc8d675266b6954ca7c3795937/output/res/drawable-xxhdpi-v4/cast_ic_notification_on.png"
+        "source": "/Users/Kartik/.android/build-cache/b14572ffc6282b0aa71e8653b4977bcd3c9da38e/output/res/drawable-xxhdpi-v4/cast_ic_notification_on.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_20_dark.png",
@@ -413,7 +413,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_cast_connected_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_cast_connected_white_24.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_cast_connected_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_12_dark.png",
@@ -445,7 +445,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/powered_by_google_dark.png",
-        "source": "/Users/Kartik/.android/build-cache/03fea2c6093c71213b7c29b002b8ee1b0b66161a/output/res/drawable-xxhdpi-v4/powered_by_google_dark.png"
+        "source": "/Users/Kartik/.android/build-cache/f0f06daa981b8fb8ca40538abeede630d9caae14/output/res/drawable-xxhdpi-v4/powered_by_google_dark.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_05_dark.png",
@@ -469,7 +469,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_play_circle_filled_grey600_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_play_circle_filled_grey600_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_play_circle_filled_grey600_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_09_light.png",
@@ -477,11 +477,11 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_replay_30_white_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_replay_30_white_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_replay_30_white_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_standard_off_client.png",
-        "source": "/Users/Kartik/.android/build-cache/f7a685074252e91cb0e1e799b09398ced700c8c5/output/res/drawable-xxhdpi-v4/ic_plusone_standard_off_client.png"
+        "source": "/Users/Kartik/.android/build-cache/07eac1952b9624281dc8914d1bf5d0f28b206dfb/output/res/drawable-xxhdpi-v4/ic_plusone_standard_off_client.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_11_dark.png",
@@ -493,7 +493,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_notification_2.png",
-        "source": "/Users/Kartik/.android/build-cache/8115f9687ce60abc8d675266b6954ca7c3795937/output/res/drawable-xxhdpi-v4/cast_ic_notification_2.png"
+        "source": "/Users/Kartik/.android/build-cache/b14572ffc6282b0aa71e8653b4977bcd3c9da38e/output/res/drawable-xxhdpi-v4/cast_ic_notification_2.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
@@ -501,11 +501,11 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_tall_off_client.png",
-        "source": "/Users/Kartik/.android/build-cache/f7a685074252e91cb0e1e799b09398ced700c8c5/output/res/drawable-xxhdpi-v4/ic_plusone_tall_off_client.png"
+        "source": "/Users/Kartik/.android/build-cache/07eac1952b9624281dc8914d1bf5d0f28b206dfb/output/res/drawable-xxhdpi-v4/ic_plusone_tall_off_client.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_skip_previous_grey600_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_skip_previous_grey600_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_skip_previous_grey600_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_pause_dark.png",
@@ -517,7 +517,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_volume_up_grey600_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_volume_up_grey600_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_volume_up_grey600_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_02_dark.png",
@@ -565,7 +565,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_refresh_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_refresh_white_24.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_refresh_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_vol_type_speaker_light.png",
@@ -597,11 +597,11 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_white.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_white.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_white.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_replay_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_replay_white_24.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_replay_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_20_light.png",
@@ -613,11 +613,11 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/cast_abc_scrubber_control_off_mtrl_alpha.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/cast_abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_play_circle_filled_white_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_play_circle_filled_white_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_play_circle_filled_white_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
@@ -625,7 +625,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_stop_grey600_48.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_stop_grey600_48.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_stop_grey600_48.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_11_light.png",
@@ -653,7 +653,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_notification_0.png",
-        "source": "/Users/Kartik/.android/build-cache/8115f9687ce60abc8d675266b6954ca7c3795937/output/res/drawable-xxhdpi-v4/cast_ic_notification_0.png"
+        "source": "/Users/Kartik/.android/build-cache/b14572ffc6282b0aa71e8653b4977bcd3c9da38e/output/res/drawable-xxhdpi-v4/cast_ic_notification_0.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png",
@@ -669,7 +669,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_skip_previous_white_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_skip_previous_white_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_skip_previous_white_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_19_light.png",
@@ -693,7 +693,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_replay_30_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_replay_30_white_24.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_replay_30_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_14_dark.png",
@@ -709,7 +709,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_grey600.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_grey600.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_grey600.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_11_light.png",
@@ -717,11 +717,11 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_pause_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_pause_white_24.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_pause_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_pause_circle_filled_grey600_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_pause_circle_filled_grey600_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_pause_circle_filled_grey600_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_05_light.png",
@@ -745,7 +745,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_closed_caption_white_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_closed_caption_white_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_closed_caption_white_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_04_light.png",
@@ -765,11 +765,11 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_skip_next_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_skip_next_white_24.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_skip_next_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_skip_previous_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_skip_previous_white_24.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_skip_previous_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_17_light.png",
@@ -781,7 +781,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_clear_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_clear_white_24.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_clear_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_16_dark.png",
@@ -789,7 +789,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_volume_off_grey600_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_volume_off_grey600_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_volume_off_grey600_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_07_dark.png",
@@ -809,11 +809,11 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_play_arrow_grey600_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_play_arrow_grey600_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_play_arrow_grey600_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
-        "source": "/Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/Users/Kartik/.android/build-cache/16fd32d0e4160a35d49b024fc38f63f4efb0fd43/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_09_light.png",
@@ -821,11 +821,11 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_stop_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_stop_white_24.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_stop_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/places_ic_clear.png",
-        "source": "/Users/Kartik/.android/build-cache/03fea2c6093c71213b7c29b002b8ee1b0b66161a/output/res/drawable-xxhdpi-v4/places_ic_clear.png"
+        "source": "/Users/Kartik/.android/build-cache/f0f06daa981b8fb8ca40538abeede630d9caae14/output/res/drawable-xxhdpi-v4/places_ic_clear.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
@@ -833,11 +833,11 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_pause_circle_filled_white_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_pause_circle_filled_white_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_pause_circle_filled_white_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
-        "source": "/Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/Users/Kartik/.android/build-cache/16fd32d0e4160a35d49b024fc38f63f4efb0fd43/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_08_dark.png",
@@ -857,19 +857,19 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_bigtop_updates_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_bigtop_updates_white_24.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_bigtop_updates_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
-        "source": "/Users/Kartik/.android/build-cache/67b9b7ece6a80a6ff7346bce53a87d120b4b35c4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/Users/Kartik/.android/build-cache/16fd32d0e4160a35d49b024fc38f63f4efb0fd43/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_forward_10_white_24.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_forward_10_white_24.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_forward_10_white_24.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_005.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_08_dark.png",
@@ -885,7 +885,7 @@
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_forward_30_grey600_36.png",
-        "source": "/Users/Kartik/.android/build-cache/331302fe2d13bee51735a2ea3a1144a8ce0417c6/output/res/drawable-xxhdpi-v4/quantum_ic_forward_30_grey600_36.png"
+        "source": "/Users/Kartik/.android/build-cache/f5d2a7d6c7c3c8e567ffd38f771b461dd0f649eb/output/res/drawable-xxhdpi-v4/quantum_ic_forward_30_grey600_36.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_02_light.png",

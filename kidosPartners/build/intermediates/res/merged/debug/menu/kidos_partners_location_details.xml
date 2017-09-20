@@ -3,11 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.kidospartners.KidosPartnersLocationDetails" >
 
-<item android:id="@+id/saveclassdetails"                     
-      android:textColor="#FFFFFF"         
-      android:background="#000000"
-      android:title="SAVE"  
-      android:showAsAction="always" 
-/>
+    <item
+        android:id="@+id/savelocationdetails"
+        android:background="#000000"
+        android:showAsAction="always"
+        android:textColor="#FFFFFF"
+        android:title="SAVE" />
 
 </menu>

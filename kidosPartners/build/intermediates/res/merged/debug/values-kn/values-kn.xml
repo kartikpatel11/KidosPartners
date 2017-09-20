@@ -23,6 +23,7 @@
     <string msgid="366047012176970604" name="cast_casting_to_device">"%1$s ಗೆ ಬಿತ್ತರಿಸಲಾಗುತ್ತಿದೆ"</string>
     <string msgid="2888745622334830481" name="cast_closed_captions">"ಮುಚ್ಚಿದ ಶೀರ್ಷಿಕೆಗಳು"</string>
     <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"ಮುಚ್ಚಲಾಗಿರುವ ಶೀರ್ಷಿಕೆಗಳು ಲಭ್ಯವಿಲ್ಲ"</string>
+    <string msgid="6769392312239056170" name="cast_connecting_to_device">"<ns1:g id="NAME">%1$s</ns1:g> ಗೆ ಸಂಪರ್ಕಪಡಿಸಲಾಗುತ್ತಿದೆ"</string>
     <string msgid="4431992200264667209" name="cast_disconnect">"ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ"</string>
     <string msgid="5668979866539349222" name="cast_expanded_controller_ad_image_description">"ಬಿತ್ತರಿಸುವಿಕೆ ಸ್ವೀಕರಿಸುವವರು ಜಾಹೀರಾತನ್ನು ಪ್ಲೇ ಮಾಡುತ್ತಿರುವಾಗ ಚಿತ್ರವನ್ನು ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ"</string>
     <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"ಜಾಹೀರಾತು ಪ್ರಗತಿಯಲ್ಲಿದೆ..."</string>

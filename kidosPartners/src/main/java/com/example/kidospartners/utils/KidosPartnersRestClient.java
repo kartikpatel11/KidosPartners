@@ -160,8 +160,6 @@ public class KidosPartnersRestClient {
 
 
 
-
-
 	/**
 	 * Calls a PUT request on a given url. Takes a data object in the form of a HashMap to PUT.
 	 * 
