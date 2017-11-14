@@ -2,7 +2,7 @@
                                                   
                                           
     
-                                                                                                                          
+                                                                                                                             
            
 
     <LinearLayout
@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/activity_horizontal_margin"
-        tools:context="com.example.kidospartners.KidosPartnersRegistration"
+        tools:context="com.androidapp.kidospartners.KidosPartnersRegistration"
         android:orientation="vertical" android:tag="layout/activity_kidos_partners_registration_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/layout_registration">
 
 

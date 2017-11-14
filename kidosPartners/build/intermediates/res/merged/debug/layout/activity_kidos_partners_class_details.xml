@@ -1,7 +1,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 <data>
-    <variable name="classdetails" type="com.example.kidospartners.beans.KidosPartnersClassDetailsBean"/>
+    <variable name="classdetails" type="com.androidapp.kidospartners.beans.KidosPartnersClassDetailsBean"/>
 </data>
 
 <LinearLayout
@@ -9,7 +9,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/activity_horizontal_margin"
-    tools:context="com.example.kidospartners.KidosPartnersClassDetails"
+    tools:context="com.androidapp.kidospartners.KidosPartnersClassDetails"
     android:orientation="vertical"
     android:focusable="true" 
     android:focusableInTouchMode="true"

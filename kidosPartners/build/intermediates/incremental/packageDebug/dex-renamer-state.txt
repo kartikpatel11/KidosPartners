@@ -1,4 +1,4 @@
-#Tue Nov 14 20:20:27 IST 2017
+#Tue Nov 14 23:16:37 IST 2017
 file.71=/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cf9a92f2cee5fc61bd06fafb6eee359cb2249531/classes.dex
 file.70=/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e5d25867a9e981c808b92842f0e3ba03ad131847/classes.dex
 file.69=/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/transforms/dex/debug/folders/1000/10/classes_14cf4600835230ab5ce5a8343f0a4dc499424f30/classes.dex

@@ -1,7 +1,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
     <data>
-        <variable name="activitydetails" type="com.example.kidospartners.beans.KidosPartnersActivityDetailsBean"/>
+        <variable name="activitydetails" type="com.androidapp.kidospartners.beans.KidosPartnersActivityDetailsBean"/>
     </data>
 
 <LinearLayout
@@ -9,7 +9,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/activity_horizontal_margin"
-    tools:context="com.example.kidospartners.KidosPartnersActivityDetails"
+    tools:context="com.androidapp.kidospartners.KidosPartnersActivityDetails"
     android:orientation="vertical"
     android:focusable="true" 
     android:focusableInTouchMode="true"

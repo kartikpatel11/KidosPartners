@@ -8,16 +8,16 @@
         "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-hdpi-v4/ic_vol_type_speaker_light.png"
     },
     {
-        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_plusone_small_off_client.png",
-        "source": "/Users/Kartik/.android/build-cache/169e2339b427c2b4e1e72671376a88e25c3e5644/output/res/drawable-hdpi-v4/ic_plusone_small_off_client.png"
-    },
-    {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_longpressed_holo.9.png",
         "source": "/Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
         "source": "/Users/Kartik/.android/build-cache/f8b9e39d40c4065edae5e3ca16770a9f2c8ca562/output/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/Users/Kartik/.android/build-cache/169e2339b427c2b4e1e72671376a88e25c3e5644/output/res/drawable-hdpi-v4/ic_plusone_small_off_client.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_dialog_close_dark.png",

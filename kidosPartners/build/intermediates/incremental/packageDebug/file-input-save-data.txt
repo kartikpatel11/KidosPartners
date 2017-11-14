@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Nov 14 20:20:31 IST 2017
+#Tue Nov 14 23:16:37 IST 2017
 20.base=/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/resources-debug.ap_
 143.base=/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/resources-debug.ap_
 493.base=/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/resources-debug.ap_

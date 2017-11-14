@@ -752,12 +752,12 @@
         "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connecting_04_light.png"
     },
     {
-        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_18_light.png",
-        "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connected_18_light.png"
-    },
-    {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_07_dark.png",
         "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connecting_07_dark.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_18_light.png",
+        "source": "/Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/res/drawable-xxhdpi-v4/ic_mr_button_connected_18_light.png"
     },
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_disabled_light.png",

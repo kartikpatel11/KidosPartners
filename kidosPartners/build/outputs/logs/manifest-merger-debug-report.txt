@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:2:1-87:12
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:2:1-81:12
 	package
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:3:5-40
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml
 		INJECTED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml
 	android:versionName
@@ -94,16 +94,16 @@ MERGED from [com.android.support:support-compat:26.0.0] /Users/Kartik/.android/b
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:8:9-35
 		INJECTED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml
 		INJECTED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml
-permission#com.example.kidos.permission.MAPS_RECEIVE
+permission#com.androidapp.kidos.permission.MAPS_RECEIVE
 ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:11:5-13:47
 	android:protectionLevel
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:13:9-44
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:12:9-65
-uses-permission#com.example.kidos.permission.MAPS_RECEIVE
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:15:5-81
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:12:9-68
+uses-permission#com.androidapp.kidos.permission.MAPS_RECEIVE
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:15:5-84
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:15:22-78
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:15:22-81
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:16:5-79
 	android:name
@@ -154,7 +154,7 @@ ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/And
 	android:name
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:22:22-72
 application
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:24:5-85:19
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:24:5-79:19
 MERGED from [com.google.android.gms:play-services:11.0.4] /Users/Kartik/.android/build-cache/4a04114089c24029abd45cc7513d927b05ba23ae/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/Kartik/.android/build-cache/a62e6468856fa55c7ab805c2de5a94162529a4d5/output/AndroidManifest.xml:23:5-26:19
 MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/Kartik/.android/build-cache/6b2c52f1186ce352d6948e5659fb6d9c2d869efa/output/AndroidManifest.xml:26:5-19
@@ -223,7 +223,7 @@ ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/And
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:37:13-68
 	android:name
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:36:13-62
-activity#com.example.kidospartners.KidosPartnersLogin
+activity#com.androidapp.kidospartners.KidosPartnersLogin
 ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:39:9-48:20
 	android:label
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:41:13-45
@@ -241,64 +241,64 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:46:17-77
 	android:name
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:46:27-74
-activity#com.example.kidospartners.KidosPartnersChooseActivity
+activity#com.androidapp.kidospartners.KidosPartnersChooseActivity
 ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:49:9-51:49
 	android:noHistory
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:51:13-37
 	android:name
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:50:13-56
-activity#com.example.kidospartners.KidosPartnersConfigureActivityMain
+activity#com.androidapp.kidospartners.KidosPartnersConfigureActivityMain
 ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:52:9-54:102
 	android:label
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:54:13-90
 	android:name
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:53:13-63
-activity#com.example.kidospartners.KidosPartnersClassDetails
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:55:9-65:20
+activity#com.androidapp.kidospartners.KidosPartnersClassDetails
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:55:9-59:20
 	android:label
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:57:13-80
 	android:name
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:56:13-54
-activity#com.example.kidospartners.KidosPartnersContactDetails
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:66:9-68:94
+activity#com.androidapp.kidospartners.KidosPartnersContactDetails
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:60:9-62:94
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:68:13-82
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:62:13-82
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:67:13-56
-activity#com.example.kidospartners.KidosPartnersActivityDetails
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:69:9-71:95
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:61:13-56
+activity#com.androidapp.kidospartners.KidosPartnersActivityDetails
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:63:9-65:95
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:71:13-83
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:65:13-83
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:70:13-57
-activity#com.example.kidospartners.KidosPartnersRegistration
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:72:9-74:91
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:64:13-57
+activity#com.androidapp.kidospartners.KidosPartnersRegistration
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:66:9-68:91
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:74:13-79
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:68:13-79
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:73:13-54
-activity#com.example.kidospartners.KidosPartnersWelcome
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:75:9-77:86
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:67:13-54
+activity#com.androidapp.kidospartners.KidosPartnersWelcome
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:69:9-71:86
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:77:13-74
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:71:13-74
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:76:13-49
-activity#com.example.kidospartners.KidosPartnersAddImages
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:78:9-80:89
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:70:13-49
+activity#com.androidapp.kidospartners.KidosPartnersAddImages
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:72:9-74:89
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:80:13-77
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:74:13-77
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:79:13-51
-activity#com.example.kidospartners.KidosPartnersLocationDetails
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:81:9-83:95
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:73:13-51
+activity#com.androidapp.kidospartners.KidosPartnersLocationDetails
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:75:9-77:95
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:83:13-83
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:77:13-83
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:82:13-57
-activity#com.example.kidospartners.KidosPartnersForgotPassword
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:84:9-74
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:76:13-57
+activity#com.androidapp.kidospartners.KidosPartnersForgotPassword
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:78:9-74
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:84:19-62
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:78:19-62
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/Kartik/.android/build-cache/a62e6468856fa55c7ab805c2de5a94162529a4d5/output/AndroidManifest.xml:25:9-232
 	android:configChanges

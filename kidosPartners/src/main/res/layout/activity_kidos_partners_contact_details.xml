@@ -1,7 +1,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
     <data>
-        <variable name="contactdetails" type="com.example.kidospartners.beans.KidosPartnersContactDetailsBean"/>
+        <variable name="contactdetails" type="com.androidapp.kidospartners.beans.KidosPartnersContactDetailsBean"/>
     </data>
 
 
@@ -10,7 +10,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/activity_horizontal_margin"
-    tools:context="com.example.kidospartners.KidosPartnersContactDetails"
+    tools:context="com.androidapp.kidospartners.KidosPartnersContactDetails"
     android:orientation="vertical"
     android:focusable="true" 
     android:focusableInTouchMode="true"

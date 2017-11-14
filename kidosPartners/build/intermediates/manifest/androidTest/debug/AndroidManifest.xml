@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kidospartners.test">
+    package="com.androidapp.kidospartners.test">
 
     <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="26" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.example.kidospartners"
+                     android:targetPackage="com.androidapp.kidospartners"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.example.kidospartners"/>
+                     android:label="Tests for com.androidapp.kidospartners"/>
 </manifest>

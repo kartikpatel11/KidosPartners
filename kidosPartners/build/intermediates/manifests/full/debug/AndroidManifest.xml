@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kidospartners"
+    package="com.androidapp.kidospartners"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -9,10 +9,10 @@
         android:targetSdkVersion="26" />
 
     <permission
-        android:name="com.example.kidos.permission.MAPS_RECEIVE"
+        android:name="com.androidapp.kidos.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.kidos.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.androidapp.kidos.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -26,10 +26,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.example.kidospartners.permission.C2D_MESSAGE"
+        android:name="com.androidapp.kidospartners.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.kidospartners.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.androidapp.kidospartners.permission.C2D_MESSAGE" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -51,7 +51,7 @@
             android:value="AIzaSyB1jmvonvtWtIh3kkljv3a4XHpC_vZDXu4" />
 
         <activity
-            android:name="com.example.kidospartners.KidosPartnersLogin"
+            android:name="com.androidapp.kidospartners.KidosPartnersLogin"
             android:label="@string/app_name"
             android:noHistory="true" >
             <intent-filter>
@@ -61,41 +61,34 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.kidospartners.KidosPartnersChooseActivity"
+            android:name="com.androidapp.kidospartners.KidosPartnersChooseActivity"
             android:noHistory="true" />
         <activity
-            android:name="com.example.kidospartners.KidosPartnersConfigureActivityMain"
+            android:name="com.androidapp.kidospartners.KidosPartnersConfigureActivityMain"
             android:label="@string/title_activity_kidos_partners_configure_activity_main" />
         <activity
-            android:name="com.example.kidospartners.KidosPartnersClassDetails"
+            android:name="com.androidapp.kidospartners.KidosPartnersClassDetails"
             android:label="@string/title_activity_kidos_partners_class_details" >
-
-            <!--
-            android:parentActivityName=".KidosPartnersConfigureActivityMain" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.kidospartners.KidosPartnersConfigureActivityMain" /
-            -->
         </activity>
         <activity
-            android:name="com.example.kidospartners.KidosPartnersContactDetails"
+            android:name="com.androidapp.kidospartners.KidosPartnersContactDetails"
             android:label="@string/title_activity_kidos_partners_contact_details" />
         <activity
-            android:name="com.example.kidospartners.KidosPartnersActivityDetails"
+            android:name="com.androidapp.kidospartners.KidosPartnersActivityDetails"
             android:label="@string/title_activity_kidos_partners_activity_details" />
         <activity
-            android:name="com.example.kidospartners.KidosPartnersRegistration"
+            android:name="com.androidapp.kidospartners.KidosPartnersRegistration"
             android:label="@string/title_activity_kidos_partners_registration" />
         <activity
-            android:name="com.example.kidospartners.KidosPartnersWelcome"
+            android:name="com.androidapp.kidospartners.KidosPartnersWelcome"
             android:label="@string/title_activity_kidos_partners_welcome" />
         <activity
-            android:name="com.example.kidospartners.KidosPartnersAddImages"
+            android:name="com.androidapp.kidospartners.KidosPartnersAddImages"
             android:label="@string/title_activity_kidos_partners_add_images" />
         <activity
-            android:name="com.example.kidospartners.KidosPartnersLocationDetails"
+            android:name="com.androidapp.kidospartners.KidosPartnersLocationDetails"
             android:label="@string/title_activity_kidos_partners_location_details" />
-        <activity android:name="com.example.kidospartners.KidosPartnersForgotPassword" />
+        <activity android:name="com.androidapp.kidospartners.KidosPartnersForgotPassword" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
@@ -154,7 +147,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:exported="true"
             android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
             <intent-filter>
-                <data android:scheme="tagmanager.c.com.example.kidospartners" />
+                <data android:scheme="tagmanager.c.com.androidapp.kidospartners" />
 
                 <action android:name="android.intent.action.VIEW" />
 
@@ -195,7 +188,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.example.kidospartners" />
+                <category android:name="com.androidapp.kidospartners" />
             </intent-filter>
         </receiver>
         <!--
@@ -219,7 +212,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.kidospartners.firebaseinitprovider"
+            android:authorities="com.androidapp.kidospartners.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 

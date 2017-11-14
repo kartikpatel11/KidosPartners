@@ -1,7 +1,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools">
 	<data>
-		<variable name="batchdetails" type="com.example.kidospartners.beans.KidosPartnersBatchesBean"/>
+		<variable name="batchdetails" type="com.androidapp.kidospartners.beans.KidosPartnersBatchesBean"/>
 	</data>
 
 
