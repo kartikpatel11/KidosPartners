@@ -1,7 +1,5 @@
 package com.example.kidospartners.adpter;
 
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,16 +9,19 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 
 import com.example.kidospartners.R;
-import com.example.kidospartners.beans.KidosPartnersImageBean;
+import com.example.kidospartners.beans.KidosPartnersImageDetailsBean;
 import com.squareup.picasso.Picasso;
 
-public class KidosPartnersImageGridAdapter extends ArrayAdapter<KidosPartnersImageBean>{
+import java.util.ArrayList;
+import java.util.List;
+
+public class KidosPartnersImageGridAdapter extends ArrayAdapter<KidosPartnersImageDetailsBean>{
 
 	Context context; 
 	int layoutResourceId; 
-	ArrayList<KidosPartnersImageBean> data = new ArrayList<KidosPartnersImageBean>(); 
+	List<KidosPartnersImageDetailsBean> data = new ArrayList<KidosPartnersImageDetailsBean>();
 	
-	public KidosPartnersImageGridAdapter(Context context, int layoutResourceId, ArrayList<KidosPartnersImageBean> data) 
+	public KidosPartnersImageGridAdapter(Context context, int layoutResourceId, List<KidosPartnersImageDetailsBean> data)
 	{ 
 		super(context, layoutResourceId, data); 
 		this.layoutResourceId = layoutResourceId; 
@@ -48,8 +49,8 @@ public class KidosPartnersImageGridAdapter extends ArrayAdapter<KidosPartnersIma
 			holder = (RecordHolder) row.getTag(); 
 		} 
 		
-		KidosPartnersImageBean item = data.get(position); 
-		Picasso.with(context).load(item.getImgUrl()).fit().into(holder.imageItem);
+		KidosPartnersImageDetailsBean item = data.get(position);
+		Picasso.with(context).load(item.getImgurl()).fit().into(holder.imageItem);
 	//	holder.txtTitle.setText(item.getName()); 
 		 
 		return row; 

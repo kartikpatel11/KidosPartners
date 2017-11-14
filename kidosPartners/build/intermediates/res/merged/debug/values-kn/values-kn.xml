@@ -23,7 +23,6 @@
     <string msgid="366047012176970604" name="cast_casting_to_device">"%1$s ಗೆ ಬಿತ್ತರಿಸಲಾಗುತ್ತಿದೆ"</string>
     <string msgid="2888745622334830481" name="cast_closed_captions">"ಮುಚ್ಚಿದ ಶೀರ್ಷಿಕೆಗಳು"</string>
     <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"ಮುಚ್ಚಲಾಗಿರುವ ಶೀರ್ಷಿಕೆಗಳು ಲಭ್ಯವಿಲ್ಲ"</string>
-    <string msgid="6769392312239056170" name="cast_connecting_to_device">"<ns1:g id="NAME">%1$s</ns1:g> ಗೆ ಸಂಪರ್ಕಪಡಿಸಲಾಗುತ್ತಿದೆ"</string>
     <string msgid="4431992200264667209" name="cast_disconnect">"ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ"</string>
     <string msgid="5668979866539349222" name="cast_expanded_controller_ad_image_description">"ಬಿತ್ತರಿಸುವಿಕೆ ಸ್ವೀಕರಿಸುವವರು ಜಾಹೀರಾತನ್ನು ಪ್ಲೇ ಮಾಡುತ್ತಿರುವಾಗ ಚಿತ್ರವನ್ನು ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ"</string>
     <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"ಜಾಹೀರಾತು ಪ್ರಗತಿಯಲ್ಲಿದೆ..."</string>
@@ -47,8 +46,8 @@
     <string msgid="9078075166993780241" name="cast_seek_bar">"ಪ್ಲೇಬ್ಯಾಕ್‌ ಸೀಕ್ ನಿಯಂತ್ರಣ"</string>
     <string msgid="3991548379225047363" name="cast_skip_next">"ಮುಂದಿನ ಐಟಂಗೆ ಸ್ಕಿಪ್‌ ಮಾಡಿ"</string>
     <string msgid="8369073097776576935" name="cast_skip_prev">"ಹಿಂದಿನ ಐಟಂಗೆ ಸ್ಕಿಪ್‌ ಮಾಡಿ"</string>
-    <string msgid="9191388946729723891" name="cast_stop">"ನಿಲ್ಲಿಸಿ"</string>
-    <string msgid="1219622777438777099" name="cast_stop_live_stream">"ಲೈವ್ ಸ್ಟ್ರೀಮ್ ನಿಲ್ಲಿಸಿ"</string>
+    <string msgid="9191388946729723891" name="cast_stop">"ನಿಲ್ಲಿಸು"</string>
+    <string msgid="1219622777438777099" name="cast_stop_live_stream">"ಲೈವ್ ಸ್ಟ್ರೀಮ್ ನಿಲ್ಲಿಸು"</string>
     <string msgid="4250321332248956563" name="cast_tracks_chooser_dialog_audio">"ಆಡಿಯೊ"</string>
     <string msgid="1162380934229249476" name="cast_tracks_chooser_dialog_cancel">"ರದ್ದು ಮಾಡಿ"</string>
     <string msgid="1779359505126875127" name="cast_tracks_chooser_dialog_closed_captions">"ಮುಚ್ಚಿದ ಶೀರ್ಷಿಕೆಗಳು"</string>
@@ -74,8 +73,6 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"ಫೋನ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ಸೈನ್ ಇನ್"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ"</string>
-    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"ಇತರೆ"</string>
-    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"ಇತರೆ"</string>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"ಹುಡುಕಾಟ ತೆರವುಗೊಳಿಸಿ"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"ಹುಡುಕಿ"</string>
     <string msgid="368094699078615544" name="s1">"ಚಿತ್ರ ಉಳಿಸಿ"</string>

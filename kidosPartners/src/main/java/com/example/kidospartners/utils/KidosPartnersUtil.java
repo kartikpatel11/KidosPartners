@@ -5,6 +5,7 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.os.Build;
@@ -19,9 +20,14 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.LayoutInflater.Factory;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+
+import static android.app.Activity.RESULT_OK;
 
 public class KidosPartnersUtil {
 
@@ -113,5 +119,47 @@ public class KidosPartnersUtil {
 	       }
 	   }
 
-	
+
+	public static void hideSoftKeyboard(Activity activity) {
+		InputMethodManager inputMethodManager =
+				(InputMethodManager) activity.getSystemService(
+						Activity.INPUT_METHOD_SERVICE);
+		inputMethodManager.hideSoftInputFromWindow(
+				activity.getCurrentFocus().getWindowToken(), 0);
+	}
+
+	public static void parseOutputAndTakeAction(String restOutput,Activity activity) {
+
+		JsonObject response=null;
+		Gson gson = new Gson();
+
+
+		if(restOutput!=null) {
+			response = gson.fromJson(restOutput, JsonObject.class);
+
+			if(response.get("errmsg")!=null) {
+				Toast.makeText(activity, response.get("errmsg").toString(), Toast.LENGTH_SHORT).show();
+			}
+			else {
+
+				if(response.get("activityId")!=null) {
+					System.out.println("------New Activity ID="+response.get("activityId").getAsString());
+					String activityId = response.get("activityId").getAsString();
+
+					Intent i = new Intent();
+					i.putExtra("activityID", activityId);
+					activity.setResult(RESULT_OK, i);
+				}
+				Toast.makeText(activity, response.get("msg").toString(), Toast.LENGTH_SHORT).show();
+				activity.finish();
+			}
+
+		}
+		else
+		{
+			Toast.makeText(activity, "Sorry, Something horribly went wrong!!", Toast.LENGTH_SHORT).show();
+		}
+
+	}
+
 }

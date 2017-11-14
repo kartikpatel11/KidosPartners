@@ -11,7 +11,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 import com.example.kidospartners.abstracts.KidosPartnersPrePostProcessor;
 import com.example.kidospartners.beans.KidosPartnersClassDetailsBean;
@@ -21,11 +20,12 @@ import com.example.kidospartners.utils.KidosPartnersConstants;
 import com.example.kidospartners.utils.KidosPartnersRestClient;
 import com.example.kidospartners.utils.KidosPartnersUtil;
 import com.google.gson.Gson;
-import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
 import java.util.Map;
+
+import static com.example.kidospartners.utils.KidosPartnersUtil.parseOutputAndTakeAction;
 
 public class KidosPartnersClassDetails extends KidosPartnersPrePostProcessor implements IKidosPartnersRestClientWrapper {
 
@@ -43,24 +43,22 @@ public class KidosPartnersClassDetails extends KidosPartnersPrePostProcessor imp
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		//setContentView(R.layout.activity_kidos_partners_class_details);
-		
 		KidosPartnerspreProcessor();
 
-		restRequest(KidosPartnersClassDetails.this, null, KidosPartnersConstants.GET, getClassDetailsURI+activitySummary.getActivityId());
-
+		//if activity is already created
+		if(getActivityID()!=null)
+		{
+			restRequest(KidosPartnersClassDetails.this, null, KidosPartnersConstants.GET, getClassDetailsURI+getActivityID());
+		}
+		else //if activity is not yet created, setup additional parameters needed to store at the time of activity creation
+		{
+			classDetails.setUserid(user.getUserid());
+			classDetails.setType(category.get_id());
+			classDetails.setActivityStatus(0);
+		}
 
 		classDetailsBinding = DataBindingUtil.setContentView(this, R.layout.activity_kidos_partners_class_details);
-
-		//dummy object creation
-
-		/*classDetails.setName("Test Class");
-		classDetails.setAddressline1("C-101, RNA Heights, JVLR");
-		classDetails.setArea("Andheri(E)");
-		classDetails.setCity("Mumbai");
-		classDetails.setPincode("400093");
-
-		classDetailsBinding.setClassdetails(classDetails);*/
+		classDetailsBinding.setClassdetails(classDetails);
 
 		mFactory= KidosPartnersUtil.getLayoutFactory(this.getApplicationContext());
 		
@@ -69,10 +67,7 @@ public class KidosPartnersClassDetails extends KidosPartnersPrePostProcessor imp
 		ActionBar actionBar = getSupportActionBar();
 		actionBar.setTitle(KidosPartnersUtil.setTitleText(this,KidosPartnersConstants.CLASS_DETAILS_SCREEN_TITLE , KidosPartnersConstants.TITLE_TEXT_FONTFACE));
 
-		//populate Details
 
-	//	KidosPartnersClassDetailsAdapter adapter=new KidosPartnersClassDetailsAdapter(this, android.R.layout.simple_list_item_1, KidosPartnersActivityConfigurationStepsBean.getActivityConfigurationSteps());
-	
 	
 	}
 	
@@ -120,7 +115,9 @@ public class KidosPartnersClassDetails extends KidosPartnersPrePostProcessor imp
 	{
 		Type type = new TypeToken<Map<String, Object>>(){}.getType();
 		Map<String, Object> classDetailsMap = new Gson().fromJson(new Gson().toJson(classDetails), type);
+
 		restRequest(KidosPartnersClassDetails.this, classDetailsMap, KidosPartnersConstants.POST, saveClassDetailsURI);
+
 
 	}
 
@@ -143,12 +140,7 @@ public class KidosPartnersClassDetails extends KidosPartnersPrePostProcessor imp
 		}
 		else if(requestUrl.contains(saveClassDetailsURI))
 		{
-			if(restOutput!=null) {
-				JsonObject response = gson.fromJson(restOutput, JsonObject.class);
-
-				Toast.makeText(KidosPartnersClassDetails.this, response.get("msg").toString(), Toast.LENGTH_SHORT).show();
-				KidosPartnersClassDetails.this.finish();
-			}
+			parseOutputAndTakeAction(restOutput,KidosPartnersClassDetails.this);
 		}
 	}
 }

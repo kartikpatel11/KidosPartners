@@ -3,12 +3,15 @@ package com.example.kidospartners.beans;
 public class KidosPartnersClassDetailsBean {
 
 	int activityId;
+	int activityStatus;
 	String name;
 	String addressline1;
 	String area;
 	String city;
 	String state;
 	String pincode;
+	int userid;
+	String type;
 	public int getActivityId() {
 		return activityId;
 	}
@@ -51,13 +54,46 @@ public class KidosPartnersClassDetailsBean {
 	public void setPincode(String pincode) {
 		this.pincode = pincode;
 	}
+
+	public int getUserid() {
+		return userid;
+	}
+
+	public void setUserid(int userid) {
+		this.userid = userid;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public int getActivityStatus() {
+		return activityStatus;
+	}
+
+	public void setActivityStatus(int activityStatus) {
+		this.activityStatus = activityStatus;
+	}
+
 	@Override
 	public String toString() {
-		return "KidosPartnersClassDetailsBean [activityId=" + activityId
-				+ ", name=" + name + ", addressline1=" + addressline1
-				+ ", area=" + area + ", city=" + city + ", state=" + state
-				+ ", pincode=" + pincode + "]";
+		return "KidosPartnersClassDetailsBean{" +
+				"activityId=" + activityId +
+				", activityStatus=" + activityStatus +
+				", name='" + name + '\'' +
+				", addressline1='" + addressline1 + '\'' +
+				", area='" + area + '\'' +
+				", city='" + city + '\'' +
+				", state='" + state + '\'' +
+				", pincode='" + pincode + '\'' +
+				", userid='" + userid + '\'' +
+				", type='" + type + '\'' +
+				'}';
 	}
-	
-	
+
+
 }

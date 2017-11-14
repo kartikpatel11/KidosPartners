@@ -15,6 +15,8 @@ class DataBinderMapper  {
                     return com.example.kidospartners.databinding.ActivityKidosPartnersContactDetailsBinding.bind(view, bindingComponent);
                 case com.example.kidospartners.R.layout.layout_kidos_partners_batcheslist_item:
                     return com.example.kidospartners.databinding.LayoutKidosPartnersBatcheslistItemBinding.bind(view, bindingComponent);
+                case com.example.kidospartners.R.layout.activity_kidos_partners_registration:
+                    return com.example.kidospartners.databinding.ActivityKidosPartnersRegistrationBinding.bind(view, bindingComponent);
         }
         return null;
     }
@@ -53,6 +55,12 @@ class DataBinderMapper  {
                 }
                 break;
             }
+            case -895060098: {
+                if(tag.equals("layout/activity_kidos_partners_registration_0")) {
+                    return com.example.kidospartners.R.layout.activity_kidos_partners_registration;
+                }
+                break;
+            }
         }
         return 0;
     }
@@ -68,6 +76,7 @@ class DataBinderMapper  {
             ,"activitydetails"
             ,"batchdetails"
             ,"classdetails"
-            ,"contactdetails"};
+            ,"contactdetails"
+            ,"registrationdetails"};
     }
 }

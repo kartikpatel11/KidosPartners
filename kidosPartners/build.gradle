@@ -8,8 +8,9 @@ android {
 
     defaultConfig {
         applicationId "com.example.kidospartners"
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 26
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -27,9 +28,10 @@ android {
 dependencies {
     compile fileTree(include: '*.jar', dir: 'libs')
     compile project(':testActivity')
+    compile files('libs/picasso-2.5.2.jar')
     compile 'com.android.support:appcompat-v7:26.0.0'
     compile 'com.android.support:support-v4:26.0.0'
     compile 'com.google.code.gson:gson:2.2.4'
-    compile 'com.google.android.gms:play-services:+'
-    compile files('libs/picasso-2.5.2.jar')
+    compile 'com.google.android.gms:play-services:11.0.4'
+    compile 'com.android.support.constraint:constraint-layout:+'
 }

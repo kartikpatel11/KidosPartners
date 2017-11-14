@@ -2,7 +2,7 @@ package com.example.kidospartners.beans;
 
 public class KidosPartnersUserBean {
 
-	private long userid;
+	private int userid;
 	private String firstname;
 	private String lastname;
 	private String emailid;
@@ -15,10 +15,10 @@ public class KidosPartnersUserBean {
 	public void setMobile(String mobile) {
 		this.mobile = mobile;
 	}
-	public long getUserid() {
+	public int getUserid() {
 		return userid;
 	}
-	public void setUserid(long userid) {
+	public void setUserid(int userid) {
 		this.userid = userid;
 	}
 	public String getFirstname() {

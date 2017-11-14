@@ -22,27 +22,30 @@ import android.view.MenuItem;
 import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.GridView;
+import android.widget.Toast;
 
 import com.example.kidospartners.abstracts.KidosPartnersPrePostProcessor;
 import com.example.kidospartners.adpter.KidosPartnersImageGridAdapter;
-import com.example.kidospartners.beans.KidosPartnersImageBean;
+import com.example.kidospartners.beans.KidosPartnersImageDetailsBean;
+import com.example.kidospartners.beans.KidosPartnersImagesBean;
 import com.example.kidospartners.interfaces.IKidosPartnersImageUploader;
 import com.example.kidospartners.interfaces.IKidosPartnersRestClientWrapper;
 import com.example.kidospartners.utils.KidosPartnersConstants;
 import com.example.kidospartners.utils.KidosPartnersRestClient;
 import com.example.kidospartners.utils.KidosPartnersUtil;
 import com.google.gson.Gson;
+import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
+import java.lang.reflect.Type;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class KidosPartnersAddImages extends KidosPartnersPrePostProcessor implements IKidosPartnersRestClientWrapper, IKidosPartnersImageUploader{
@@ -51,30 +54,34 @@ public class KidosPartnersAddImages extends KidosPartnersPrePostProcessor implem
 	private static final int SELECT_FILE = 1;
     private String userChoosenTask;
 	private Factory mFactory ;
-	private ArrayList<KidosPartnersImageBean> data=new ArrayList<KidosPartnersImageBean>();
+	private KidosPartnersImagesBean imageDetails =new KidosPartnersImagesBean();
 	ProgressDialog dialog ;
-    
+
+	private String getActivityImageURI=KidosPartnersConstants.GET_ACTIVITYIMAGE_BY_ACTIVITYID_URI;
+	private String saveActivityImageURI=KidosPartnersConstants.SAVE_ACTIVITYIMAGE_BY_ACTIVITYID_URI;
+
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_kidos_partners_add_images);
 
-		Bundle bundle=this.getIntent().getExtras();
-		
+		KidosPartnerspreProcessor();
+
 		ActionBar actionBar = getSupportActionBar();
 		actionBar.setTitle(KidosPartnersUtil.setTitleText(this,KidosPartnersConstants.ADD_IMAGES_SCREEN_TITLE , KidosPartnersConstants.TITLE_TEXT_FONTFACE));
 		
 		//Populate Data
-		if(bundle.getLong("activityId")!=0)
+		if(getActivityID()!=null)
 		{
-				String url=KidosPartnersConstants.GET_ACTIVITY_IMG_URI+bundle.getLong("activityId");
-				restRequest(KidosPartnersAddImages.this, null, KidosPartnersConstants.GET, url);
+
+				restRequest(KidosPartnersAddImages.this, null, KidosPartnersConstants.GET, getActivityImageURI+getActivityID());
 		}		
 		else
 		{
 			GridView imageGridView = (GridView) findViewById(R.id.img_gridview);
 
-			KidosPartnersImageGridAdapter adapter = new KidosPartnersImageGridAdapter(this,R.layout.layout_kidos_partners_addimage_item,data);
+			KidosPartnersImageGridAdapter adapter = new KidosPartnersImageGridAdapter(this,R.layout.layout_kidos_partners_addimage_item, imageDetails.getImages());
 			imageGridView.setAdapter(adapter);
 		}
 		
@@ -114,11 +121,21 @@ public class KidosPartnersAddImages extends KidosPartnersPrePostProcessor implem
 	public boolean onOptionsItemSelected(MenuItem item) {
 
 		if(item.getItemId()==R.id.saveimages)
-			this.finish();
+			saveImageDetails();
 		
 		return super.onOptionsItemSelected(item);
 	}
-	
+
+
+	private void saveImageDetails()
+	{
+		Type type = new TypeToken<Map<String, Object>>(){}.getType();
+		System.out.println("new Gson().toJson(imageDetails)="+new Gson().toJson(imageDetails));
+
+		Map<String, Object> imageDetailsMap = new Gson().fromJson(new Gson().toJson(imageDetails), type);
+		restRequest(KidosPartnersAddImages.this, imageDetailsMap, KidosPartnersConstants.POSTJSON, saveActivityImageURI);
+	}
+
 	public void AddImage(View v){
 		
 		selectImage();
@@ -224,11 +241,13 @@ public class KidosPartnersAddImages extends KidosPartnersPrePostProcessor implem
 		catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		  
+
+
+
 		  argMap.put("type", mime);
 		  argMap.put("name", fileName);
 		  argMap.put("data", iStream);
-		  String url=KidosPartnersConstants.GET_AWS_SIGNATURE+"?file_name=" + fileName + "&file_type=" + mime;
+		  String url=KidosPartnersConstants.GET_AWS_SIGNATURE+"?activityId="+getActivityID()+"&file_name=" + fileName + "&file_type=" + mime;
 		 
 		  
 		  //need to send filename for signature
@@ -238,11 +257,13 @@ public class KidosPartnersAddImages extends KidosPartnersPrePostProcessor implem
 	}
 	
 	private void onCaptureImageResult(Intent data) {
-		  Bitmap thumbnail = (Bitmap) data.getExtras().get("data");
+        HashMap<String,Object> argMap=new HashMap<String,Object>();
+        Bitmap thumbnail = (Bitmap) data.getExtras().get("data");
+        long fileName = System.currentTimeMillis();
 		  ByteArrayOutputStream bytes = new ByteArrayOutputStream();
 		  thumbnail.compress(Bitmap.CompressFormat.JPEG, 90, bytes);
 		  File destination = new File(Environment.getExternalStorageDirectory(),
-		        System.currentTimeMillis() + ".jpg");
+		       fileName  + ".jpg");
 		  FileOutputStream fo;
 		  try {
 		     destination.createNewFile();
@@ -254,8 +275,25 @@ public class KidosPartnersAddImages extends KidosPartnersPrePostProcessor implem
 		  } catch (IOException e) {
 		     e.printStackTrace();
 		  }
-	  //     Picasso.with(this).load(destination).fit().into(activityImg);
-		}
+
+        InputStream iStream= null;
+        try {
+            iStream = new FileInputStream(destination);
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        argMap.put("type", "image/jpg");
+        argMap.put("name", fileName+".jpg");
+        argMap.put("data", iStream);
+        String url=KidosPartnersConstants.GET_AWS_SIGNATURE+"?activityId="+getActivityID()+"&file_name=" + fileName + ".jpg&file_type=image/jpg";
+
+
+        //need to send filename for signature
+        imageUploadRequest(KidosPartnersAddImages.this, argMap, url);
+
+       }
 
 	@Override
 	public void restRequest(IKidosPartnersRestClientWrapper context,
@@ -266,16 +304,29 @@ public class KidosPartnersAddImages extends KidosPartnersPrePostProcessor implem
 
 	@Override
 	public void restCallBack(String restOutput, String requestUrl) {
-		System.out.println("In Rest Call back method of KidosPartnersAddImageActivity");
-		Gson gson=new Gson();
-		
-		data=gson.fromJson(restOutput,new TypeToken<List<KidosPartnersImageBean>>(){}.getType());
-		
-		GridView imageGridView = (GridView) findViewById(R.id.img_gridview);
 
-		KidosPartnersImageGridAdapter adapter = new KidosPartnersImageGridAdapter(this,R.layout.layout_kidos_partners_addimage_item,data);
-		imageGridView.setAdapter(adapter);
+		System.out.println("In Rest Call back method of KidosPartnersAddImageActivity::requestUrl="+requestUrl);
 
+		Gson gson = new Gson();
+
+		if(requestUrl.contains(getActivityImageURI)) {
+
+			imageDetails = gson.fromJson(restOutput, new TypeToken<KidosPartnersImagesBean>() {}.getType());
+
+			GridView imageGridView = (GridView) findViewById(R.id.img_gridview);
+
+			KidosPartnersImageGridAdapter adapter = new KidosPartnersImageGridAdapter(this, R.layout.layout_kidos_partners_addimage_item, imageDetails.getImages());
+			imageGridView.setAdapter(adapter);
+		}
+		else if(requestUrl.contains(saveActivityImageURI))
+		{
+			if(restOutput!=null) {
+				JsonObject response = gson.fromJson(restOutput, JsonObject.class);
+
+				Toast.makeText(KidosPartnersAddImages.this, response.get("msg").toString(), Toast.LENGTH_SHORT).show();
+				KidosPartnersAddImages.this.finish();
+			}
+		}
 		
 	}
 
@@ -295,8 +346,8 @@ public class KidosPartnersAddImages extends KidosPartnersPrePostProcessor implem
 	public void imageUploadCallBack(String restOutput) {
 		// load image using resoutput string into imagegridview
 		System.out.println("-----------------> ABOUT TO REFRESH GRIDVIEW--"+restOutput);
-		KidosPartnersImageBean imgBean = new KidosPartnersImageBean();
-		imgBean.setImgUrl(restOutput);
+		KidosPartnersImageDetailsBean imgBean = new KidosPartnersImageDetailsBean();
+		imgBean.setImgurl(restOutput);
 		imgBean.setName("image");
 		GridView imageGridView = (GridView) findViewById(R.id.img_gridview);
 		KidosPartnersImageGridAdapter adapter = (KidosPartnersImageGridAdapter)imageGridView.getAdapter();

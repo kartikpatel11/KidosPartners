@@ -1,52 +1,75 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#ffffff"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="@dimen/activity_horizontal_margin"
-    tools:context="com.example.kidospartners.KidosPartnersRegistration"
-    android:orientation="vertical">
-    
+    android:id="@+id/layout_registration">
+    <data>
+        <variable name="registrationdetails" type="com.example.kidospartners.beans.KidosPartnersRegistrationDetailsBean"/>
+    </data>
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        tools:context="com.example.kidospartners.KidosPartnersRegistration"
+        android:orientation="vertical">
+
 
      <EditText
-                android:id="@+id/txt_name"
+                android:id="@+id/txt_first_name"
                 android:paddingTop="70dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@={registrationdetails.firstname}"
                 android:singleLine="true"
-                android:hint="@string/hint_txt_name" />
+                android:hint="First Name" />
+
+
+        <EditText
+            android:id="@+id/txt_last_name"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={registrationdetails.lastname}"
+            android:singleLine="true"
+            android:hint="Last Name" />
      
      <EditText
                 android:id="@+id/txt_phno"
-                android:paddingTop="30dp"
+                android:paddingTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:hint="@string/hint_txt_phno" />
+                android:text="@={registrationdetails.mobile}"
+                android:hint="@string/hint_txt_phno"
+                android:inputType="phone"/>
      
      <EditText
                 android:id="@+id/txt_emailid"
-                android:paddingTop="30dp"
+                android:paddingTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
+                android:text="@={registrationdetails.emailid}"
                 android:hint="@string/hint_emailid" />
      
       <EditText
                 android:id="@+id/txt_password"
-                android:paddingTop="30dp"
+                android:paddingTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:hint="@string/hint_password" />
+                android:text="@={registrationdetails.password}"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword" />
 
        <EditText
                 android:id="@+id/txt_retypepass"
-                android:paddingTop="30dp"
+                android:paddingTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:hint="@string/hint_retypepass" />
+                android:hint="@string/hint_retypepass"
+                android:inputType="textPassword" />
       
           <Button android:id="@+id/btn_register"
             android:layout_width="fill_parent"
@@ -60,4 +83,5 @@
             android:onClick="Register"/>
        
      
-</LinearLayout>
+        </LinearLayout>
+    </layout>

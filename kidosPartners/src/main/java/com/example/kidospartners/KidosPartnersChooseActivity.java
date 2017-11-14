@@ -3,7 +3,6 @@ package com.example.kidospartners;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -11,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
+import com.example.kidospartners.abstracts.KidosPartnersPrePostProcessor;
 import com.example.kidospartners.adpter.KidosPartnersCategoryAdapter;
 import com.example.kidospartners.beans.KidosPartnersCategoryBean;
 import com.example.kidospartners.interfaces.IKidosPartnersRestClientWrapper;
@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class KidosPartnersChooseActivity extends AppCompatActivity implements IKidosPartnersRestClientWrapper{
+public class KidosPartnersChooseActivity extends KidosPartnersPrePostProcessor implements IKidosPartnersRestClientWrapper{
 
 	 private String getCategoriesUrl=KidosPartnersConstants.GET_CATEGORIES_URI;
 	 private List<KidosPartnersCategoryBean> data=new ArrayList<KidosPartnersCategoryBean>();
@@ -33,6 +33,8 @@ public class KidosPartnersChooseActivity extends AppCompatActivity implements IK
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_kidos_partners_choose);
+
+		KidosPartnerspreProcessor();
 
 		ActionBar actionBar = getSupportActionBar();
 		actionBar.setTitle(KidosPartnersUtil.setTitleText(this,KidosPartnersConstants.CHOOSE_ACTIVITY_SCREEN_TITLE , KidosPartnersConstants.TITLE_TEXT_FONTFACE));
@@ -79,7 +81,8 @@ public class KidosPartnersChooseActivity extends AppCompatActivity implements IK
             public void onItemClick(AdapterView<?>  l, View v, int position, long id) {
             	KidosPartnersCategoryBean categoryBean=data.get(position);
             	Intent activity=new Intent(KidosPartnersChooseActivity.this,KidosPartnersConfigureActivityMain.class);
-            	activity.putExtra("category",new Gson().toJson(categoryBean));
+				KidosPartnersPostProcessor(activity);
+				activity.putExtra("category",new Gson().toJson(categoryBean));
             	startActivity(activity);
             }
 

@@ -62,7 +62,7 @@ public class KidosPartnersActivityDetails extends KidosPartnersPrePostProcessor 
 
         KidosPartnerspreProcessor();
 
-        restRequest(KidosPartnersActivityDetails.this, null, KidosPartnersConstants.GET, getActivityDetailsURI+activitySummary.getActivityId());
+        restRequest(KidosPartnersActivityDetails.this, null, KidosPartnersConstants.GET, getActivityDetailsURI+getActivityID());
 
         activityDetailsBinding = DataBindingUtil.setContentView(this, R.layout.activity_kidos_partners_activity_details);
 

@@ -45,7 +45,7 @@ public class KidosPartnersContactDetails extends KidosPartnersPrePostProcessor i
 
 		KidosPartnerspreProcessor();
 
-		restRequest(KidosPartnersContactDetails.this, null, KidosPartnersConstants.GET, getContactDetailsURI+activitySummary.getActivityId());
+		restRequest(KidosPartnersContactDetails.this, null, KidosPartnersConstants.GET, getContactDetailsURI+getActivityID());
 
 		contactDetailsBinding = DataBindingUtil.setContentView(this, R.layout.activity_kidos_partners_contact_details);
 

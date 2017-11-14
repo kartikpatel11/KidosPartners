@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="play-services-safetynet-11.0.4">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/a4fd9bd6aa8d60633dd36937e8aa61b0900ebdb2/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/a4fd9bd6aa8d60633dd36937e8aa61b0900ebdb2/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

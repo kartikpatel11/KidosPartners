@@ -109,7 +109,7 @@ public class KidosPartnersLocationDetails extends KidosPartnersPrePostProcessor 
 	@Override
 	public void onMapReady(GoogleMap _googleMap) {
 		googleMap = _googleMap;
-		restRequest(KidosPartnersLocationDetails.this, null, KidosPartnersConstants.GET, getActivityLocationURI + activitySummary.getActivityId());
+		restRequest(KidosPartnersLocationDetails.this, null, KidosPartnersConstants.GET, getActivityLocationURI + getActivityID());
 
 		//setUpMap();
 	}
@@ -162,7 +162,7 @@ public class KidosPartnersLocationDetails extends KidosPartnersPrePostProcessor 
 			LatLng position = marker.getPosition();
 			double[] locArr = new double[]{position.latitude, position.longitude};
 
-			KidosPartnersActivityLocationBean location = new KidosPartnersActivityLocationBean(Integer.parseInt(activitySummary.getActivityId()), locArr);
+			KidosPartnersActivityLocationBean location = new KidosPartnersActivityLocationBean(Integer.parseInt(getActivityID()), locArr);
 			Map<String, Object> locationMap = new Gson().fromJson(new Gson().toJson(location), type);
 
 

@@ -47,7 +47,15 @@ public class KidosPartnersLogin extends AppCompatActivity implements IKidosPartn
 				
 			}
 		});
-		
+
+		TextView forgotPassLabel = (TextView)findViewById(R.id.label_forgotpass);
+		forgotPassLabel.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(view.getContext(), KidosPartnersForgotPassword.class);
+				view.getContext().startActivity(intent);
+			}
+		});
 		
 	}
 
@@ -66,31 +74,19 @@ public class KidosPartnersLogin extends AppCompatActivity implements IKidosPartn
 	}
 	
 	public void Login(View v) {
-		
-		String mobile = ((EditText)findViewById(R.id.txt_login_phno)).getText().toString();
-		String pass = ((EditText)findViewById(R.id.txt_password)).getText().toString();
-		
-		//Arg map
-		Map<String,Object> argMap=new HashMap<String,Object>();
-		argMap.put("mobile", mobile);
-		argMap.put("pass", pass);
-		
-		//restRequest(KidosPartnersLogin.this, argMap, KidosPartnersConstants.GET, kidosPartnersLoginUrl);
-		
-		//Dummy
-		KidosPartnersUserBean dummyUserObj = new KidosPartnersUserBean();
-		dummyUserObj.setUserid(7);
-		dummyUserObj.setEmailid("patel.kartikv@gmail.com");
-		dummyUserObj.setMobile("+919820742767");
-		dummyUserObj.setFirstname("Kartik");
-		dummyUserObj.setLastname("Patel");
-		
-		Intent intent=new Intent(this,KidosPartnersWelcome.class);
-		intent.putExtra("user",new Gson().toJson(dummyUserObj));
-		this.startActivity(intent);
-		//Dummy Ends
-		
-		
+
+		if(validateForm()) {
+			String mobile = ((EditText) findViewById(R.id.txt_login_phno)).getText().toString();
+			String pass = ((EditText) findViewById(R.id.txt_password)).getText().toString();
+
+			//Arg map
+			Map<String, Object> argMap = new HashMap<String, Object>();
+			argMap.put("mobile", mobile);
+			argMap.put("pass", pass);
+
+			restRequest(KidosPartnersLogin.this, argMap, KidosPartnersConstants.POST, kidosPartnersLoginUrl);
+
+		}
 }
 
 	@Override
@@ -102,11 +98,12 @@ public class KidosPartnersLogin extends AppCompatActivity implements IKidosPartn
 	
 	@Override
 	public void restCallBack(String restOutput, String requestUrl) {
-		System.out.println("In Rest Call back method of KidosPartnersLogin");
+		System.out.println("In Rest Call back method of KidosPartnersLogin:: restOutput="+restOutput);
 		
 		
-		if(data!=null)
+		if(!"null".equals(restOutput))
 		{
+			System.out.println("Rest Output is not 'null'");
 			Gson gson=new Gson();
 			data=gson.fromJson(restOutput,new TypeToken<KidosPartnersUserBean>(){}.getType());
 		
@@ -117,7 +114,9 @@ public class KidosPartnersLogin extends AppCompatActivity implements IKidosPartn
 		}
 		else
 		{
-			createErrorDialog();
+			System.out.println("About to raise error");
+			createErrorDialog().show();
+
 		}
 		
 				
@@ -125,13 +124,29 @@ public class KidosPartnersLogin extends AppCompatActivity implements IKidosPartn
 
 	
 	private AlertDialog createErrorDialog() {
-		return new AlertDialog.Builder(getApplicationContext())
+		return new AlertDialog.Builder(KidosPartnersLogin.this)
         .setTitle("Error")
-        .setMessage("Username or password is wrong!! Please retry.")
+        .setMessage("Mobile number or password is wrong!! Please retry.")
         .setCancelable(true).create();
 		
 	}
 
-	
+	private boolean validateForm()
+	{
+		boolean validForm=false;
+		EditText phNo = (EditText)findViewById(R.id.txt_login_phno);
+		EditText pass = (EditText)findViewById(R.id.txt_password);
+
+		if( phNo.getText().toString().length() == 0 ) {
+			phNo.setError("Mobile number is required!");
+			return validForm;
+		}
+		if( pass.getText().toString().length() == 0 ) {
+			pass.setError("Password is required!");
+			return validForm;
+		}
+		validForm=true;
+		return validForm;
+	}
 
 }

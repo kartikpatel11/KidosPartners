@@ -10,19 +10,18 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.example.kidospartners.abstracts.KidosPartnersPrePostProcessor;
 import com.example.kidospartners.adpter.KidosPartnersActivityConfigurationStepsAdapter;
 import com.example.kidospartners.beans.KidosPartnersActivityConfigurationStepsBean;
-import com.example.kidospartners.beans.KidosPartnersCategoryBean;
 import com.example.kidospartners.utils.KidosPartnersConstants;
 import com.example.kidospartners.utils.KidosPartnersUtil;
-import com.google.gson.Gson;
 import com.squareup.picasso.Picasso;
 
 public class KidosPartnersConfigureActivityMain extends KidosPartnersPrePostProcessor {
 
+
+	private static final int CONFIGURE_CLASS_DETAILS = 0;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -68,7 +67,7 @@ public class KidosPartnersConfigureActivityMain extends KidosPartnersPrePostProc
 					
 					Intent classActivity=new Intent(KidosPartnersConfigureActivityMain.this, KidosPartnersClassDetails.class);
 					KidosPartnersPostProcessor(classActivity);
-					startActivity(classActivity);
+					startActivityForResult(classActivity,CONFIGURE_CLASS_DETAILS);
 					break;
 				case 1:
 					
@@ -100,9 +99,16 @@ public class KidosPartnersConfigureActivityMain extends KidosPartnersPrePostProc
 
         });
 	}
-	
-	
-	
+
+	@Override
+	public void onActivityResult(int requestCode,int resultCode, Intent data) {
+		System.out.println("onActivityResult:: requestCode="+requestCode+",resultCode="+resultCode);
+		if (requestCode == CONFIGURE_CLASS_DETAILS && data !=null) {
+		System.out.println("about to set activityID in intent: "+data.getStringExtra("activityID"));
+			setActivityID(data.getStringExtra("activityID"));
+
+		}
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

@@ -5,9 +5,16 @@ public class KidosPartnersCategoryBean {
 	private String catImg;
 	private String catName;
 	private String catbackground;
-	
-	
-	
+	private String _id;
+
+	public String get_id() {
+		return _id;
+	}
+
+	public void set_id(String _id) {
+		this._id = _id;
+	}
+
 	public String getCatbackground() {
 		return catbackground;
 	}
@@ -55,12 +62,15 @@ public class KidosPartnersCategoryBean {
 	}
 
 
-
 	@Override
 	public String toString() {
-		return "KidosPartnersCategoryBean [catId=" + catId + ", catImg="
-				+ catImg + ", catName=" + catName + ", catbackground="
-				+ catbackground + "]";
+		return "KidosPartnersCategoryBean{" +
+				"catId='" + catId + '\'' +
+				", catImg='" + catImg + '\'' +
+				", catName='" + catName + '\'' +
+				", catbackground='" + catbackground + '\'' +
+				", _id='" + _id + '\'' +
+				'}';
 	}
 
 }

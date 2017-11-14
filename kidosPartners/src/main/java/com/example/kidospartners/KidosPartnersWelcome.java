@@ -80,6 +80,8 @@ public class KidosPartnersWelcome extends KidosPartnersPrePostProcessor implemen
 
 	private void configureActivity(View v) {
 		Intent intent=new Intent(this,KidosPartnersChooseActivity.class);
+		KidosPartnersPostProcessor(intent);
+
 		this.startActivity(intent);
 }
 
@@ -99,29 +101,29 @@ public class KidosPartnersWelcome extends KidosPartnersPrePostProcessor implemen
 		
 		data=gson.fromJson(restOutput,new TypeToken<List<KidosPartnersActivitySummaryBean>>(){}.getType());
 		
-		if(data!=null && data.size()>0)
-		{
-			((TextView)findViewById(R.id.label_noactivity1)).setVisibility(View.INVISIBLE);
-			((TextView)findViewById(R.id.label_activitypresent1)).setVisibility(View.VISIBLE);
-		}
-		
-		ListView activitySummaryView = (ListView) findViewById(R.id.lst_activitysummary);
+		if(data!=null && data.size()>0) {
+			((TextView) findViewById(R.id.label_noactivity1)).setVisibility(View.INVISIBLE);
+			((TextView) findViewById(R.id.label_activitypresent1)).setVisibility(View.VISIBLE);
+	}
 
-		KidosPartnersActivitySummaryAdapter adapter = new KidosPartnersActivitySummaryAdapter(this,android.R.layout.simple_list_item_1,data);
-		activitySummaryView.setAdapter(adapter);
-		
-		activitySummaryView.setOnItemClickListener(new OnItemClickListener() {
+			ListView activitySummaryView = (ListView) findViewById(R.id.lst_activitysummary);
 
-            @Override
-            public void onItemClick(AdapterView<?>  l, View v, int position, long id) {
-            	KidosPartnersActivitySummaryBean activitySummaryBean=data.get(position);
-            	Intent activity=new Intent(KidosPartnersWelcome.this,KidosPartnersConfigureActivityMain.class);
-            	activity.putExtra("activitysummary",new Gson().toJson(activitySummaryBean));
-            	startActivity(activity);
-            	
-            }
+			KidosPartnersActivitySummaryAdapter adapter = new KidosPartnersActivitySummaryAdapter(this, android.R.layout.simple_list_item_1, data);
+			activitySummaryView.setAdapter(adapter);
 
-        });
+			activitySummaryView.setOnItemClickListener(new OnItemClickListener() {
+
+				@Override
+				public void onItemClick(AdapterView<?> l, View v, int position, long id) {
+					KidosPartnersActivitySummaryBean activitySummaryBean = data.get(position);
+					Intent activity = new Intent(KidosPartnersWelcome.this, KidosPartnersConfigureActivityMain.class);
+					activity.putExtra("activityID", activitySummaryBean.getActivityId());
+					startActivity(activity);
+
+				}
+
+			});
+		//}
 	}
 
 }
