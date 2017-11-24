@@ -27,12 +27,21 @@ public class KidosPartnersConstants {
 	public static final String GET_ACTIVITYIMAGE_BY_ACTIVITYID_URI="getactivityimagesbyactivityid/";
 	public static final String SAVE_ACTIVITYIMAGE_BY_ACTIVITYID_URI="saveactivityimagesbyactivityid/";
 
+	public static final String CHECK_ACTIVITY_STATUS_FOR_PUBLISH="checkactivitystatebeforepublish/";
+
+	public static final String UPDATE_ACTIVITY_STATE="updateactivitystate/";
+
 	public static final String GET_AWS_SIGNATURE = "sign";
 
 	public static final String REGISTER_USER_URI = "registeruser/";
+
+	public static final String FORGOT_PASSWORD_URI = "forgotpassword/";
+	public static final String RESET_PASSWORD_URI = "resetkidospartnerspassword/";
+	public static final String LIST_INDIANCITIES_URI = "listindiancities/";
 	
 	//Titles
 	public static final String LOGIN_SCREEN_TITLE="Login";
+	public static final String INTERNET_CONNECTION_ISSUE_SCREEN_TITLE="Error";
 	public static final String FORGOT_PASSWORD_SCREEN_TITLE="Forgot Password";
 	public static final String REGISTRATION_SCREEN_TITLE="Register";
 	public static final String CHOOSE_ACTIVITY_SCREEN_TITLE= "Choose Category";
@@ -43,16 +52,14 @@ public class KidosPartnersConstants {
 	public static final String ACTIVITY_DETAILS_SCREEN_TITLE = "Activity Details";
 	public static final String WELCOME_SCREEN_TITLE = "Welcome";
 	public static final String ADD_IMAGES_SCREEN_TITLE = "Images";
-	
+	public static final String RESET_PASSWORD_SCREEN_TITLE = "Reset Password";
+
 	//Fonts
 	public static final String TITLE_TEXT_FONTFACE="Roboto-Thin.ttf";
 	
 	//menu
 	public static final String MENU_BUTTON_SAVE = "SAVE";
-	
-	
-	
-	
-	
-	
+
+
+
 }

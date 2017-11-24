@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.androidapp.kidospartners"
-    android:versionCode="1"
+    android:versionCode="4"
     android:versionName="1.0" >
 
     <uses-sdk
@@ -9,10 +9,10 @@
         android:targetSdkVersion="26" />
 
     <permission
-        android:name="com.androidapp.kidos.permission.MAPS_RECEIVE"
+        android:name="com.androidapp.kidospartners.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.androidapp.kidos.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.androidapp.kidospartners.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -53,13 +53,7 @@
         <activity
             android:name="com.androidapp.kidospartners.KidosPartnersLogin"
             android:label="@string/app_name"
-            android:noHistory="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:noHistory="true" />
         <activity
             android:name="com.androidapp.kidospartners.KidosPartnersChooseActivity"
             android:noHistory="true" />
@@ -68,8 +62,7 @@
             android:label="@string/title_activity_kidos_partners_configure_activity_main" />
         <activity
             android:name="com.androidapp.kidospartners.KidosPartnersClassDetails"
-            android:label="@string/title_activity_kidos_partners_class_details" >
-        </activity>
+            android:label="@string/title_activity_kidos_partners_class_details" />
         <activity
             android:name="com.androidapp.kidospartners.KidosPartnersContactDetails"
             android:label="@string/title_activity_kidos_partners_contact_details" />
@@ -78,7 +71,8 @@
             android:label="@string/title_activity_kidos_partners_activity_details" />
         <activity
             android:name="com.androidapp.kidospartners.KidosPartnersRegistration"
-            android:label="@string/title_activity_kidos_partners_registration" />
+            android:label="@string/title_activity_kidos_partners_registration"
+            android:noHistory="true" />
         <activity
             android:name="com.androidapp.kidospartners.KidosPartnersWelcome"
             android:label="@string/title_activity_kidos_partners_welcome" />
@@ -89,6 +83,24 @@
             android:name="com.androidapp.kidospartners.KidosPartnersLocationDetails"
             android:label="@string/title_activity_kidos_partners_location_details" />
         <activity android:name="com.androidapp.kidospartners.KidosPartnersForgotPassword" />
+        <activity
+            android:name="com.androidapp.kidospartners.KidosPartnersInternetConnectionIssue"
+            android:noHistory="true" />
+        <activity
+            android:name="com.androidapp.kidospartners.KidosPartnersSplash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_kidos_partners_splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.androidapp.kidospartners.KidosPartnersResetPassword"
+            android:label="@string/title_activity_kidos_partners_reset_password" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
@@ -122,10 +134,6 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
 
         <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
         <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.0.0" />
         <!--
  FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
@@ -224,6 +232,12 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

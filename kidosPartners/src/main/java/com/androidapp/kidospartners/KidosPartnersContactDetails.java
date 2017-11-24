@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.androidapp.kidospartners.abstracts.KidosPartnersPrePostProcessor;
@@ -91,10 +92,12 @@ public class KidosPartnersContactDetails extends KidosPartnersPrePostProcessor i
 
 	private void saveContactDetails()
 	{
-		Type type = new TypeToken<Map<String, Object>>(){}.getType();
-		Map<String, Object> classDetailsMap = new Gson().fromJson(new Gson().toJson(contactDetails), type);
-		restRequest(KidosPartnersContactDetails.this, classDetailsMap, KidosPartnersConstants.POST, saveContactDetailsURI);
-
+		if(validateForm()) {
+			Type type = new TypeToken<Map<String, Object>>() {
+			}.getType();
+			Map<String, Object> classDetailsMap = new Gson().fromJson(new Gson().toJson(contactDetails), type);
+			restRequest(KidosPartnersContactDetails.this, classDetailsMap, KidosPartnersConstants.POST, saveContactDetailsURI);
+		}
 	}
 	
 	@Override
@@ -133,5 +136,25 @@ public class KidosPartnersContactDetails extends KidosPartnersPrePostProcessor i
 			}
 		}
 
+	}
+
+	private boolean validateForm()
+	{
+		boolean validForm = false;
+
+		EditText altPhNo = (EditText)findViewById(R.id.txt_altphno);
+		EditText phNo = (EditText)findViewById(R.id.txt_phno);
+		EditText mobNo = (EditText)findViewById(R.id.txt_mobno);
+		EditText website = (EditText)findViewById(R.id.txt_website);
+		EditText facebook = (EditText)findViewById(R.id.txt_facebook);
+		EditText twitter = (EditText)findViewById(R.id.txt_twitter);
+
+		if( altPhNo.getText() !=null && phNo.getText()!=null && mobNo.getText()!=null && altPhNo.getText().toString().length() == 0 && phNo.getText().toString().length() == 0 && mobNo.getText().toString().length() == 0) {
+			phNo.setError("Phone number or Alternate phone number or mobile number is required!");
+			return validForm;
+		}
+
+		validForm=true;
+		return validForm;
 	}
 }

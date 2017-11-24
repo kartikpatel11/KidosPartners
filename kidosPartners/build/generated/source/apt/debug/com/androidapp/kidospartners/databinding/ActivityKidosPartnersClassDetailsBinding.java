@@ -11,9 +11,9 @@ public class ActivityKidosPartnersClassDetailsBinding extends android.databindin
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.label_name, 7);
         sViewsWithIds.put(R.id.label_address, 8);
-        sViewsWithIds.put(R.id.label_area, 9);
+        sViewsWithIds.put(R.id.label_state, 9);
         sViewsWithIds.put(R.id.label_city, 10);
-        sViewsWithIds.put(R.id.label_state, 11);
+        sViewsWithIds.put(R.id.label_area, 11);
         sViewsWithIds.put(R.id.label_pincode, 12);
     }
     // views
@@ -29,7 +29,7 @@ public class ActivityKidosPartnersClassDetailsBinding extends android.databindin
     public final android.widget.EditText txtCity;
     public final android.widget.EditText txtName;
     public final android.widget.EditText txtPincode;
-    public final android.widget.EditText txtState;
+    public final android.widget.AutoCompleteTextView txtState;
     // variables
     private com.androidapp.kidospartners.beans.KidosPartnersClassDetailsBean mClassdetails;
     // values
@@ -196,16 +196,16 @@ public class ActivityKidosPartnersClassDetailsBinding extends android.databindin
         super(bindingComponent, root, 0);
         final Object[] bindings = mapBindings(bindingComponent, root, 13, sIncludes, sViewsWithIds);
         this.labelAddress = (android.widget.TextView) bindings[8];
-        this.labelArea = (android.widget.TextView) bindings[9];
+        this.labelArea = (android.widget.TextView) bindings[11];
         this.labelCity = (android.widget.TextView) bindings[10];
         this.labelName = (android.widget.TextView) bindings[7];
         this.labelPincode = (android.widget.TextView) bindings[12];
-        this.labelState = (android.widget.TextView) bindings[11];
+        this.labelState = (android.widget.TextView) bindings[9];
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         this.mboundView0.setTag(null);
         this.txtAddress = (android.widget.EditText) bindings[2];
         this.txtAddress.setTag(null);
-        this.txtArea = (android.widget.EditText) bindings[3];
+        this.txtArea = (android.widget.EditText) bindings[5];
         this.txtArea.setTag(null);
         this.txtCity = (android.widget.EditText) bindings[4];
         this.txtCity.setTag(null);
@@ -213,7 +213,7 @@ public class ActivityKidosPartnersClassDetailsBinding extends android.databindin
         this.txtName.setTag(null);
         this.txtPincode = (android.widget.EditText) bindings[6];
         this.txtPincode.setTag(null);
-        this.txtState = (android.widget.EditText) bindings[5];
+        this.txtState = (android.widget.AutoCompleteTextView) bindings[3];
         this.txtState.setTag(null);
         setRootTag(root);
         // listeners

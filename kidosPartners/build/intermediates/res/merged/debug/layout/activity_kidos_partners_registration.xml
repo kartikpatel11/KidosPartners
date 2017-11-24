@@ -1,6 +1,6 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/layout_registration">
+    >
     <data>
         <variable name="registrationdetails" type="com.androidapp.kidospartners.beans.KidosPartnersRegistrationDetailsBean"/>
     </data>
@@ -11,12 +11,17 @@
         android:layout_height="match_parent"
         android:padding="@dimen/activity_horizontal_margin"
         tools:context="com.androidapp.kidospartners.KidosPartnersRegistration"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/layout_registration"
+        >
 
 
      <EditText
                 android:id="@+id/txt_first_name"
-                android:paddingTop="70dp"
+                android:layout_marginTop="70dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@={registrationdetails.firstname}"

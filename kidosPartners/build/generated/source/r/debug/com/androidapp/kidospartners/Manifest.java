@@ -10,6 +10,6 @@ package com.androidapp.kidospartners;
 public final class Manifest {
     public static final class permission {
         public static final String C2D_MESSAGE="com.androidapp.kidospartners.permission.C2D_MESSAGE";
-        public static final String MAPS_RECEIVE="com.androidapp.kidos.permission.MAPS_RECEIVE";
+        public static final String MAPS_RECEIVE="com.androidapp.kidospartners.permission.MAPS_RECEIVE";
     }
 }

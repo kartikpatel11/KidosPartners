@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TimePicker;
 import android.widget.Toast;
@@ -44,6 +45,8 @@ public class KidosPartnersActivityDetails extends KidosPartnersPrePostProcessor 
 
     private String getActivityDetailsURI=KidosPartnersConstants.GET_ACTIVITYDETAILS_BY_ACTIVITYID_URI;
     private String saveActivityDetailsURI=KidosPartnersConstants.SAVE_ACTIVITYDETAILS_BY_ACTIVITYID_URI;
+
+	private String errorMsg = "Batch details can not be empty";
 
     ActivityKidosPartnersActivityDetailsBinding activityDetailsBinding;
 
@@ -116,13 +119,15 @@ public class KidosPartnersActivityDetails extends KidosPartnersPrePostProcessor 
 		return super.onOptionsItemSelected(item);
 	}
 
-	private void saveActivityDetails()
-	{
-		Type type = new TypeToken<Map<String, Object>>(){}.getType();
-		System.out.println("new Gson().toJson(activityDetails)="+new Gson().toJson(activityDetails));
+	private void saveActivityDetails() {
+		if (validateForm()) {
+			Type type = new TypeToken<Map<String, Object>>() {}.getType();
+			System.out.println("new Gson().toJson(activityDetails)=" + new Gson().toJson(activityDetails));
 
-		Map<String, Object> activityDetailsMap = new Gson().fromJson(new Gson().toJson(activityDetails), type);
-		restRequest(KidosPartnersActivityDetails.this, activityDetailsMap, KidosPartnersConstants.POSTJSON, saveActivityDetailsURI);
+			Map<String, Object> activityDetailsMap = new Gson().fromJson(new Gson().toJson(activityDetails), type);
+			restRequest(KidosPartnersActivityDetails.this, activityDetailsMap, KidosPartnersConstants.POSTJSON, saveActivityDetailsURI);
+
+		}
 	}
 
 	// The dialog fragment receives a reference to this Activity through the
@@ -229,6 +234,36 @@ public class KidosPartnersActivityDetails extends KidosPartnersPrePostProcessor 
 		}
 		
 	}
-	
+
+	private boolean validateForm()
+	{
+		boolean validForm=false;
+		EditText desc = (EditText)findViewById(R.id.txt_description);
+		EditText fees = (EditText)findViewById(R.id.txt_fees);
+		EditText minAge = (EditText)findViewById(R.id.txt_minage);
+		EditText maxAge = (EditText)findViewById(R.id.txt_maxage);
+		EditText state = (EditText)findViewById(R.id.txt_state);
+		EditText pincode = (EditText)findViewById(R.id.txt_pincode);
+
+		if( desc.getText().toString().length() == 0 ) {
+			desc.setError("Description is required!");
+			return validForm;
+		}
+		if( fees.getText().toString().length() == 0 ) {
+			fees.setError("Fees is required!");
+			return validForm;
+		}
+
+		if(adapter.isEmpty()) {
+			KidosPartnersUtil.createDialog(KidosPartnersActivityDetails.this, KidosPartnersUtil.TITLE_ERROR, errorMsg, KidosPartnersUtil.NONE_DIALOG, null);
+			return validForm;
+		}
+
+		validForm=true;
+		return validForm;
+	}
+
+
+
 
 }

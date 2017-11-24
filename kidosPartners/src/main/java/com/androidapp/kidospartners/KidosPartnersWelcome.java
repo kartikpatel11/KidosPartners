@@ -1,8 +1,11 @@
 package com.androidapp.kidospartners;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -30,16 +33,20 @@ public class KidosPartnersWelcome extends KidosPartnersPrePostProcessor implemen
 
 	 private String getActivitySummaryByUser=KidosPartnersConstants.GET_ACTIVITY_SUMMARY_BY_USERID_URI;
 	 private List<KidosPartnersActivitySummaryBean> data=new ArrayList<KidosPartnersActivitySummaryBean>();
-	
-	
+	private static SharedPreferences kidosPartnersPreferences;
+	public static final String PREFS_NAME = "KidosPartnersPrefsFile";
+
+
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_kidos_partners_welcome);
 		
 		KidosPartnerspreProcessor();
-		
-		
+
+		kidosPartnersPreferences= getApplicationContext().getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
+
 		restRequest(KidosPartnersWelcome.this, null, KidosPartnersConstants.GET, getActivitySummaryByUser+user.getUserid());
 	
 		
@@ -61,6 +68,15 @@ public class KidosPartnersWelcome extends KidosPartnersPrePostProcessor implemen
 	}
 
 	@Override
+	public void onResume()
+	{
+		super.onResume();
+		restRequest(KidosPartnersWelcome.this, null, KidosPartnersConstants.GET, getActivitySummaryByUser+user.getUserid());
+
+	}
+
+
+	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 
 		// Inflate the menu; this adds items to the action bar if it is present.
@@ -74,8 +90,23 @@ public class KidosPartnersWelcome extends KidosPartnersPrePostProcessor implemen
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
-		
+		if(id==R.id.action_logout)
+			showAlertDialog();
+
+
 		return super.onOptionsItemSelected(item);
+	}
+
+	private void logout() {
+		Intent loginscreen=new Intent(this,KidosPartnersLogin.class);
+
+		SharedPreferences.Editor editor = kidosPartnersPreferences.edit();
+		editor.remove("user");
+		editor.remove("hasLoggedIn");
+		editor.apply();
+
+		this.startActivity(loginscreen);
+		this.finish();
 	}
 
 	private void configureActivity(View v) {
@@ -108,7 +139,7 @@ public class KidosPartnersWelcome extends KidosPartnersPrePostProcessor implemen
 
 			ListView activitySummaryView = (ListView) findViewById(R.id.lst_activitysummary);
 
-			KidosPartnersActivitySummaryAdapter adapter = new KidosPartnersActivitySummaryAdapter(this, android.R.layout.simple_list_item_1, data);
+			KidosPartnersActivitySummaryAdapter adapter = new KidosPartnersActivitySummaryAdapter(this, KidosPartnersWelcome.this, android.R.layout.simple_list_item_1, data);
 			activitySummaryView.setAdapter(adapter);
 
 			activitySummaryView.setOnItemClickListener(new OnItemClickListener() {
@@ -123,7 +154,40 @@ public class KidosPartnersWelcome extends KidosPartnersPrePostProcessor implemen
 				}
 
 			});
-		//}
+
+
+		//mTourGuideHandler.playOn(activitySummaryView);
+
 	}
+
+	DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+		@Override
+		public void onClick(DialogInterface dialog, int which) {
+			switch (which){
+				case DialogInterface.BUTTON_POSITIVE:
+					logout();
+					break;
+
+				case DialogInterface.BUTTON_NEGATIVE:
+					//No button clicked
+					break;
+			}
+		}
+	};
+
+	private void showAlertDialog() {
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setMessage("Do you really want to logout?").setPositiveButton("Yes", dialogClickListener)
+				.setNegativeButton("No", dialogClickListener).show();
+	}
+	/*@Override
+	public boolean dispatchTouchEvent(MotionEvent event) {
+
+		if (mTourGuideHandler != null) {
+			mTourGuideHandler.cleanUp();
+
+		}
+		return super.dispatchTouchEvent(event);
+	}*/
 
 }

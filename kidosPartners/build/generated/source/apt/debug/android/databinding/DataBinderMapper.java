@@ -77,6 +77,8 @@ class DataBinderMapper  {
             ,"batchdetails"
             ,"classdetails"
             ,"contactdetails"
-            ,"registrationdetails"};
+            ,"from"
+            ,"registrationdetails"
+            ,"to"};
     }
 }

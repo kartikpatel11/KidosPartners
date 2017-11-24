@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:2:1-81:12
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:2:1-92:12
 	package
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml
@@ -29,9 +29,6 @@ MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] /Users/Karti
 MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/Kartik/.android/build-cache/42db6e8bbb9be8c127987db9a2e2d75c7a44f6d6/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/Kartik/.android/build-cache/29bae32aa2e6da2e62bb096bc9d61f41a23b02fa/output/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/Kartik/.android/build-cache/4359e589280ae7f30c01d7ac8f77f4f3f3b1547c/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/Kartik/.android/build-cache/8820b567c35c87fb557a21c0848a64e89043a10a/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:palette-v7:25.2.0] /Users/Kartik/.android/build-cache/3807031c44cee77b73da9d0444a09b19310ad529/output/AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/Kartik/.android/build-cache/335c2b3b9af3a00432cb95d713cd029cc68df8b5/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/Kartik/.android/build-cache/c0d4261b656022fddf289b022b8427f40df2b7d5/output/AndroidManifest.xml:17:5-43
@@ -76,16 +73,23 @@ MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/Kartik/.an
 MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/Kartik/.android/build-cache/080e9a4b8f9484f157d487178466edcd75bf306f/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/Kartik/.android/build-cache/10da682dfa154ad7e69f23d5787dad2440277d80/output/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta3] /Users/Kartik/.android/build-cache/701d742a337657f38173082efdbe0d003c8e285e/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.1.0] /Users/Kartik/.android/build-cache/5e1d3dd1a8f3c30c4ba50b70bf70069632390b44/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/Kartik/.android/build-cache/b1e53e2f56b932b5d9c444e18209d9c3ce379a86/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/Kartik/.android/build-cache/845b6daa35fa4b93f32c9203df85de5de5a3ec4d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/Kartik/.android/build-cache/4948ffeb6fc5a8fe58f1997fcd5b4f5e20617b2b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/Kartik/.android/build-cache/55e4f4770eb7f5e9f48ecbb804521e2074a7d1ef/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/Kartik/.android/build-cache/62edd72a27d55cb3e178140ee979c0a169bdafdc/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.databinding:adapters:1.3.1] /Users/Kartik/.android/build-cache/b2e96182580fed860f66d903c0e9cafe24a69929/output/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.databinding:library:1.3.1] /Users/Kartik/.android/build-cache/222e56c48583347aebc2d5fefac7d898ba02a9ec/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-v4:26.0.0] /Users/Kartik/.android/build-cache/ad4559f1ae7c33498f6670fa93df28f517a562e4/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.0] /Users/Kartik/.android/build-cache/84788b90302215c6c7c09342308bc3279523b3ee/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.0] /Users/Kartik/.android/build-cache/ab89624b863f1aa6461905655122c87d361dc82b/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.0.0] /Users/Kartik/.android/build-cache/74c3e92f74de2ec2d59774d5667a79175f8c9831/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.0.0] /Users/Kartik/.android/build-cache/e1a9a448ce72045fd763990881bbfbf9f6c980fc/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.0.0] /Users/Kartik/.android/build-cache/5cc6ce3305ee77fbe5d2e6f47ad37c9ae2c9890f/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-v4:26.1.0] /Users/Kartik/.android/build-cache/8b1e99e7721ef18f972a7c7a9ce35fed37636f1b/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Kartik/.android/build-cache/3a3c0a35b995ede7fe3bd87c28792a8ab6e6fa97/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/Kartik/.android/build-cache/cdbde7b4f4859047dd1b14e40ca5bbaa6d59cf9b/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/Kartik/.android/build-cache/171eda41da8c12af2d726f950af218ce7c0d1a96/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/Kartik/.android/build-cache/e9e910376c3e2c804891989452be3d6f1e753fce/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /Users/Kartik/.android/build-cache/551a8b8fe60897573ac030209c1d47ee305996d1/output/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/Kartik/.android/build-cache/31648ca5a1c0d8bed207b49214d0014bc0702637/output/AndroidManifest.xml:20:5-22:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.0] /Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:26.1.0] /Users/Kartik/.android/build-cache/5e1d3dd1a8f3c30c4ba50b70bf70069632390b44/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:9:9-38
 		INJECTED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml
@@ -94,16 +98,16 @@ MERGED from [com.android.support:support-compat:26.0.0] /Users/Kartik/.android/b
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:8:9-35
 		INJECTED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml
 		INJECTED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml
-permission#com.androidapp.kidos.permission.MAPS_RECEIVE
+permission#com.androidapp.kidospartners.permission.MAPS_RECEIVE
 ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:11:5-13:47
 	android:protectionLevel
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:13:9-44
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:12:9-68
-uses-permission#com.androidapp.kidos.permission.MAPS_RECEIVE
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:15:5-84
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:12:9-76
+uses-permission#com.androidapp.kidospartners.permission.MAPS_RECEIVE
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:15:5-92
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:15:22-81
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:15:22-89
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:16:5-79
 	android:name
@@ -154,7 +158,7 @@ ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/And
 	android:name
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:22:22-72
 application
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:24:5-79:19
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:24:5-90:19
 MERGED from [com.google.android.gms:play-services:11.0.4] /Users/Kartik/.android/build-cache/4a04114089c24029abd45cc7513d927b05ba23ae/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/Kartik/.android/build-cache/a62e6468856fa55c7ab805c2de5a94162529a4d5/output/AndroidManifest.xml:23:5-26:19
 MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/Kartik/.android/build-cache/6b2c52f1186ce352d6948e5659fb6d9c2d869efa/output/AndroidManifest.xml:26:5-19
@@ -163,9 +167,6 @@ MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/Kartik/.an
 MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/Kartik/.android/build-cache/42db6e8bbb9be8c127987db9a2e2d75c7a44f6d6/output/AndroidManifest.xml:4:5-8:19
 MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/Kartik/.android/build-cache/29bae32aa2e6da2e62bb096bc9d61f41a23b02fa/output/AndroidManifest.xml:18:5-19
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/Kartik/.android/build-cache/6a2c8805d4b986ad4d98014877f962a349327a5d/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/Kartik/.android/build-cache/4359e589280ae7f30c01d7ac8f77f4f3f3b1547c/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/Kartik/.android/build-cache/8820b567c35c87fb557a21c0848a64e89043a10a/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:palette-v7:25.2.0] /Users/Kartik/.android/build-cache/3807031c44cee77b73da9d0444a09b19310ad529/output/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/Kartik/.android/build-cache/335c2b3b9af3a00432cb95d713cd029cc68df8b5/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/Kartik/.android/build-cache/c0d4261b656022fddf289b022b8427f40df2b7d5/output/AndroidManifest.xml:18:5-19
@@ -203,12 +204,19 @@ MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/Kartik/.an
 MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/Kartik/.android/build-cache/080e9a4b8f9484f157d487178466edcd75bf306f/output/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/Kartik/.android/build-cache/10da682dfa154ad7e69f23d5787dad2440277d80/output/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta3] /Users/Kartik/.android/build-cache/701d742a337657f38173082efdbe0d003c8e285e/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-v4:26.0.0] /Users/Kartik/.android/build-cache/ad4559f1ae7c33498f6670fa93df28f517a562e4/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.0] /Users/Kartik/.android/build-cache/84788b90302215c6c7c09342308bc3279523b3ee/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.0] /Users/Kartik/.android/build-cache/ab89624b863f1aa6461905655122c87d361dc82b/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.0] /Users/Kartik/.android/build-cache/74c3e92f74de2ec2d59774d5667a79175f8c9831/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.0] /Users/Kartik/.android/build-cache/e1a9a448ce72045fd763990881bbfbf9f6c980fc/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.0] /Users/Kartik/.android/build-cache/5cc6ce3305ee77fbe5d2e6f47ad37c9ae2c9890f/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/Kartik/.android/build-cache/5e1d3dd1a8f3c30c4ba50b70bf70069632390b44/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/Kartik/.android/build-cache/b1e53e2f56b932b5d9c444e18209d9c3ce379a86/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/Kartik/.android/build-cache/845b6daa35fa4b93f32c9203df85de5de5a3ec4d/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/Kartik/.android/build-cache/4948ffeb6fc5a8fe58f1997fcd5b4f5e20617b2b/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/Kartik/.android/build-cache/55e4f4770eb7f5e9f48ecbb804521e2074a7d1ef/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/Kartik/.android/build-cache/62edd72a27d55cb3e178140ee979c0a169bdafdc/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/Kartik/.android/build-cache/8b1e99e7721ef18f972a7c7a9ce35fed37636f1b/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Kartik/.android/build-cache/3a3c0a35b995ede7fe3bd87c28792a8ab6e6fa97/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/Kartik/.android/build-cache/cdbde7b4f4859047dd1b14e40ca5bbaa6d59cf9b/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/Kartik/.android/build-cache/171eda41da8c12af2d726f950af218ce7c0d1a96/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/Kartik/.android/build-cache/e9e910376c3e2c804891989452be3d6f1e753fce/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/Kartik/.android/build-cache/551a8b8fe60897573ac030209c1d47ee305996d1/output/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/Kartik/.android/build-cache/31648ca5a1c0d8bed207b49214d0014bc0702637/output/AndroidManifest.xml:24:5-28:19
 	android:label
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:27:9-41
 	android:allowBackup
@@ -224,81 +232,107 @@ ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/And
 	android:name
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:36:13-62
 activity#com.androidapp.kidospartners.KidosPartnersLogin
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:39:9-48:20
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:39:9-42:49
 	android:label
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:41:13-45
 	android:noHistory
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:42:13-37
 	android:name
 		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:40:13-47
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:43:13-47:29
-action#android.intent.action.MAIN
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:44:17-69
-	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:44:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:46:17-77
-	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:46:27-74
 activity#com.androidapp.kidospartners.KidosPartnersChooseActivity
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:49:9-51:49
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:43:9-45:40
 	android:noHistory
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:51:13-37
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:50:13-56
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:44:13-56
 activity#com.androidapp.kidospartners.KidosPartnersConfigureActivityMain
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:52:9-54:102
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:46:9-48:93
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:54:13-90
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:48:13-90
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:53:13-63
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:47:13-63
 activity#com.androidapp.kidospartners.KidosPartnersClassDetails
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:55:9-59:20
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:49:9-51:83
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:57:13-80
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:51:13-80
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:56:13-54
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:50:13-54
 activity#com.androidapp.kidospartners.KidosPartnersContactDetails
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:60:9-62:94
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:52:9-54:85
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:62:13-82
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:54:13-82
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:61:13-56
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:53:13-56
 activity#com.androidapp.kidospartners.KidosPartnersActivityDetails
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:63:9-65:95
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:55:9-57:86
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:65:13-83
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:57:13-83
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:64:13-57
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:56:13-57
 activity#com.androidapp.kidospartners.KidosPartnersRegistration
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:66:9-68:91
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:58:9-61:40
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:68:13-79
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:60:13-79
+	android:noHistory
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:67:13-54
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:59:13-54
 activity#com.androidapp.kidospartners.KidosPartnersWelcome
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:69:9-71:86
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:62:9-64:77
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:71:13-74
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:64:13-74
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:70:13-49
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:63:13-49
 activity#com.androidapp.kidospartners.KidosPartnersAddImages
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:72:9-74:89
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:65:9-67:80
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:74:13-77
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:67:13-77
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:73:13-51
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:66:13-51
 activity#com.androidapp.kidospartners.KidosPartnersLocationDetails
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:75:9-77:95
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:68:9-70:86
 	android:label
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:77:13-83
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:70:13-83
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:76:13-57
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:69:13-57
 activity#com.androidapp.kidospartners.KidosPartnersForgotPassword
-ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:78:9-74
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:71:9-65
 	android:name
-		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:78:19-62
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:71:19-62
+activity#com.androidapp.kidospartners.KidosPartnersInternetConnectionIssue
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:72:9-74:40
+	android:noHistory
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:73:13-65
+activity#com.androidapp.kidospartners.KidosPartnersSplash
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:75:9-86:20
+	android:screenOrientation
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:79:13-49
+	android:label
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:78:13-73
+	android:configChanges
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:77:13-74
+	android:theme
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:80:13-80
+	android:name
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:76:13-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:81:13-85:29
+action#android.intent.action.MAIN
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:82:17-69
+	android:name
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:82:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:84:17-77
+	android:name
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:84:27-74
+activity#com.androidapp.kidospartners.KidosPartnersResetPassword
+ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:87:9-89:93
+	android:label
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:89:13-81
+	android:name
+		ADDED from /Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/AndroidManifest.xml:88:13-55
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/Kartik/.android/build-cache/a62e6468856fa55c7ab805c2de5a94162529a4d5/output/AndroidManifest.xml:25:9-232
 	android:configChanges
@@ -363,20 +397,6 @@ service#com.google.android.gms.cast.framework.ReconnectionService
 ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/Kartik/.android/build-cache/42db6e8bbb9be8c127987db9a2e2d75c7a44f6d6/output/AndroidManifest.xml:7:9-92
 	android:name
 		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/Kartik/.android/build-cache/42db6e8bbb9be8c127987db9a2e2d75c7a44f6d6/output/AndroidManifest.xml:7:18-90
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.0.0] /Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/Kartik/.android/build-cache/4359e589280ae7f30c01d7ac8f77f4f3f3b1547c/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/Kartik/.android/build-cache/8820b567c35c87fb557a21c0848a64e89043a10a/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.0.0] /Users/Kartik/.android/build-cache/ad4559f1ae7c33498f6670fa93df28f517a562e4/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.0] /Users/Kartik/.android/build-cache/84788b90302215c6c7c09342308bc3279523b3ee/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.0] /Users/Kartik/.android/build-cache/ab89624b863f1aa6461905655122c87d361dc82b/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.0.0] /Users/Kartik/.android/build-cache/74c3e92f74de2ec2d59774d5667a79175f8c9831/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.0] /Users/Kartik/.android/build-cache/e1a9a448ce72045fd763990881bbfbf9f6c980fc/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.0] /Users/Kartik/.android/build-cache/5cc6ce3305ee77fbe5d2e6f47ad37c9ae2c9890f/output/AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:appcompat-v7:26.0.0] /Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/AndroidManifest.xml:28:13-35
-	android:name
-		ADDED from [com.android.support:appcompat-v7:26.0.0] /Users/Kartik/.android/build-cache/7cf42aadde66c94bbd7f590152d10f8805bf6c19/output/AndroidManifest.xml:27:13-51
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/Kartik/.android/build-cache/09c204ef32f774b4444162cb4738b3023ea4adcd/output/AndroidManifest.xml:23:9-27:19
 	android:exported
@@ -549,3 +569,26 @@ ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/Kartik/
 		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/Kartik/.android/build-cache/10da682dfa154ad7e69f23d5787dad2440277d80/output/AndroidManifest.xml:20:66-119
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/Kartik/.android/build-cache/10da682dfa154ad7e69f23d5787dad2440277d80/output/AndroidManifest.xml:20:20-65
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /Users/Kartik/.android/build-cache/5e1d3dd1a8f3c30c4ba50b70bf70069632390b44/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/Kartik/.android/build-cache/b1e53e2f56b932b5d9c444e18209d9c3ce379a86/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/Kartik/.android/build-cache/845b6daa35fa4b93f32c9203df85de5de5a3ec4d/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/Kartik/.android/build-cache/4948ffeb6fc5a8fe58f1997fcd5b4f5e20617b2b/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/Kartik/.android/build-cache/55e4f4770eb7f5e9f48ecbb804521e2074a7d1ef/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/Kartik/.android/build-cache/62edd72a27d55cb3e178140ee979c0a169bdafdc/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/Kartik/.android/build-cache/8b1e99e7721ef18f972a7c7a9ce35fed37636f1b/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Kartik/.android/build-cache/3a3c0a35b995ede7fe3bd87c28792a8ab6e6fa97/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/Kartik/.android/build-cache/cdbde7b4f4859047dd1b14e40ca5bbaa6d59cf9b/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/Kartik/.android/build-cache/171eda41da8c12af2d726f950af218ce7c0d1a96/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/Kartik/.android/build-cache/e9e910376c3e2c804891989452be3d6f1e753fce/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/Kartik/.android/build-cache/551a8b8fe60897573ac030209c1d47ee305996d1/output/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /Users/Kartik/.android/build-cache/5e1d3dd1a8f3c30c4ba50b70bf70069632390b44/output/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /Users/Kartik/.android/build-cache/5e1d3dd1a8f3c30c4ba50b70bf70069632390b44/output/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/Kartik/.android/build-cache/31648ca5a1c0d8bed207b49214d0014bc0702637/output/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/Kartik/.android/build-cache/31648ca5a1c0d8bed207b49214d0014bc0702637/output/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/Kartik/.android/build-cache/31648ca5a1c0d8bed207b49214d0014bc0702637/output/AndroidManifest.xml:26:13-58

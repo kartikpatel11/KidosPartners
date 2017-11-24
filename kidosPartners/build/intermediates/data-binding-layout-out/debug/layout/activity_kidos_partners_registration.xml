@@ -1,6 +1,6 @@
 
                                                   
-                                          
+     
     
                                                                                                                              
            
@@ -11,12 +11,17 @@
         android:layout_height="match_parent"
         android:padding="@dimen/activity_horizontal_margin"
         tools:context="com.androidapp.kidospartners.KidosPartnersRegistration"
-        android:orientation="vertical" android:tag="layout/activity_kidos_partners_registration_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/layout_registration">
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/layout_registration"
+         android:tag="layout/activity_kidos_partners_registration_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
 
 
      <EditText
                 android:id="@+id/txt_first_name"
-                android:paddingTop="70dp"
+                android:layout_marginTop="70dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:tag="binding_1"                         

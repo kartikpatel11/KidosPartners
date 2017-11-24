@@ -22,6 +22,7 @@ public class KidosPartnersConfigureActivityMain extends KidosPartnersPrePostProc
 
 
 	private static final int CONFIGURE_CLASS_DETAILS = 0;
+	KidosPartnersActivityConfigurationStepsAdapter adapter;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -36,9 +37,7 @@ public class KidosPartnersConfigureActivityMain extends KidosPartnersPrePostProc
 		actionBar.setTitle(KidosPartnersUtil.setTitleText(this,KidosPartnersConstants.CONFIGURE_ACTIVITY_MAIN_SCREEN_TITLE , KidosPartnersConstants.TITLE_TEXT_FONTFACE));
 
 		
-		//Generate List
-		KidosPartnersActivityConfigurationStepsAdapter adapter=new KidosPartnersActivityConfigurationStepsAdapter(this, android.R.layout.simple_list_item_1, KidosPartnersActivityConfigurationStepsBean.getActivityConfigurationSteps());
-	
+
 		ImageView image=(ImageView)findViewById(R.id.img_sctivity_configuration_image);
 		if(category!=null)
 		{
@@ -48,7 +47,10 @@ public class KidosPartnersConfigureActivityMain extends KidosPartnersPrePostProc
 		{
 			Picasso.with(this).load("https://s3-us-west-2.amazonaws.com/kidosbucket/5.jpg").fit().into(image);
 		}
-		
+
+		//Generate List
+		adapter=new KidosPartnersActivityConfigurationStepsAdapter(this, android.R.layout.simple_list_item_1, KidosPartnersActivityConfigurationStepsBean.getActivityConfigurationSteps(),activityID);
+
 		ListView listview= (ListView)findViewById(R.id.lst_activitysteps);
 		listview.setAdapter(adapter);
 		
@@ -98,6 +100,8 @@ public class KidosPartnersConfigureActivityMain extends KidosPartnersPrePostProc
             }
 
         });
+
+		//VerifyActivityConfigurationStepsState();
 	}
 
 	@Override
@@ -105,8 +109,16 @@ public class KidosPartnersConfigureActivityMain extends KidosPartnersPrePostProc
 		System.out.println("onActivityResult:: requestCode="+requestCode+",resultCode="+resultCode);
 		if (requestCode == CONFIGURE_CLASS_DETAILS && data !=null) {
 		System.out.println("about to set activityID in intent: "+data.getStringExtra("activityID"));
-			setActivityID(data.getStringExtra("activityID"));
+			if(data.getStringExtra("activityID")!=null) {
+				setActivityID(data.getStringExtra("activityID"));
+				//Enable list items
+				//Generate List
+				adapter=new KidosPartnersActivityConfigurationStepsAdapter(this, android.R.layout.simple_list_item_1, KidosPartnersActivityConfigurationStepsBean.getActivityConfigurationSteps(),activityID);
 
+				ListView listview= (ListView)findViewById(R.id.lst_activitysteps);
+				listview.setAdapter(adapter);
+
+			}
 		}
 	}
 
@@ -123,6 +135,25 @@ public class KidosPartnersConfigureActivityMain extends KidosPartnersPrePostProc
 	public boolean onOptionsItemSelected(MenuItem item) {
 	
 		return super.onOptionsItemSelected(item);
+	}
+
+	private void VerifyActivityConfigurationStepsState() {
+		ListView listview = (ListView) findViewById(R.id.lst_activitysteps);
+
+		System.out.println("*!@# In VerifyActivityConfigurationStepsState..listview.getChildCount()="+listview.getChildCount()+",activityID="+activityID);
+		//disable listitems (except first one) if activityID is null
+		if (activityID == null) {
+
+			for (int i = 1; i < listview.getChildCount(); i++) {
+				listview.getChildAt(i).setEnabled(false);
+			}
+		}
+		else {
+			for (int i = 1; i < listview.getChildCount(); i++) {
+				listview.getChildAt(i).setEnabled(true);
+			}
+
+		}
 	}
 
 

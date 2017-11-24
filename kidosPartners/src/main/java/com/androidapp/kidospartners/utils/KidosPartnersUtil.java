@@ -7,7 +7,10 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.graphics.Typeface;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -17,10 +20,13 @@ import android.support.v7.app.AlertDialog;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.util.AttributeSet;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.LayoutInflater.Factory;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -32,6 +38,13 @@ import static android.app.Activity.RESULT_OK;
 public class KidosPartnersUtil {
 
 	public static final int MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE = 123;
+	public static final String TITLE_ERROR = "Error";
+	public static final String TITLE_SUCCESS = "Success";
+	public static final String NEUTRAL_DIALOG = "Neutral";
+	public static final String YESNO_DIALOG = "YesNo";
+	public static final String NONE_DIALOG = "None";
+
+
 
 
 	public static SpannableString setTitleText(Context context_,String title_, String fontFace_)
@@ -120,13 +133,13 @@ public class KidosPartnersUtil {
 	   }
 
 
-	public static void hideSoftKeyboard(Activity activity) {
-		InputMethodManager inputMethodManager =
-				(InputMethodManager) activity.getSystemService(
-						Activity.INPUT_METHOD_SERVICE);
-		inputMethodManager.hideSoftInputFromWindow(
-				activity.getCurrentFocus().getWindowToken(), 0);
+	public static boolean isNetworkAvailable(Activity activity) {
+		ConnectivityManager connectivityManager
+				= (ConnectivityManager) activity.getSystemService(Context.CONNECTIVITY_SERVICE);
+		NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+		return activeNetworkInfo != null && activeNetworkInfo.isConnected();
 	}
+
 
 	public static void parseOutputAndTakeAction(String restOutput,Activity activity) {
 
@@ -161,5 +174,55 @@ public class KidosPartnersUtil {
 		}
 
 	}
+
+
+	public static void createDialog(Activity activity, String titleStr, String msgStr, String dialogBoxType, DialogInterface.OnClickListener listener) {
+
+		AlertDialog.Builder popupBuilder = new AlertDialog.Builder(activity);
+
+		//title
+		TextView title = new TextView(activity);
+		title.setText(titleStr);
+		title.setBackgroundColor(Color.BLACK);
+		title.setPadding(20, 20, 20, 20);
+		title.setGravity(Gravity.CENTER);
+		title.setTextColor(Color.WHITE);
+		title.setTextSize(20);
+
+		popupBuilder.setCustomTitle(title);
+
+		//body
+		TextView myMsg = new TextView(activity);
+		myMsg.setText(msgStr);
+		myMsg.setTextColor(Color.BLACK);
+		myMsg.setPadding(20,20,20,20);
+		myMsg.setTextSize(15f);
+		myMsg.setGravity(Gravity.CENTER_HORIZONTAL);
+		popupBuilder.setView(myMsg);
+
+		if(NEUTRAL_DIALOG.equals(dialogBoxType)) {
+			popupBuilder.setNeutralButton("OK", listener);
+		}
+		else if(YESNO_DIALOG.equals(dialogBoxType)) {
+			popupBuilder.setPositiveButton("Yes",listener).setNegativeButton("No",listener);
+		}
+		else  {
+			popupBuilder.setCancelable(true);
+		}
+
+		AlertDialog alert = popupBuilder.create();
+		alert.show();
+
+		if(NEUTRAL_DIALOG.equals(dialogBoxType))
+		{
+			final Button neutralButton = alert.getButton(AlertDialog.BUTTON_NEUTRAL);
+			LinearLayout.LayoutParams neutralButtonLL = (LinearLayout.LayoutParams) neutralButton.getLayoutParams();
+			neutralButtonLL.width = ViewGroup.LayoutParams.MATCH_PARENT;
+			neutralButton.setLayoutParams(neutralButtonLL);
+
+		}
+
+	}
+
 
 }

@@ -10,5 +10,13 @@
     {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi/toggle_on.png",
         "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/drawable-xxhdpi/toggle_on.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_logout.png",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/drawable-xxhdpi/ic_action_logout.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_refresh.png",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/drawable-xxhdpi/ic_refresh.png"
     }
 ]

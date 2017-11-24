@@ -1,23 +1,26 @@
 package com.androidapp.kidospartners;
 
+import android.content.Context;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
+import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.androidapp.kidospartners.abstracts.KidosPartnersPrePostProcessor;
 import com.androidapp.kidospartners.beans.KidosPartnersRegistrationDetailsBean;
 import com.androidapp.kidospartners.beans.KidosPartnersUserBean;
 import com.androidapp.kidospartners.databinding.ActivityKidosPartnersRegistrationBinding;
 import com.androidapp.kidospartners.interfaces.IKidosPartnersRestClientWrapper;
 import com.androidapp.kidospartners.utils.KidosPartnersConstants;
+import com.androidapp.kidospartners.utils.KidosPartnersCryptoUtils;
 import com.androidapp.kidospartners.utils.KidosPartnersRestClient;
 import com.androidapp.kidospartners.utils.KidosPartnersUtil;
 import com.google.gson.Gson;
@@ -27,10 +30,7 @@ import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;
 import java.util.Map;
 
-
-import static com.androidapp.kidospartners.utils.KidosPartnersUtil.hideSoftKeyboard;
-
-public class KidosPartnersRegistration extends AppCompatActivity implements IKidosPartnersRestClientWrapper {
+public class KidosPartnersRegistration extends KidosPartnersPrePostProcessor implements IKidosPartnersRestClientWrapper {
 
 	private String registerUserUri=KidosPartnersConstants.REGISTER_USER_URI;
 	ActivityKidosPartnersRegistrationBinding registrationBinding;
@@ -42,8 +42,6 @@ public class KidosPartnersRegistration extends AppCompatActivity implements IKid
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_kidos_partners_registration);
-
-		setupUI(findViewById(R.id.layout_registration));
 
 		ActionBar actionBar = getSupportActionBar();
 		actionBar.setTitle(KidosPartnersUtil.setTitleText(this,KidosPartnersConstants.REGISTRATION_SCREEN_TITLE , KidosPartnersConstants.TITLE_TEXT_FONTFACE));
@@ -76,9 +74,12 @@ public class KidosPartnersRegistration extends AppCompatActivity implements IKid
 	public void Register(View v) {
 
 		if(validateForm()) {
-			Type type = new TypeToken<Map<String, Object>>() {
-			}.getType();
+			Type type = new TypeToken<Map<String, Object>>() {}.getType();
 			Map<String, Object> registrationDetailsMap = new Gson().fromJson(new Gson().toJson(registrationdetails), type);
+			//encode password before sending to server
+			String encodedPass= KidosPartnersCryptoUtils.encodeData((String)registrationDetailsMap.get("password"));
+			registrationDetailsMap.put("password",encodedPass);
+
 			restRequest(KidosPartnersRegistration.this, registrationDetailsMap, KidosPartnersConstants.POST, registerUserUri);
 		}
 		//Intent intent=new Intent(this,KidosPartnersWelcome.class);
@@ -167,24 +168,21 @@ public class KidosPartnersRegistration extends AppCompatActivity implements IKid
 
 	}
 
-	public void setupUI(View view) {
 
-		// Set up touch listener for non-text box views to hide keyboard.
-		if (!(view instanceof EditText)) {
-			view.setOnTouchListener(new View.OnTouchListener() {
-				public boolean onTouch(View v, MotionEvent event) {
-					hideSoftKeyboard(KidosPartnersRegistration.this);
-					return false;
+	@Override
+	public boolean dispatchTouchEvent(MotionEvent event) {
+		if (event.getAction() == MotionEvent.ACTION_DOWN) {
+			View v = getCurrentFocus();
+			if ( v instanceof EditText) {
+				Rect outRect = new Rect();
+				v.getGlobalVisibleRect(outRect);
+				if (!outRect.contains((int)event.getRawX(), (int)event.getRawY())) {
+					v.clearFocus();
+					InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+					imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
 				}
-			});
-		}
-
-		//If a layout container, iterate over children and seed recursion.
-		if (view instanceof ViewGroup) {
-			for (int i = 0; i < ((ViewGroup) view).getChildCount(); i++) {
-				View innerView = ((ViewGroup) view).getChildAt(i);
-				setupUI(innerView);
 			}
 		}
+		return super.dispatchTouchEvent( event );
 	}
 }

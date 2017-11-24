@@ -45,6 +45,7 @@ public class KidosPartnersActivityDetailsBean {
         this.age = age;
     }
 
+
     public ArrayList<KidosPartnersBatchesBean> getBatches() {
         return batches;
     }
@@ -53,6 +54,20 @@ public class KidosPartnersActivityDetailsBean {
         this.batches = batches;
     }
 
+/*
+    @BindingAdapter("android:text")
+    public static void setText(TextView view, int value) {
+        view.setText(Integer.toString(value));
+    }
+
+    @InverseBindingAdapter(attribute = "android:text")
+    public static int getText(TextView view) {
+        if("".equals(view.getText().toString()))
+            return 0;
+        else
+            return Integer.parseInt(view.getText().toString());
+    }
+*/
     @Override
     public String toString() {
         return "KidosPartnersActivityDetailsBean{" +

@@ -26,4 +26,10 @@
     <string name="str_btn_find">Find</string>
     <string name="hnt_et_location">Enter location</string>
 
+    <string name="title_activity_kidos_partners_splash">KidosPartnersSplash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_kidos_partners_reset_password">KidosPartnersResetPassword</string>
+
 </resources>

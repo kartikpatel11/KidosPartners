@@ -79,8 +79,9 @@
         android:textSize="12dp"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="@={``+ activitydetails.age.from}"
+        android:text="@={activitydetails.age.from}"
         android:singleLine="true"
+        android:inputType="number"
         android:hint="Min"
         />
     
@@ -102,9 +103,10 @@
         android:textSize="12dp"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="@={``+activitydetails.age.to}"
+        android:text="@={activitydetails.age.to}"
         android:singleLine="true"
         android:hint="Max"
+        android:inputType="number"
         />
 
     </LinearLayout>

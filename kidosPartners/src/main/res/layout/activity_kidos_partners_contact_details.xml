@@ -34,6 +34,7 @@
         android:layout_height="wrap_content"
         android:text="@={contactdetails.phno}"
         android:singleLine="true"
+        android:inputType="number"
         />
 
     <TextView 
@@ -54,6 +55,7 @@
         android:layout_height="wrap_content"
         android:text="@={contactdetails.altphno}"
         android:singleLine="true"
+        android:inputType="number"
         />    
     
     <TextView 
@@ -74,6 +76,7 @@
         android:layout_height="wrap_content"
         android:text="@={contactdetails.mobno}"
         android:singleLine="true"
+        android:inputType="number"
         />   
         
     
@@ -95,6 +98,7 @@
         android:layout_height="wrap_content"
         android:text="@={contactdetails.website}"
         android:singleLine="true"
+        android:inputType="textEmailAddress"
         />   
     
     

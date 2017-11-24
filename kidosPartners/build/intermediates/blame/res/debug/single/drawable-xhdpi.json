@@ -8,7 +8,15 @@
         "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/drawable-xhdpi/toggle_off.png"
     },
     {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_logout.png",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/drawable-xhdpi/ic_action_logout.png"
+    },
+    {
         "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xhdpi/toggle_on.png",
         "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/drawable-xhdpi/toggle_on.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/build/intermediates/res/merged/debug/drawable-xhdpi/ic_refresh.png",
+        "source": "/Users/Kartik/StudioProjects/KidosPartners/kidosPartners/src/main/res/drawable-xhdpi/ic_refresh.png"
     }
 ]
