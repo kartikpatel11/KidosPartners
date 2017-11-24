@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
@@ -18,6 +19,7 @@ import android.widget.EditText;
 import com.androidapp.kidospartners.abstracts.KidosPartnersPrePostProcessor;
 import com.androidapp.kidospartners.beans.KidosPartnersClassDetailsBean;
 import com.androidapp.kidospartners.beans.KidosPartnersIndianCitiesBean;
+import com.androidapp.kidospartners.beans.KidosPartnersIndianStatesBean;
 import com.androidapp.kidospartners.databinding.ActivityKidosPartnersClassDetailsBinding;
 import com.androidapp.kidospartners.interfaces.IKidosPartnersRestClientWrapper;
 import com.androidapp.kidospartners.utils.KidosPartnersConstants;
@@ -27,9 +29,10 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
-import java.util.HashMap;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 import static com.androidapp.kidospartners.utils.KidosPartnersUtil.parseOutputAndTakeAction;
 
@@ -42,7 +45,7 @@ public class KidosPartnersClassDetails extends KidosPartnersPrePostProcessor imp
 	private String listIndianCitiesURI = KidosPartnersConstants.LIST_INDIANCITIES_URI;
 
 
-	private HashMap<String,KidosPartnersIndianCitiesBean> indianCitiesMap = new HashMap<String,KidosPartnersIndianCitiesBean>();
+	private TreeMap<String,TreeMap<String, String[]>> indianCitiesMap = new TreeMap<String,TreeMap<String, String[]>>();
 	ActivityKidosPartnersClassDetailsBinding classDetailsBinding;
 
 	KidosPartnersClassDetailsBean classDetails =new KidosPartnersClassDetailsBean()	;
@@ -125,10 +128,8 @@ public class KidosPartnersClassDetails extends KidosPartnersPrePostProcessor imp
 	private void saveClassDetails()
 	{
 		if(validateForm()) {
-			Type type = new TypeToken<Map<String, Object>>() {
-			}.getType();
+			Type type = new TypeToken<Map<String, Object>>() {}.getType();
 			Map<String, Object> classDetailsMap = new Gson().fromJson(new Gson().toJson(classDetails), type);
-
 			restRequest(KidosPartnersClassDetails.this, classDetailsMap, KidosPartnersConstants.POST, saveClassDetailsURI);
 		}
 
@@ -159,9 +160,9 @@ public class KidosPartnersClassDetails extends KidosPartnersPrePostProcessor imp
 		{
 			System.out.println("---> Indiancities"+restOutput);
 
-			List<KidosPartnersIndianCitiesBean> indianCities = gson.fromJson(restOutput, new TypeToken<List<KidosPartnersIndianCitiesBean>>() {}.getType());
+			List<KidosPartnersIndianStatesBean> indianCities = gson.fromJson(restOutput, new TypeToken<List<KidosPartnersIndianStatesBean>>() {}.getType());
 
-			convertListToMap(indianCities);
+			convertStateListToMap(indianCities);
 
 			populateStateCityAreaList();
 
@@ -171,12 +172,65 @@ public class KidosPartnersClassDetails extends KidosPartnersPrePostProcessor imp
 
 	private void populateStateCityAreaList()
 	{
-		String[] states = indianCitiesMap.keySet().toArray(new String[indianCitiesMap.size()]);
-		AutoCompleteTextView txtState = (AutoCompleteTextView)findViewById(R.id.txt_state);
+		final String[] states = indianCitiesMap.keySet().toArray(new String[indianCitiesMap.size()]);
+		final AutoCompleteTextView txtState = (AutoCompleteTextView)findViewById(R.id.txt_state);
+		final AutoCompleteTextView txtCity = (AutoCompleteTextView)findViewById(R.id.txt_city);
+		final AutoCompleteTextView txtArea = (AutoCompleteTextView)findViewById(R.id.txt_area);
 
-		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.select_dialog_item,states);
+		ArrayAdapter<String> stateAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,states);
 		txtState.setThreshold(1);
-		txtState.setAdapter(adapter);
+		txtState.setAdapter(stateAdapter);
+
+
+		txtState.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> parent, View arg1, int pos,
+									long id) {
+
+
+				String state = txtState.getText().toString();
+
+				System.out.println("****** Inside txtState itemclicklistner: "+state);
+				Map<String, String[]> cityMap = indianCitiesMap.get(state);
+				String[] cities =cityMap.keySet().toArray(new String[cityMap.size()]);
+
+				ArrayAdapter<String> cityAdapter = new ArrayAdapter<String>(KidosPartnersClassDetails.this,android.R.layout.simple_list_item_1,cities);
+				txtCity.setThreshold(1);
+				txtCity.setAdapter(cityAdapter);
+			}
+		});
+
+
+
+
+
+		txtCity.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> parent, View arg1, int pos,
+									long id) {
+
+				ArrayAdapter<String> cityAdapter = (ArrayAdapter<String>) txtCity.getAdapter();
+				String state = txtState.getText().toString();
+				String city = txtCity.getText().toString();
+
+				System.out.println("****** Inside txtCity itemclicklistner: "+state+","+city);
+
+				if(state!=null && city!=null && !"".equals(state) && !"".equals(city)) {
+
+					String[] areas = indianCitiesMap.get(state).get(city);
+					Arrays.sort(areas);
+
+
+					ArrayAdapter<String> areaAdapter = new ArrayAdapter<String>(KidosPartnersClassDetails.this, android.R.layout.simple_list_item_1, areas);
+					txtArea.setThreshold(1);
+					txtArea.setAdapter(areaAdapter);
+				}
+
+			}
+		});
+
 	}
 
 	private boolean validateForm()
@@ -217,8 +271,19 @@ public class KidosPartnersClassDetails extends KidosPartnersPrePostProcessor imp
 		return validForm;
 	}
 
-	private void convertListToMap(List<KidosPartnersIndianCitiesBean> list)
+	private void convertStateListToMap(List<KidosPartnersIndianStatesBean> list)
 	{
-		for (KidosPartnersIndianCitiesBean i : list) indianCitiesMap.put(i.getState(),i);
+
+		for (KidosPartnersIndianStatesBean state : list)
+		{
+			TreeMap<String, String[]> cityMap = new TreeMap<String, String[]>();
+			for(KidosPartnersIndianCitiesBean city: state.getCities())
+			{
+				cityMap.put(city.getCity(),city.getAreas());
+			}
+
+			indianCitiesMap.put(state.getState(),cityMap);
+		}
 	}
+
 }

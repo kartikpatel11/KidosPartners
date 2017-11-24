@@ -10,6 +10,8 @@ public class KidosPartnersActivitySummaryBean {
 	private boolean locationdetails;
 	private boolean imagesdetails;
 	private boolean contactdetails;
+	private KidosPartnersCategoryBean type;
+
 
 	public boolean isPublished() {
 		return published;
@@ -19,6 +21,13 @@ public class KidosPartnersActivitySummaryBean {
 		this.published = published;
 	}
 
+	public KidosPartnersCategoryBean getType() {
+		return type;
+	}
+
+	public void setType(KidosPartnersCategoryBean type) {
+		this.type = type;
+	}
 
 	public String getActivityId() {
 		return activityId;
@@ -95,8 +104,8 @@ public class KidosPartnersActivitySummaryBean {
 				", locationdetails=" + locationdetails +
 				", imagesdetails=" + imagesdetails +
 				", contactdetails=" + contactdetails +
+				", type=" + type +
 				'}';
 	}
-
 
 }

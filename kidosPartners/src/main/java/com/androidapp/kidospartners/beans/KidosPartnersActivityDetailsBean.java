@@ -54,6 +54,45 @@ public class KidosPartnersActivityDetailsBean {
         this.batches = batches;
     }
 
+    public void setFrom(String fromStr)
+    {
+        int from=Integer.parseInt(fromStr);
+        if(age!=null)
+            age.setFrom(from);
+        else {
+            age = new KidosPartnersAgeCriteriaBean();
+            setAge(age);
+            age.setFrom(from);
+        }
+    }
+
+    public void setTo(String toStr)
+    {
+        int to = Integer.parseInt(toStr);
+        if(age!=null)
+            age.setTo(to);
+        else {
+            age = new KidosPartnersAgeCriteriaBean();
+            setAge(age);
+            age.setTo(to);
+        }
+    }
+
+    public String getFrom()
+    {
+        if(age!=null)
+            return String.valueOf(age.getFrom());
+        else
+            return "";
+    }
+
+    public String getTo()
+    {
+        if(age!=null)
+            return String.valueOf(age.getTo());
+        else
+            return "";
+    }
 /*
     @BindingAdapter("android:text")
     public static void setText(TextView view, int value) {

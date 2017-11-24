@@ -25,8 +25,8 @@ public class ActivityKidosPartnersClassDetailsBinding extends android.databindin
     public final android.widget.TextView labelState;
     private final android.widget.LinearLayout mboundView0;
     public final android.widget.EditText txtAddress;
-    public final android.widget.EditText txtArea;
-    public final android.widget.EditText txtCity;
+    public final android.widget.AutoCompleteTextView txtArea;
+    public final android.widget.AutoCompleteTextView txtCity;
     public final android.widget.EditText txtName;
     public final android.widget.EditText txtPincode;
     public final android.widget.AutoCompleteTextView txtState;
@@ -205,9 +205,9 @@ public class ActivityKidosPartnersClassDetailsBinding extends android.databindin
         this.mboundView0.setTag(null);
         this.txtAddress = (android.widget.EditText) bindings[2];
         this.txtAddress.setTag(null);
-        this.txtArea = (android.widget.EditText) bindings[5];
+        this.txtArea = (android.widget.AutoCompleteTextView) bindings[5];
         this.txtArea.setTag(null);
-        this.txtCity = (android.widget.EditText) bindings[4];
+        this.txtCity = (android.widget.AutoCompleteTextView) bindings[4];
         this.txtCity.setTag(null);
         this.txtName = (android.widget.EditText) bindings[1];
         this.txtName.setTag(null);

@@ -149,14 +149,14 @@ public class KidosPartnersWelcome extends KidosPartnersPrePostProcessor implemen
 					KidosPartnersActivitySummaryBean activitySummaryBean = data.get(position);
 					Intent activity = new Intent(KidosPartnersWelcome.this, KidosPartnersConfigureActivityMain.class);
 					activity.putExtra("activityID", activitySummaryBean.getActivityId());
+					//set category
+					activity.putExtra("category", new Gson().toJson(activitySummaryBean.getType()));
 					startActivity(activity);
 
 				}
 
 			});
 
-
-		//mTourGuideHandler.playOn(activitySummaryView);
 
 	}
 
@@ -180,14 +180,6 @@ public class KidosPartnersWelcome extends KidosPartnersPrePostProcessor implemen
 		builder.setMessage("Do you really want to logout?").setPositiveButton("Yes", dialogClickListener)
 				.setNegativeButton("No", dialogClickListener).show();
 	}
-	/*@Override
-	public boolean dispatchTouchEvent(MotionEvent event) {
 
-		if (mTourGuideHandler != null) {
-			mTourGuideHandler.cleanUp();
-
-		}
-		return super.dispatchTouchEvent(event);
-	}*/
 
 }

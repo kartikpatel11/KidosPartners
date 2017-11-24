@@ -45,7 +45,16 @@ public class KidosPartnersConfigureActivityMain extends KidosPartnersPrePostProc
 		}
 		else
 		{
-			Picasso.with(this).load("https://s3-us-west-2.amazonaws.com/kidosbucket/5.jpg").fit().into(image);
+			if(getIntent().getExtras().getString("catImg")!=null)
+			{
+				Picasso.with(this).load(getIntent().getExtras().getString("catImg")).fit().into(image);
+			}
+			else
+			{
+				Picasso.with(this).load("https://s3-us-west-2.amazonaws.com/kidosbucket/5.jpg").fit().into(image);
+			}
+
+
 		}
 
 		//Generate List

@@ -22,6 +22,7 @@ public class KidosPartnersPrePostProcessor extends AppCompatActivity {
 	protected KidosPartnersCategoryBean category;
 	protected String activityID;
 
+
 	protected KidosPartnersUserBean getUserDetails() {
 		return (KidosPartnersUserBean) KidosPartnersUtil.getBundledObject(getIntent().getExtras(), "user", KidosPartnersUserBean.class);
 	}

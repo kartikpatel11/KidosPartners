@@ -56,6 +56,7 @@
         android:tag="binding_2"                     
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:gravity="top"
         android:background="@drawable/rounded_border_edittext"
         
         />
@@ -85,7 +86,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="10dp"
-        android:textSize="12dp"
+        android:textSize="13sp"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
         android:tag="binding_3"               />
 
     <TextView
@@ -98,15 +101,24 @@
         android:textSize="13sp"
         />
 
-    <EditText
+    <!--EditText
         android:id="@+id/txt_city"
         android:paddingTop="10dp"
         android:textSize="12dp"
-        android:tag="binding_4"             
+        android:text="@={classdetails.city}"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:singleLine="true"
-        />
+        /-->
+    <AutoCompleteTextView
+        android:id="@+id/txt_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textSize="13sp"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:tag="binding_4"              />
         
     <TextView 
         android:id="@+id/label_area"
@@ -118,15 +130,26 @@
         android:textSize="13sp"
         />
     
-    <EditText
+    <!--EditText
         android:id="@+id/txt_area"
         android:paddingTop="10dp"
         android:textSize="12dp"
-        android:tag="binding_5"             
+        android:text="@={classdetails.area}"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:singleLine="true"
-        />
+        /-->
+
+    <AutoCompleteTextView
+        android:id="@+id/txt_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textSize="13sp"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:tag="binding_5"              />
+
 
     
     <TextView 
